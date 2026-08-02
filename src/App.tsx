@@ -61,6 +61,21 @@ export function App() {
     }
   }, []);
 
+  // Auto-detectar toque de Tag NFC en iPhone/Android cuando la PWA se abre mediante la URL del Tag
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const nfcSede = params.get('nfc_sede');
+    const nfcAction = params.get('action');
+
+    if (nfcSede) {
+      mostrarToast(`🏷️ Tag NFC detectado en Sede: ${nfcSede}`, 'success');
+      // Si el trabajador venía con una acción seleccionada
+      if (nfcAction) {
+        procesarMarcajeExitoso(nfcAction, `TAG-URL-${nfcSede}`);
+      }
+    }
+  }, []);
+
   const mostrarToast = (texto: string, tipo: 'success' | 'info' | 'error' = 'info') => {
     setMensajeToast({ texto, tipo });
     setTimeout(() => setMensajeToast(null), 4000);
