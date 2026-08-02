@@ -178,6 +178,21 @@ export function App() {
     }
   };
 
+  // Auto-detectar toque de Tag NFC en iPhone/Android cuando la PWA se abre mediante la URL del Tag
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const nfcSede = params.get('nfc_sede');
+    const nfcAction = params.get('action');
+
+    if (nfcSede) {
+      mostrarToast(`🏷️ Presencia presencial verificada vía NFC (${nfcSede})`, 'success');
+      if (nfcAction) {
+        procesarMarcajeExitoso(nfcAction, `TAG-URL-${nfcSede}`);
+      }
+    }
+  }, []);
+
+
   return (
     <div className="max-w-md mx-auto min-h-screen flex flex-col bg-slate-950 text-slate-100 pb-12 shadow-2xl relative">
       {/* Header Superior */}
