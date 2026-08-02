@@ -1,0 +1,26 @@
+[
+  [
+    "ID",
+    " Fecha/Hora",
+    " Trabajador",
+    " Mensaje",
+    " Estado",
+    "Hora_resuelta"
+  ],
+  [
+    "ALT-1784785654096",
+    "23/07/2026 0:47:34",
+    "Jeferson Denis Ayala Salvatierra",
+    "Ya llegué",
+    "Resuelta",
+    "23/07/2026 0:47:48"
+  ],
+  [
+    "ALT-1784818229147",
+    "23/07/2026 9:50:29",
+    "DELIA MARTHA YAHUANA PULACHE",
+    "Ya llegué",
+    "Resuelta",
+    "23/07/2026 11:20:17"
+  ]
+]

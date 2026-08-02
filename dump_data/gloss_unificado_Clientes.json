@@ -1,0 +1,1523 @@
+[
+  [
+    "Fecha de registro",
+    "Nombre",
+    "Apellido",
+    "DNI",
+    "Cumpleaños",
+    "Celular",
+    "Correo",
+    "Última visita"
+  ],
+  [
+    "20/11/2025",
+    "Alejandra",
+    "Mendoza Herencia",
+    "48254381",
+    "16 julio",
+    "933565297"
+  ],
+  [
+    "20/11/2025",
+    "Amparo Emilia",
+    "Herrera Castillo",
+    "47127404",
+    "25 julio",
+    "992042154"
+  ],
+  [
+    "20/11/2025",
+    "Ana Lizbeth",
+    "Martinez Arana",
+    "41245487",
+    "7 octubre",
+    "987835123"
+  ],
+  [
+    "20/11/2025",
+    "Ana Sofia",
+    "Blas Soto",
+    "10586311",
+    "16 octubre",
+    "992092367"
+  ],
+  [
+    "20/11/2025",
+    "Anali Del Pilar",
+    "Burga Tapia",
+    "45290461",
+    "13 junio",
+    "979547655"
+  ],
+  [
+    "20/11/2025",
+    "Andrea Alexandra",
+    "Crovetto Alarcon",
+    "70352938",
+    "",
+    "983617011"
+  ],
+  [
+    "20/11/2025",
+    "Andrea Milagros",
+    "Perez Velasquez",
+    "45724334",
+    "",
+    "949967183"
+  ],
+  [
+    "20/11/2025",
+    "Angielina Brigitt",
+    "Uribe Jeronimo",
+    "72957151",
+    "3 julio",
+    "973163879"
+  ],
+  [
+    "20/11/2025",
+    "Anni",
+    "Miyagusuku Noborikawa",
+    "45654113",
+    "4 abril",
+    "959306669"
+  ],
+  [
+    "20/11/2025",
+    "Aysha Romina",
+    "Tolentino Trelles",
+    "70640938",
+    "19 febrero",
+    "965141642"
+  ],
+  [
+    "20/11/2025",
+    "Bertha",
+    "Ramos Barreto",
+    "10143367",
+    "28 diciembre",
+    "999460421"
+  ],
+  [
+    "20/11/2025",
+    "Bertha Ysabel",
+    "Gonzales Murrieta",
+    "7371347",
+    "15 septiembre",
+    "945912541"
+  ],
+  [
+    "20/11/2025",
+    "Biviana Del Pilar",
+    "Flores Castillo",
+    "17924064",
+    "2 diciembre",
+    "959463047"
+  ],
+  [
+    "20/11/2025",
+    "Blanca Eugenia",
+    "Chirinos Vidal",
+    "21299985",
+    "24 abril",
+    "992902748"
+  ],
+  [
+    "20/11/2025",
+    "Carmen Alcira",
+    "Peñafiel Vda De Calixto",
+    "15349148",
+    "27 marzo",
+    "926410024"
+  ],
+  [
+    "20/11/2025",
+    "Carmen Mariela",
+    "Quispe Vilcatoma",
+    "43622514",
+    "",
+    "95937891"
+  ],
+  [
+    "20/11/2025",
+    "Carmen Rosa",
+    "Cruz Morales",
+    "09931871",
+    "8 septiembre",
+    "993731177"
+  ],
+  [
+    "20/11/2025",
+    "Carolina",
+    "Montalvo Olivares",
+    "42636805",
+    "28 agosto",
+    "984713766"
+  ],
+  [
+    "20/11/2025",
+    "Cinthia Karen",
+    "Lajo Farias",
+    "73003607",
+    "20 julio",
+    "908548143"
+  ],
+  [
+    "20/11/2025",
+    "Claudia Sofia",
+    "Valera Sotelo",
+    "10135546",
+    "6 marzo",
+    "914755846"
+  ],
+  [
+    "20/11/2025",
+    "Cynthia Agnice",
+    "Aciar Carbajal De Toledo",
+    "40121170"
+  ],
+  [
+    "20/11/2025",
+    "Deici Fiorela",
+    "Rojas Rengifo",
+    "47294526",
+    "31 julio",
+    "933398454"
+  ],
+  [
+    "20/11/2025",
+    "Deysin Marcela",
+    "Zavala Zevallos",
+    "42708190",
+    "30 septiembre",
+    "948684111"
+  ],
+  [
+    "20/11/2025",
+    "Diana Desire",
+    "Safadi Collazos",
+    "41390302"
+  ],
+  [
+    "20/11/2025",
+    "Diana Orih",
+    "Ela Quevedo",
+    "07506930",
+    "2 septiembre",
+    "993140389"
+  ],
+  [
+    "20/11/2025",
+    "Elena Marina",
+    "Vite Gomez",
+    "43980651",
+    "29 noviembre",
+    "945105390"
+  ],
+  [
+    "20/11/2025",
+    "Elizabeth",
+    "Aspilcueta Cama",
+    "71425056",
+    "3 junio",
+    "986658356"
+  ],
+  [
+    "20/11/2025",
+    "Elizabeth Graciela",
+    "Lazo Hidalgo",
+    "42219225",
+    "17 enero",
+    "992074176"
+  ],
+  [
+    "20/11/2025",
+    "Elsa",
+    "Figueroa Ramos",
+    "06775290",
+    "6 junio",
+    "951033440"
+  ],
+  [
+    "20/11/2025",
+    "Elsa Catalina",
+    "Villanueva Yave",
+    "70656309",
+    "4 junio",
+    "920225015"
+  ],
+  [
+    "20/11/2025",
+    "Esther Abigail",
+    "Vasquez Holgado",
+    "70278494",
+    "16 enero",
+    "998856651"
+  ],
+  [
+    "20/11/2025",
+    "Eugenia",
+    "Santos Manallay De Valentin",
+    "08448985",
+    "4 marzo",
+    "980547428"
+  ],
+  [
+    "20/11/2025",
+    "Evelyn Edith",
+    "De La Cruz Zapata",
+    "40530678",
+    "22 mayo",
+    "986144039"
+  ],
+  [
+    "20/11/2025",
+    "Evelyn Ivonne",
+    "Diaz Sandoval",
+    "47120500",
+    "",
+    "959783608"
+  ],
+  [
+    "20/11/2025",
+    "Fiorella Andrea Maria",
+    "Pardo Papen",
+    "72481375",
+    "10 mayo",
+    "943526912"
+  ],
+  [
+    "20/11/2025",
+    "Fiorella Doris",
+    "Cano Guerra",
+    "44112253",
+    "29 marzo",
+    "964121070"
+  ],
+  [
+    "20/11/2025",
+    "Flor Maria",
+    "Jara Cerda",
+    "41124818",
+    "23 octubre",
+    "987554369"
+  ],
+  [
+    "20/11/2025",
+    "Grace Brighitte Stefanya",
+    "Sanchez Leon",
+    "71457776",
+    "10 agosto",
+    "933087541"
+  ],
+  [
+    "20/11/2025",
+    "Graciela Elvira",
+    "Vega Baella Milagros",
+    "72369949",
+    "24 julio",
+    "955315348"
+  ],
+  [
+    "20/11/2025",
+    "Guiliana Rocio",
+    "Campos Briceño",
+    "76679341",
+    "15 septiembre",
+    "991759798"
+  ],
+  [
+    "20/11/2025",
+    "Hija De Mariela (Menor De Edad)"
+  ],
+  [
+    "20/11/2025",
+    "Hilda Rosa",
+    "Martinez Carrasco",
+    "40052172",
+    "25 enero",
+    "987838056"
+  ],
+  [
+    "20/11/2025",
+    "Incio Muñoz",
+    "Clarisa Denisse",
+    "10392475",
+    "27 septiembre",
+    "972986070"
+  ],
+  [
+    "20/11/2025",
+    "Isabel",
+    "Adrianzen Calderon",
+    "79626361",
+    "12 diciembre",
+    "940952812"
+  ],
+  [
+    "20/11/2025",
+    "Ivonne",
+    "Del Rosario Delgado",
+    "07909559",
+    "29 diciembre",
+    "999916080"
+  ],
+  [
+    "20/11/2025",
+    "Janet",
+    "Cordova Huaman",
+    "06039300",
+    "17 diciembre",
+    "912147498"
+  ],
+  [
+    "20/11/2025",
+    "Jenniffer",
+    "Boza Rivera",
+    "47621081",
+    "7 marzo",
+    "982064360"
+  ],
+  [
+    "20/11/2025",
+    "Jenny",
+    "Caceda Languazco",
+    "10760529",
+    "",
+    "991253912"
+  ],
+  [
+    "20/11/2025",
+    "Jenty Rosario",
+    "Alvarez Huari",
+    "47286400",
+    "3 marzo",
+    "941004169"
+  ],
+  [
+    "20/11/2025",
+    "Jessica Dora",
+    "Malca Vicente",
+    "9895837",
+    "14 marzo",
+    "992702976"
+  ],
+  [
+    "20/11/2025",
+    "Jesus",
+    "Esperanza Carrasco",
+    "06800673",
+    "",
+    "992796499"
+  ],
+  [
+    "20/11/2025",
+    "Jhoselyn Milagros",
+    "Aramburu Paucar",
+    "47149332",
+    "1 julio",
+    "967032328"
+  ],
+  [
+    "20/11/2025",
+    "Joeshy Milu",
+    "Rivadeneyra Casas",
+    "10722014",
+    "25 octubre",
+    "951055444"
+  ],
+  [
+    "20/11/2025",
+    "Jose Luis",
+    "Estela Lopez",
+    "42999566",
+    "24 marzo",
+    "938898710"
+  ],
+  [
+    "20/11/2025",
+    "Jozelyn Monica",
+    "Segura Barreto",
+    "47869047",
+    "",
+    "993876814"
+  ],
+  [
+    "20/11/2025",
+    "Karen Hideko Dilda",
+    "Nishizaka Malca",
+    "72417616",
+    "3 mayo",
+    "984793579"
+  ],
+  [
+    "20/11/2025",
+    "Karen Janeth",
+    "Reyna Jaime",
+    "40754363"
+  ],
+  [
+    "20/11/2025",
+    "Karen Mercedes",
+    "Romero Quiroz",
+    "46077701",
+    "24 septiembre",
+    "991852755"
+  ],
+  [
+    "20/11/2025",
+    "Karla",
+    "Arnao Trillo",
+    "75269435",
+    "7 agosto",
+    "973701883"
+  ],
+  [
+    "20/11/2025",
+    "Katheryn",
+    "Rodriguez Z",
+    "41970780",
+    "",
+    "950523242"
+  ],
+  [
+    "20/11/2025",
+    "Kelly",
+    "Allccaco Bardalez",
+    "46971244",
+    "28 febrero",
+    "991487006"
+  ],
+  [
+    "20/11/2025",
+    "Leidy",
+    "Espinoza Barrientos",
+    "46072034",
+    "5 julio",
+    "988288579"
+  ],
+  [
+    "20/11/2025",
+    "Leonor",
+    "Yurivilca Leon",
+    "10535457"
+  ],
+  [
+    "20/11/2025",
+    "Lisette",
+    "Quiroz Villa",
+    "41854918",
+    "11 mayo",
+    "956904351"
+  ],
+  [
+    "20/11/2025",
+    "Lizbeth",
+    "Ruiz Rojas",
+    "42722025",
+    "16 abril",
+    "959751316"
+  ],
+  [
+    "20/11/2025",
+    "Lou Ann",
+    "Talavera Alegre",
+    "42356337",
+    "",
+    "999368069"
+  ],
+  [
+    "20/11/2025",
+    "Lucero Antonella",
+    "Valdivia Matta",
+    "77149237"
+  ],
+  [
+    "20/11/2025",
+    "Lucero Estefania",
+    "Amar Martinez",
+    "71387635",
+    "12 julio",
+    "981530242"
+  ],
+  [
+    "20/11/2025",
+    "Luz Marina",
+    "Sangama Gonzales",
+    "73998872",
+    "11 abril",
+    "982185451"
+  ],
+  [
+    "20/11/2025",
+    "Maggi Janinna",
+    "Neyra Tuanama",
+    "42987603",
+    "18 mayo",
+    "977594027"
+  ],
+  [
+    "20/11/2025",
+    "Maria",
+    "Ochoa Raymundo",
+    "09397617",
+    "28 agosto",
+    "958747533"
+  ],
+  [
+    "20/11/2025",
+    "Maria Antonieta",
+    "Fernandez Campana De Barrientos",
+    "06264766",
+    "29 diciembre",
+    "991493305"
+  ],
+  [
+    "20/11/2025",
+    "María Paz",
+    "Rodríguez Galiano",
+    "76017214",
+    "18 enero",
+    "994992374"
+  ],
+  [
+    "20/11/2025",
+    "Maria Roxana",
+    "Papen Bernaola",
+    "10285020",
+    "12 septiembre",
+    "989221356"
+  ],
+  [
+    "20/11/2025",
+    "Maria Ysabel",
+    "Malca Vicente",
+    "10530146",
+    "9 septiembre",
+    "940410828"
+  ],
+  [
+    "20/11/2025",
+    "Mariana",
+    "Leon Casaverde",
+    "46428286",
+    "5 junio",
+    "940187914"
+  ],
+  [
+    "20/11/2025",
+    "Marianela",
+    "Cueva Arocutipa",
+    "42337989",
+    "5 abril",
+    "951039026"
+  ],
+  [
+    "20/11/2025",
+    "Mariela",
+    "Del Carpio Andonayre",
+    "43067980",
+    "31 mayo",
+    "944363262"
+  ],
+  [
+    "20/11/2025",
+    "Marisol",
+    "Mendoza Navarro",
+    "10104992",
+    "6 junio",
+    "997927416"
+  ],
+  [
+    "20/11/2025",
+    "Marlene Stephanny",
+    "Laynes Wong",
+    "46925169",
+    "21 marzo",
+    "938753798"
+  ],
+  [
+    "20/11/2025",
+    "Marleny",
+    "Garcia Quispe",
+    "08665079",
+    "18 septiembre",
+    "996912435"
+  ],
+  [
+    "20/11/2025",
+    "Maryangel",
+    "Nisiama Zaki",
+    "71792833",
+    "13 abril",
+    "992925287"
+  ],
+  [
+    "20/11/2025",
+    "Melanie Elizabeth",
+    "Calderon Gonzales",
+    "47774725",
+    "22 marzo",
+    "940655091"
+  ],
+  [
+    "20/11/2025",
+    "Melisa",
+    "Gomez Sanchez",
+    "44426227",
+    "",
+    "986774945"
+  ],
+  [
+    "20/11/2025",
+    "Melissa Marybel",
+    "Masias Vasquez",
+    "46157366",
+    "11 diciembre",
+    "993011249"
+  ],
+  [
+    "20/11/2025",
+    "Mery Esther",
+    "Arenaza Rios",
+    "08587483",
+    "25 mayo",
+    "95660"
+  ],
+  [
+    "20/11/2025",
+    "Miriam",
+    "Allende Galvez",
+    "28224277",
+    "27 diciembre",
+    "989052159"
+  ],
+  [
+    "20/11/2025",
+    "Miriam",
+    "Reyes Jimenez",
+    "07384472",
+    "9 septiembre",
+    "943440577"
+  ],
+  [
+    "20/11/2025",
+    "Miriam Del Socorro",
+    "Marin Honorio",
+    "26703423",
+    "30 septiembre",
+    "914182559"
+  ],
+  [
+    "20/11/2025",
+    "Miriam Gisela",
+    "Cruz Reyes",
+    "73864500",
+    "20 abril",
+    "974118885"
+  ],
+  [
+    "20/11/2025",
+    "Mirza",
+    "Ruiz Tecco",
+    "05228455",
+    "1 julio",
+    "982247061"
+  ],
+  [
+    "20/11/2025",
+    "Nadia Gisselle",
+    "Nube Sifuentes",
+    "44293586",
+    "5 abril",
+    "998662630"
+  ],
+  [
+    "20/11/2025",
+    "Natividad",
+    "Torrey Motta",
+    "10135057",
+    "6 septiembre",
+    "967249045"
+  ],
+  [
+    "20/11/2025",
+    "Nelly Roxana",
+    "Nakaoka Bejar",
+    "07267793",
+    "",
+    "994677090"
+  ],
+  [
+    "20/11/2025",
+    "Norma",
+    "Reyna Jaime",
+    "10876420",
+    "24 septiembre",
+    "933440347"
+  ],
+  [
+    "20/11/2025",
+    "Norma Yanina",
+    "Lopez Cabrera",
+    "06682244",
+    "5 agosto",
+    "997911212"
+  ],
+  [
+    "20/11/2025",
+    "Ofelia Santos",
+    "Castillo Ramirez De Atalluco",
+    "15609970",
+    "8 febrero",
+    "996998751"
+  ],
+  [
+    "20/11/2025",
+    "Olga Elizabeth",
+    "Bravo Huaman",
+    "41536975",
+    "19 agosto",
+    "947226730"
+  ],
+  [
+    "20/11/2025",
+    "Olga Luisa",
+    "Marin Calderon",
+    "15740213",
+    "14 agosto",
+    "920028061"
+  ],
+  [
+    "20/11/2025",
+    "Pamela Alexandra",
+    "Pardo Papen",
+    "72500097",
+    "15 junio",
+    "943526889"
+  ],
+  [
+    "20/11/2025",
+    "Pamela Stephanie",
+    "Rodriguez Vargas",
+    "47100975",
+    "21 junio",
+    "982519290"
+  ],
+  [
+    "20/11/2025",
+    "Rita Karina",
+    "Lescano Reina",
+    "40785308",
+    "15 diciembre",
+    "993472074"
+  ],
+  [
+    "20/11/2025",
+    "Robert Alex",
+    "Edones Lozano",
+    "15434667",
+    "3 abril",
+    "964283384"
+  ],
+  [
+    "20/11/2025",
+    "Rocio",
+    "Levano Ortiz",
+    "21858898",
+    "19 julio",
+    "936808144"
+  ],
+  [
+    "20/11/2025",
+    "Rosa Maria",
+    "Mendez Gutarra",
+    "07248173",
+    "17 enero",
+    "980400463"
+  ],
+  [
+    "20/11/2025",
+    "Rosa Sara",
+    "Puicon Lopez",
+    "07510930",
+    "23 agosto",
+    "956736470"
+  ],
+  [
+    "20/11/2025",
+    "Roxani Milagros",
+    "Laban Minga",
+    "73315582",
+    "",
+    "920166127"
+  ],
+  [
+    "20/11/2025",
+    "Sandra Lizzet",
+    "Bernuy Perez",
+    "47343255",
+    "2 octubre",
+    "942265973"
+  ],
+  [
+    "20/11/2025",
+    "Sandy Maricruz",
+    "Quintos Saenz",
+    "46471211",
+    "21 junio",
+    "934834746"
+  ],
+  [
+    "20/11/2025",
+    "Sarah Elizabeth",
+    "Pacheco Chimaja",
+    "41452427",
+    "11 diciembre",
+    "992195000"
+  ],
+  [
+    "20/11/2025",
+    "Sayumi Zarela",
+    "Quispe Mendoza",
+    "73829059",
+    "22 junio",
+    "987775462"
+  ],
+  [
+    "20/11/2025",
+    "Silvia",
+    "Lavado Leonardo",
+    "09847676",
+    "31 enero",
+    "923182151"
+  ],
+  [
+    "20/11/2025",
+    "Silvia Milagros",
+    "Morales Silva",
+    "41582332",
+    "27 febrero",
+    "980874893"
+  ],
+  [
+    "20/11/2025",
+    "Stella",
+    "Vidal",
+    "0961664",
+    "11 noviembre",
+    "997622987"
+  ],
+  [
+    "20/11/2025",
+    "Sulimar",
+    "Betancur",
+    "003201264",
+    "13 agosto",
+    "923484101"
+  ],
+  [
+    "20/11/2025",
+    "Vanessa",
+    "Estrada Quiroz",
+    "43101369",
+    "1 abril"
+  ],
+  [
+    "20/11/2025",
+    "Veronica",
+    "Novella Alcantara",
+    "7253557",
+    "2 julio",
+    "996375377"
+  ],
+  [
+    "20/11/2025",
+    "Victoria Judith",
+    "Silva Vera",
+    "06180270",
+    "20 marzo",
+    "980874893"
+  ],
+  [
+    "20/11/2025",
+    "Violeta Margarita",
+    "Wilson Valdivia",
+    "08082080",
+    "29 octubre",
+    "936424516"
+  ],
+  [
+    "20/11/2025",
+    "Yerika Isabel",
+    "Alegria Alcedo",
+    "77707324",
+    "",
+    "988422732"
+  ],
+  [
+    "20/11/2025",
+    "Yesenia Yesifer",
+    "Castillo Fernandez De Rosales",
+    "42790694",
+    "20 enero",
+    "942879199"
+  ],
+  [
+    "20/11/2025",
+    "Yesica",
+    "Oblitas Cabrera",
+    "46266829",
+    "10 abril",
+    "992811921"
+  ],
+  [
+    "20/11/2025",
+    "Ynes Sofia",
+    "Arriaga Cubas",
+    "18857129",
+    "11 enero",
+    "996079746"
+  ],
+  [
+    "20/11/2025",
+    "Yoana Judith",
+    "Cruz Rojas",
+    "42318431",
+    "4 febrero",
+    "946672909"
+  ],
+  [
+    "20/11/2025",
+    "Zoila",
+    "Flores Chavez",
+    "10881647"
+  ],
+  [
+    "20/11/2025",
+    "Zoila",
+    "Guerra Pacheco",
+    "41791293",
+    "1 febrero",
+    "954113880"
+  ],
+  [
+    "20/01/2026",
+    "ANAI FLOR",
+    "MECHAN TERRONES",
+    "70435659",
+    "16 enero",
+    "950201479",
+    "",
+    "20/01/2026"
+  ],
+  [
+    "20/01/2026",
+    "ZOILA ESPERANZA ",
+    "AGUILAR VASQUEZ",
+    "41136339",
+    "5 mayo",
+    "904120100",
+    "",
+    "20/01/2026"
+  ],
+  [
+    "18/02/2026",
+    "LUCERO ",
+    "Barbosa PUENTES",
+    "",
+    "",
+    "924898454",
+    "",
+    "18/02/2026"
+  ],
+  [
+    "23/02/2026",
+    "MAEVA MINELLY",
+    "ORIHUELA MEDINA",
+    "70983882",
+    "2026-11-11",
+    "941466369",
+    "",
+    "23/02/2026"
+  ],
+  [
+    "24/02/2026",
+    "MIRIAM DEL SOCORRO",
+    "MARIN HONORIO",
+    "26703423",
+    "2026-09-30",
+    "914182559",
+    "",
+    "24/02/2026"
+  ],
+  [
+    "26/02/2026",
+    "Cristian",
+    "Gonzales Zegarra",
+    "74074559",
+    "1993-10-30",
+    "952803788",
+    "",
+    "26/02/2026"
+  ],
+  [
+    "10/03/2026",
+    "ANA YISELA",
+    "QUISPE CHOQUE",
+    "40124562",
+    "2026-03-25",
+    "944975573",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "ANDREA CAROLINA",
+    "VALENCIA PEREZ",
+    "70411351",
+    "2026-02-14",
+    "965730445",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "CAMILA DEL ROSARIO",
+    "BERNAOLA PORLLES",
+    "70692041",
+    "2026-03-19",
+    "989260600",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "ESTHER LOURDES",
+    "VILCA HUAMANI",
+    "4433496",
+    "2026-04-19",
+    "956344694",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "JHAJAIRA",
+    "BALAS ABANTO",
+    "44152792",
+    "2026-02-26",
+    "987791703",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "JOHANA DEL PILAR",
+    "CAMPOS TARAZONA",
+    "43515736",
+    "2026-02-06",
+    "971573145",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "JULIA ESTHER",
+    "SALY ROSAS VASQUEZ",
+    "6928751",
+    "1962-06-03",
+    "993496124",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MARELY YARITZA",
+    "ANTINORI HIDALGO",
+    "48772860",
+    "2026-01-29",
+    "913302490",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MARIA LUZ",
+    "ESPINOZA VALENZUELA",
+    "21122727",
+    "2026-03-05",
+    "985772849",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MARIA MERCEDES",
+    "ZUÑIGA BALDEON",
+    "70490542",
+    "2026-10-20",
+    "983338097",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MARITZA",
+    "MIRANDA SOLANO",
+    "42811608",
+    "1985-01-18",
+    "994683925",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MARJORIE",
+    "ZAMORANO ACEVEDO",
+    "3582834",
+    "1992-05-15",
+    "921924858",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MARTHA ISABEL",
+    "JANAMPA DIAZ",
+    "43703614",
+    "2026-07-01",
+    "992848956",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "MASSIEL MERCEDES",
+    "ZAVALA MANDUJANO",
+    "45989613",
+    "2026-09-25",
+    "984297370",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "ROMY",
+    "BENAVIDES ADRIANO",
+    "7609173",
+    "2026-11-30",
+    "966456645",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "ROSA ELSA",
+    "CLEMENTE HENOSTROZA",
+    "40449171",
+    "2026-08-30",
+    "973894460",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "SANDRA OLIMPIA",
+    "FLORES OLIVERA",
+    "20032598",
+    "2026-07-09",
+    "942783216",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "SILVIA ROMINA",
+    "SALAS PALOMINO",
+    "45145771",
+    "1988-03-10",
+    "966749028",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "TEODORA FLORENTINA",
+    "HIDALGO MAYLLE",
+    "22497066",
+    "2026-08-07",
+    "988062972",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "10/03/2026",
+    "ZOILA SARA",
+    "CORDOVA PALACIOS DE REQUENA",
+    "2655489",
+    "2026-03-28",
+    "969294436",
+    "",
+    "10/03/2026"
+  ],
+  [
+    "11/03/2026",
+    "JULY SUSANA",
+    "ÑUFFLO GUTIERREZ",
+    "42407765",
+    "1984-03-20",
+    "993220189",
+    "",
+    "11/03/2026"
+  ],
+  [
+    "11/03/2026",
+    "MARIA EDELYN",
+    "ALMENDRAS JARAMILLO",
+    "09616836",
+    "2026-12-28",
+    "997362094",
+    "",
+    "11/03/2026"
+  ],
+  [
+    "14/03/2026",
+    "KETTY NATIVIDAD",
+    "AYALA LEON",
+    "15861822",
+    "1977-01-01",
+    "995046022",
+    "",
+    "14/03/2026"
+  ],
+  [
+    "14/03/2026",
+    "MARIA ISABEL",
+    "LOARTE MARTINEZ",
+    "42045767",
+    "2026-08-21",
+    "987188463",
+    "",
+    "14/03/2026"
+  ],
+  [
+    "14/03/2026",
+    "SHEYLA PAMELA",
+    "INGA SANCHEZ",
+    "46259591",
+    "",
+    "33749193057",
+    "",
+    "16/03/1990"
+  ],
+  [
+    "14/03/2026",
+    "YOLANDA MARIA",
+    "SIGUAS ASTORGA",
+    "21505341",
+    "2026-08-13",
+    "999386613",
+    "",
+    "14/03/2026"
+  ],
+  [
+    "17/03/2026",
+    "FLORINDA",
+    "RIOS HIDALGO",
+    "7931118",
+    "2026-08-19",
+    "960651702",
+    "",
+    "17/03/2026"
+  ],
+  [
+    "20/03/2026",
+    "CARLA JAHAIRA",
+    "QUIROZ GONZALES",
+    "40011226",
+    "2026-04-17",
+    "987849463",
+    "",
+    "20/03/2026"
+  ],
+  [
+    "21/03/2026",
+    "ROSARIO AMPARO",
+    "HERNANDEZ PISCONTE",
+    "43811332",
+    "2026-10-05",
+    "952989724",
+    "",
+    "21/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "CINTIA POLE",
+    "GAMBOA SIFUENTES",
+    "43188304",
+    "1985-07-22",
+    "987425832",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "YAHAIRA YOHANNA",
+    "FARFAN FRANCO",
+    "72354947",
+    "1994-08-01",
+    "986704972",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "PATRICIA RUBI",
+    "BUSTAMANTE SUSANO",
+    "46816246",
+    "2026-01-29",
+    "997525486",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "LISBETH JULIA",
+    "HUAMANI FONSECA",
+    "40341226",
+    "2026-10-08",
+    "998809182",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "YENIFFER MAGALI",
+    "CARRION MORENO",
+    "41255590",
+    "2026-01-14",
+    "997152330",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "MAGALY TRUDY",
+    "CORREA SEBASTIAN DE CELIS",
+    "40291920",
+    "2026-03-05",
+    "949829182",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "KELLY ANABELL",
+    "CESPEDES FERNANDEZ",
+    "40254488",
+    "2026-03-06",
+    "966726305",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "MARIA ISABEL",
+    "ALTA SANCHEZ",
+    "47466517",
+    "2026-08-22",
+    "968112012",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "CAROLINA LUCIA",
+    "MORALES ESTEBAN",
+    "70962387",
+    "2026-06-11",
+    "978215672",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "MARIELA LINA",
+    "CORNEJO DAVILA",
+    "41460840",
+    "2026-09-23",
+    "975150332",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "KELLY",
+    "VARGAS SOLORZANO",
+    "42670700",
+    "2026-09-30",
+    "961733018",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "LUZ DOMITILA",
+    "BACA CURO",
+    "25628387",
+    "2026-08-27",
+    "966342976",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "KATIA MIRELLA",
+    "CERNA GUTIERREZ",
+    "46410145",
+    "2026-05-23",
+    "967284648",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "26/03/2026",
+    "KATTY",
+    "ACEVEDO LUNA",
+    "40443827",
+    "2026-12-20",
+    "969432132",
+    "",
+    "26/03/2026"
+  ],
+  [
+    "27/03/2026",
+    "ROXANA",
+    "FIGUEROA SECADA",
+    "06238134",
+    "2026-08-08",
+    "990144330",
+    "",
+    "27/03/2026"
+  ],
+  [
+    "28/03/2026",
+    "VANESSA GISELLA",
+    "AGUINAGA RIVAS",
+    "41307556",
+    "2026-03-26",
+    "961789996",
+    "",
+    "28/03/2026"
+  ],
+  [
+    "11/07/2026",
+    "ANDREA",
+    "CHILLCE",
+    "",
+    "",
+    "997389264",
+    "",
+    "11/07/2026"
+  ]
+]

@@ -1,0 +1,293 @@
+[
+  [
+    "Hr registro",
+    "# OATC",
+    "Tipo OATC",
+    "Fecha registro",
+    "Cliente nombre",
+    "Tipo cliente",
+    "Agente",
+    "Hora Resolución",
+    "Motivo"
+  ],
+  [
+    "10:52 AM",
+    "5",
+    "Corte y diseño",
+    "1/03/2026",
+    "laura",
+    "Turno",
+    "Cocó Pacheco",
+    "11:18 AM"
+  ],
+  [
+    "11:18 AM",
+    "13",
+    "Colorimetria",
+    "1/03/2026",
+    "keyla",
+    "Cliente",
+    "Cocó Pacheco",
+    "1:24 PM"
+  ],
+  [
+    "2:18 PM",
+    "32",
+    "Corte y diseño",
+    "1/03/2026",
+    "maria belen",
+    "Turno",
+    "Cocó Pacheco",
+    "3:13 PM"
+  ],
+  [
+    "2:52 PM",
+    "cita 17:00",
+    "Corte y diseño",
+    "1/03/2026",
+    "mariela",
+    "Cita",
+    "Cocó Pacheco"
+  ],
+  [
+    "3:17 PM",
+    "40",
+    "Colorimetria",
+    "1/03/2026",
+    "Adriana",
+    "Turno",
+    "Cocó Pacheco",
+    "5:02 PM"
+  ],
+  [
+    "3:46 PM",
+    "44",
+    "Corte y diseño",
+    "1/03/2026",
+    "eugenia",
+    "Cliente",
+    "Cocó Pacheco",
+    "3:47 PM"
+  ],
+  [
+    "6:00 PM",
+    "65",
+    "Peinados y cepillados",
+    "1/03/2026",
+    "POR ASIGNAR",
+    "Turno",
+    "Cocó Pacheco",
+    "6:03 PM"
+  ],
+  [
+    "6:14 PM",
+    "69",
+    "Corte y diseño",
+    "1/03/2026",
+    "victor",
+    "Turno",
+    "Cocó Pacheco",
+    "6:22 PM"
+  ],
+  [
+    "6:34 PM",
+    "73",
+    "Corte y diseño",
+    "1/03/2026",
+    "POR ASIGNAR",
+    "Turno",
+    "Cocó Pacheco",
+    "6:36 PM"
+  ],
+  [
+    "7:13 PM",
+    "80",
+    "Peinados y cepillados",
+    "1/03/2026",
+    "rosy",
+    "Turno",
+    "Cocó Pacheco",
+    "7:29 PM"
+  ],
+  [
+    "9:21 AM",
+    "1",
+    "Colorimetria",
+    "2/03/2026",
+    "estefany",
+    "Cliente",
+    "Cocó Pacheco",
+    "10:36 AM"
+  ],
+  [
+    "4:02 PM",
+    "19",
+    "Colorimetria",
+    "2/03/2026",
+    "carmen",
+    "Cliente",
+    "Cocó Pacheco",
+    "6:06 PM"
+  ],
+  [
+    "4:21 PM",
+    "18",
+    "Colorimetria",
+    "2/03/2026",
+    "lara",
+    "Turno",
+    "Cocó Pacheco",
+    "4:34 PM"
+  ],
+  [
+    "2:54 PM",
+    "10",
+    "Corte y diseño",
+    "4/3/2026",
+    "esmeralda",
+    "Turno",
+    "Cocó Pacheco",
+    "2:58 PM"
+  ],
+  [
+    "4:31 PM",
+    "20",
+    "Colorimetria",
+    "4/3/2026",
+    "LIZBETH",
+    "Cliente",
+    "Cocó Pacheco",
+    "6:58 PM"
+  ],
+  [
+    "9:22 AM",
+    "2",
+    "Tratamientos Capilares",
+    "5/03/2026",
+    "estefany",
+    "Cliente",
+    "Cocó Pacheco",
+    "10:27 AM"
+  ],
+  [
+    "6:17 PM",
+    "27",
+    "Corte y diseño",
+    "5/03/2026",
+    "indira",
+    "Turno",
+    "Cocó Pacheco",
+    "6:41 PM"
+  ],
+  [
+    "10:31 AM",
+    "3",
+    "Corte y diseño",
+    "6/03/2026",
+    "SALMA",
+    "Turno",
+    "Cocó Pacheco",
+    "11:12 AM"
+  ],
+  [
+    "12:36 PM",
+    "14",
+    "Corte y diseño",
+    "6/03/2026",
+    "URSULA",
+    "Turno",
+    "Cocó Pacheco",
+    "12:53 PM"
+  ],
+  [
+    "9:45 AM",
+    "cita 9:00",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "Monica chamaya",
+    "Cita",
+    "Cocó Pacheco",
+    "Cancelado a las: 8:00 PM",
+    "es el id 6"
+  ],
+  [
+    "9:46 AM",
+    "11",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "Maria",
+    "Cliente",
+    "Cocó Pacheco",
+    "12:53 PM"
+  ],
+  [
+    "9:46 AM",
+    "10",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "Fabiana",
+    "Cliente",
+    "Cocó Pacheco",
+    "12:53 PM"
+  ],
+  [
+    "9:47 AM",
+    "6",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "Monica chamaya",
+    "Cliente",
+    "Cocó Pacheco",
+    "12:53 PM"
+  ],
+  [
+    "9:49 AM",
+    "4",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "antonella",
+    "Cliente",
+    "Cocó Pacheco",
+    "12:53 PM"
+  ],
+  [
+    "10:57 AM",
+    "16",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "liset",
+    "Turno",
+    "Cocó Pacheco",
+    "11:00 AM"
+  ],
+  [
+    "10:59 AM",
+    "17",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "dasha",
+    "Turno",
+    "Cocó Pacheco",
+    "11:00 AM"
+  ],
+  [
+    "3:10 PM",
+    "50",
+    "Corte y diseño",
+    "7/03/2026",
+    "EVELYN",
+    "Turno",
+    "Cocó Pacheco",
+    "3:32 PM"
+  ],
+  [
+    "3:34 PM",
+    "52",
+    "Peinados y cepillados",
+    "7/03/2026",
+    "LINDA",
+    "Cliente",
+    "Cocó Pacheco",
+    "3:47 PM"
+  ]
+]

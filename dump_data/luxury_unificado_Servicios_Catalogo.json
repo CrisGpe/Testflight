@@ -1,0 +1,904 @@
+[
+  [
+    "#ID",
+    "Descripción",
+    "Precio Venta Unitario Aproximado",
+    "Categoría",
+    "Subscategoría",
+    "Procedimiento",
+    "Especialistas"
+  ],
+  [
+    "1",
+    "Alisado",
+    "S/.100,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "2",
+    "Baño de Keratina",
+    "S/.150,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "3",
+    "botox capilar",
+    "S/.120,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "4",
+    "Laceado cabello corto",
+    "S/.190,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "5",
+    "Laceado cabello largo",
+    "S/.450,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "6",
+    "Laceado cabello medio",
+    "S/.250,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "7",
+    "Laceado keratina orgánica",
+    "S/.600,00",
+    "Estilismo",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "8",
+    "Botox Capilar",
+    "S/.0,00",
+    "Estilismo",
+    "Alisados, laceados, botox",
+    "se aplica botox",
+    "PAMELA, LUZ, CARLOS, ROSA"
+  ],
+  [
+    "9",
+    "Aplicación de tinte",
+    "S/.50,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "10",
+    "Baño de color",
+    "S/.70,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "11",
+    "Tinte baño de color",
+    "S/.120,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "12",
+    "Retoque de raíz y color",
+    "S/.150,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "13",
+    "Iluminación mechas",
+    "S/.110,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "14",
+    "Tinte cabello corto",
+    "S/.90,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "15",
+    "Tinte cabello largo",
+    "S/.130,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "16",
+    "Tinte cabello medio",
+    "S/.120,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "17",
+    "Tinte y mechas cabello corto/ medio",
+    "S/.200,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "18",
+    "Tinte y mechas de cabello largo",
+    "S/.250,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "19",
+    "Retoque de raíz y mechas cabello corto/medio",
+    "S/.300,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "20",
+    "Retoque de raíz y mechas cabello largo",
+    "S/.380,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "21",
+    "Tinte de cabello",
+    "S/.150,00",
+    "Estilismo",
+    "Colorimetría"
+  ],
+  [
+    "22",
+    "Corte cabello corto",
+    "S/.40,00",
+    "Estilismo",
+    "Corte y diseño"
+  ],
+  [
+    "23",
+    "Corte cabello largo/medio",
+    "S/.40,00",
+    "Estilismo",
+    "Corte y diseño"
+  ],
+  [
+    "24",
+    "Corte con diseño",
+    "S/.50,00",
+    "Estilismo",
+    "Corte y diseño"
+  ],
+  [
+    "25",
+    "Cepillado cabello corto",
+    "S/.40,00",
+    "Estilismo",
+    "Peinados y cepillados"
+  ],
+  [
+    "26",
+    "Cepillado cabello mediano",
+    "S/.50,00",
+    "Estilismo",
+    "Peinados y cepillados"
+  ],
+  [
+    "27",
+    "Planchado de cabello largo/medio",
+    "S/.70,00",
+    "Estilismo",
+    "Peinados y cepillados"
+  ],
+  [
+    "28",
+    "Recorte de barba",
+    "S/.30,00",
+    "Estilismo",
+    "Barbería"
+  ],
+  [
+    "29",
+    "Diseño de barba",
+    "S/.50,00",
+    "Estilismo",
+    "Barbería"
+  ],
+  [
+    "30",
+    "Peinado",
+    "S/.50,00",
+    "Estilismo",
+    "Peinados y cepillados"
+  ],
+  [
+    "31",
+    "Peinado armado",
+    "S/.80,00",
+    "Estilismo",
+    "Peinados y cepillados"
+  ],
+  [
+    "32",
+    "Trenzas",
+    "S/.35,00",
+    "Estilismo",
+    "Peinados y cepillados"
+  ],
+  [
+    "33",
+    "Extensión de cabello",
+    "S/.1.500,00",
+    "Estilismo",
+    "Cosmetología"
+  ],
+  [
+    "34",
+    "Extensión de pestañas",
+    "S/.190,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "35",
+    "Acrigel",
+    "S/.120,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "36",
+    "O.P.I. Gel - uñas 45%",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "37",
+    "O.P.I. Gel - uñas 50%",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "38",
+    "Uñas carílicas unidad",
+    "S/.15,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "39",
+    "Uñas carílicas completas",
+    "S/.120,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "40",
+    "Uñas postizas - tips unidad",
+    "S/.10,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "41",
+    "Uñas postizas - tips completas",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "42",
+    "Maquillaje",
+    "S/.120,00",
+    "Cosmiatría",
+    "Cosmetología",
+    "",
+    "JAHAIRA"
+  ],
+  [
+    "43",
+    "Maquillaje con pestañas",
+    "S/.150,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "44",
+    "Maquillaje permanente de cejas",
+    "S/.130,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "45",
+    "Maquillaje permanente de labios",
+    "S/.260,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "46",
+    "Maquillaje permanente de párpados inferiores",
+    "S/.180,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "47",
+    "Maquillaje permanente de párpados inferiores con iluminación",
+    "S/.200,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "48",
+    "Maquillaje permanente de párpados superiores",
+    "S/.180,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "49",
+    "Maquillaje permanente de párpados superiores con iluminación",
+    "S/.200,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "50",
+    "Microblading",
+    "S/.400,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "51",
+    "Pigmentación de cejas con henna",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "52",
+    "Retoque de maquillaje permanente de cejas",
+    "S/.90,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "53",
+    "Retoque de maquillaje permanente de labios",
+    "S/.90,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "54",
+    "Pestañas 1x1",
+    "S/.50,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "55",
+    "Pestañas por tira",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "56",
+    "Planchado de cejas",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "57",
+    "Lifting de pestañas",
+    "S/.90,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "58",
+    "Retoque de pestañas",
+    "S/.20,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "59",
+    "Rizado de pestañas",
+    "S/.90,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "60",
+    "Retoque de microblading",
+    "S/.200,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "61",
+    "Acrílicos uñas",
+    "S/.100,00",
+    "Cosmiatría",
+    "Cosmetología"
+  ],
+  [
+    "62",
+    "Depilación",
+    "S/.25,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "63",
+    "Depilación bikini",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "64",
+    "Depilación brasilera",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "65",
+    "Depilación de brazo",
+    "S/.50,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "66",
+    "Depilación de brazos",
+    "S/.80,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "67",
+    "Depilación de bozo",
+    "S/.15,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "68",
+    "Depilación de cejas",
+    "S/.20,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "69",
+    "Depilación de frente",
+    "S/.20,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "70",
+    "Depilación de patillas",
+    "S/.20,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "71",
+    "Depilacion de rostro",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "72",
+    "Depilación espalda completa",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "73",
+    "Depilación facial",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "74",
+    "Depilacion general",
+    "S/.100,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "75",
+    "Depilación media perina",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "76",
+    "Depilación pierna completa",
+    "S/.120,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "77",
+    "Depilación de axila",
+    "S/.25,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "78",
+    "Manicura",
+    "S/.25,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "79",
+    "Manicura con exfoliación",
+    "S/.35,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "80",
+    "Manicura con parafina",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "81",
+    "Manicura Infinite shine",
+    "S/.40,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "82",
+    "Manicura y pedicura",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "83",
+    "Pedicure Infinite shine",
+    "S/.50,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "84",
+    "Pintado uñas",
+    "S/.20,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "85",
+    "Retirado de esmalte",
+    "S/.25,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "86",
+    "Retirado de gel",
+    "S/.45,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "87",
+    "Base Rubber",
+    "S/.90,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "88",
+    "Masajes",
+    "S/.100,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "89",
+    "Masajes descontracturantes",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "90",
+    "Masajes relajantes",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "91",
+    "Pedicura",
+    "S/.35,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "92",
+    "Pedicura con exfolación",
+    "S/.45,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "93",
+    "Pedicura con parafina",
+    "S/.66,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "94",
+    "Podología",
+    "S/.60,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "95",
+    "Podología con exfoliación",
+    "S/.70,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "96",
+    "Exfoliacion",
+    "S/.10,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "97",
+    "Facial con aparatología",
+    "S/.120,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "98",
+    "Facial con aparatología e hidratación",
+    "S/.140,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "99",
+    "Facial con punta diamante",
+    "S/.160,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "100",
+    "Facial con velo de oro",
+    "S/.150,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "101",
+    "Facial simple",
+    "S/.160,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "102",
+    "Mascarilla facial al vaporizador",
+    "S/.90,00",
+    "Cosmiatría",
+    "Cosmiatria"
+  ],
+  [
+    "103",
+    "Propina",
+    "S/.10,00",
+    "-",
+    "Otros"
+  ],
+  [
+    "104",
+    "Sandalias",
+    "S/.6,50",
+    "-",
+    "Otros"
+  ],
+  [
+    "105",
+    "PROMO Corte + Tratamiento (aplicación de ampolla)",
+    "S/.50,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "106",
+    "PROMO Alisado brasilero + corte de cabello",
+    "S/.150,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "107",
+    "PROMO Botox Restructurante + corte de cabello",
+    "S/.90,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "108",
+    "PROMO Coloración completa + corte de cabello y tratamiento capilar",
+    "S/.150,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "109",
+    "PROMO Coloración s/amoniaco + baño de color",
+    "S/.150,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "110",
+    "PROMO Tratamiento Acidic Bonding + corte y cepillado de cabello",
+    "S/.150,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "111",
+    "PROMO Depilación de rostro 2x1",
+    "S/.100,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "112",
+    "PROMO Depilación de rostro con hilo",
+    "S/.50,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "113",
+    "PROMO Manicure Opi y depilación de cejas",
+    "S/.40,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "114",
+    "PROMO Lifting de pestañas y pigmentación de cejas",
+    "S/.120,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "115",
+    "PROMO Rizado de pestaña y planchado de cejas",
+    "S/.120,00",
+    "Promoción",
+    "Promo"
+  ],
+  [
+    "116",
+    "Delivery",
+    "S/.10,00",
+    "-",
+    "Terceros"
+  ],
+  [
+    "117",
+    "Aplicación de ampolla",
+    "S/.45,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "118",
+    "Tratamiento Express Kérastase",
+    "S/.80,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "119",
+    "Lavado de cabello salón",
+    "S/.30,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "120",
+    "Ondulación de cabello corto",
+    "S/.80,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "121",
+    "Ondulación de cabello largo",
+    "S/.180,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "122",
+    "Tratamiento capilar 3D - Italian Max",
+    "S/.30,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "123",
+    "Tratamiento capilar Kérastase",
+    "S/.140,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "124",
+    "Ritual intensivo Kérastase",
+    "S/.180,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "125",
+    "PROMO Tratamiento CELULAS MADRE",
+    "S/.180,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "125",
+    "PROMO Tratamiento POWER MIX",
+    "S/.80,00",
+    "Estilismo",
+    "Tratamientos Capilares"
+  ],
+  [
+    "125",
+    "RESERVA - CITA",
+    "S/.0,00",
+    "Estilismo",
+    "Reserva"
+  ]
+]

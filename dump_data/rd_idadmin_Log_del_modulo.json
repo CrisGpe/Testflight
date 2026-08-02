@@ -1,0 +1,14 @@
+[
+  [
+    "se supone que aquí iría el log del módulo, qué usuarios consultan e interactúan con el módulo para poder rastrear errores, corregirlos y mejorar también el desempeño del programa"
+  ],
+  [],
+  [],
+  [
+    "Fecha",
+    "Hora",
+    "Día",
+    "Usuario",
+    "Hoja Modificada"
+  ]
+]

@@ -1,0 +1,29 @@
+[
+  [
+    "Fecha Registro",
+    "Fecha Cita",
+    "Hora Cita",
+    "Cliente",
+    "Tipo Cliente",
+    "Agente",
+    "Tipo Atención/Servicio"
+  ],
+  [
+    "13/12/2025 2:18 PM",
+    "12/12/2025",
+    "6:00 PM",
+    "KAREN",
+    "Cita",
+    "AYDEE",
+    "Tratamientos Capilares"
+  ],
+  [
+    "17/6/2026 12:13 PM",
+    "15/6/2026",
+    "1:00 PM",
+    "evelyn ",
+    "Cita",
+    "NILDA",
+    "Manos y pies"
+  ]
+]

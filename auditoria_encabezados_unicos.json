@@ -1,0 +1,3978 @@
+[
+  {
+    "archivo": "gloss_unificado_Agentes.json",
+    "totalFilas": 15,
+    "columnasCount": 17,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "14/11/25, 6/01/26, 26/03/26"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Ficha",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+9 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Colaboradores",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "Jeferson Denis Ayala Salvatierra, Yoncivis Colina Vergas, Judith Alave Osco, Aydee Huamani Isasi, Yisela Huamani Isasi ... (+9 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Relación Laboral",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Agente dependiente, Administracion"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Salón",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Gloss Salon"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "HR entrada",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "10a. m., -, 9a. m., 11a. m., 9:00"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "HR salida",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "9p. m., 8p. m., -, 21:00, 20:00"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Día Descanso",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Miércoles, Martes, Lunes"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Cumpleaños",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "20/05, 5/12, 6/08, 18/06, 28/11 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "DNI",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "41083536"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Activo"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Especialidad",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Estilismo, Cosmiatría, Administracion"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Valor.especialidad",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "0, 1, 2"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Nickname",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "JEFERSON, YOVI, JUDITH, AYDEE, YISELA ... (+9 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Genero",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "PIN",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "7302, 2489, 2911, 9182, 9305 ... (+9 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Alertas.json",
+    "totalFilas": 2,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "ALT-1784785654096, ALT-1784818229147"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": " Fecha/Hora",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "23/07/2026 0:47:34, 23/07/2026 9:50:29"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": " Trabajador",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Jeferson Denis Ayala Salvatierra, DELIA MARTHA YAHUANA PULACHE"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": " Mensaje",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Ya llegué"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": " Estado",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Resuelta"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Hora_resuelta",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "23/07/2026 0:47:48, 23/07/2026 11:20:17"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Asistencia.json",
+    "totalFilas": 2267,
+    "columnasCount": 10,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Registro 0",
+        "cantidadValoresUnicos": 254,
+        "muestraValores": "19/11/2025, 20/11/2025, 21/11/2025, 22/11/2025, 23/11/2025 ... (+249 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Dependiente 1",
+        "cantidadValoresUnicos": 25,
+        "muestraValores": "Aydee Huamani Isasi, Jeferson Denis Ayala Salvatierra, Yisela Huamani Isasi, Nilda Rosales Minaya, Abigail Silverio Quispe ... (+20 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Entrada 2",
+        "cantidadValoresUnicos": 305,
+        "muestraValores": "9:06 AM, 12:31 PM, 1:19 PM, 9:10 AM, 9:15 AM ... (+300 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ref I 3",
+        "cantidadValoresUnicos": 285,
+        "muestraValores": "12:37 PM, 2:44 PM, 2:55 PM, 1:43 PM, 1:52 PM ... (+280 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Ref T 4",
+        "cantidadValoresUnicos": 248,
+        "muestraValores": "12:37 PM, 2:49 PM, 4:30 PM, 2:46 PM, 2:30 PM ... (+243 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Salida 5",
+        "cantidadValoresUnicos": 111,
+        "muestraValores": "11:46 PM, 8:10 PM, 7:51 PM, 8:06 PM, 5:38 PM ... (+106 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cantidad Turnos 11",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "1, 0, 2, 3, 4 ... (+5 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Cantidad Clientes 12",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "0, 2, 1, 3, 5 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Cantidad de atenciones X",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Disponible, Trabajando, Corte Caballero"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "0, 1"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Borrador.json",
+    "totalFilas": 13,
+    "columnasCount": 26,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Registro",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "2/8/2026"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Dependiente 1",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "NILDA, JOSEPH, MAR, ABIGAIL, YISELA ... (+3 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Entrada 2",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "10:09 AM, 10:14 AM, 10:16 AM, 10:19 AM, 10:23 AM ... (+2 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ref I 3",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "1:09:41 PM, 1:15:19 PM"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Ref T 4",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Salida 5",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cantidad Turnos 6",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "1, 0, 2"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Cantidad Clientes 7",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "1, 0, 2"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Estado 8",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Trabajando, Disponible"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Estado Valor Num 9",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "1, 0"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Tipo Agente 10",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Cosmiatría, Administracion, Estilismo"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Especialidad Valor 11",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "1, 2, 0"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Ult Act 12",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "3:39 PM, 10:09 AM, 3:03 PM, 2:20:33 PM, 4:10 PM ... (+3 más)"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Hora 13",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "11:46:58 AM, 11:51 AM, 12:45 PM, 12:46 PM, 1:20 PM ... (+8 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "ID OATC 14",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "1, CITA 2:30 PM, 2, 3, 4 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Tipo OATC 15",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "Color, Manos y pies, Corte, Servicios de cabina, Peinados ... (+1 más)"
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "Fecha OATC 15",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "2/8/2026"
+      },
+      {
+        "columnaIndex": 17,
+        "nombreEncabezado": "Nombre Cliente OATC 17",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "ALICIA, fiorela, POR ASIGNAR, roxana, nicol"
+      },
+      {
+        "columnaIndex": 18,
+        "nombreEncabezado": "Tipo Cliente OATC 18",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Cliente, Cita, Turno"
+      },
+      {
+        "columnaIndex": 19,
+        "nombreEncabezado": "Nombre Agente OATC 19",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "YISELA, LALA, NILDA, MAR, YOVI ... (+2 más)"
+      },
+      {
+        "columnaIndex": 20,
+        "nombreEncabezado": "Hora 20",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "1:15:26 PM, 3:08:21 PM, 1:30:13 PM, 2:15:05 PM, 2:19:02 PM ... (+2 más)"
+      },
+      {
+        "columnaIndex": 21,
+        "nombreEncabezado": "Motivo",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 22,
+        "nombreEncabezado": "INICIO de Espera",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 23,
+        "nombreEncabezado": "FIN de Espera / REANUDACIÓN",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 24,
+        "nombreEncabezado": "Cálculo de Tiempo de Espera",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 25,
+        "nombreEncabezado": "Monto",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Clientes.json",
+    "totalFilas": 178,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha de registro",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "20/11/2025, 20/01/2026, 18/02/2026, 23/02/2026, 24/02/2026 ... (+11 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 175,
+        "muestraValores": "Alejandra, Amparo Emilia, Ana Lizbeth, Ana Sofia, Anali Del Pilar ... (+170 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Apellido",
+        "cantidadValoresUnicos": 174,
+        "muestraValores": "Mendoza Herencia, Herrera Castillo, Martinez Arana, Blas Soto, Burga Tapia ... (+169 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "DNI",
+        "cantidadValoresUnicos": 174,
+        "muestraValores": "48254381, 47127404, 41245487, 10586311, 45290461 ... (+169 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cumpleaños",
+        "cantidadValoresUnicos": 139,
+        "muestraValores": "16 julio, 25 julio, 7 octubre, 16 octubre, 13 junio ... (+134 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 168,
+        "muestraValores": "933565297, 992042154, 987835123, 992092367, 979547655 ... (+163 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Correo",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Última visita",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "20/01/2026, 18/02/2026, 23/02/2026, 24/02/2026, 26/02/2026 ... (+11 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Demanda_Expectativas.json",
+    "totalFilas": 0,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Asesor",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Expectativas_Cosmetica",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Expectativas_Forma",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Estado_Venta (aquí pondremos \"Interés sin compra\")",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Hoja_1.json",
+    "totalFilas": 74,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "(Sin Título Col 0)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "(Sin Título Col 1)",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "(Sin Título Col 2)",
+        "cantidadValoresUnicos": 21,
+        "muestraValores": "Objetivos, Funciones, Actividades, Responsabilidades, Evaluaciones e Indicadores de desempeño ... (+16 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "(Sin Título Col 3)",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "3.1, 3.2, 3.3, 4.1, 4.2 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "(Sin Título Col 4)",
+        "cantidadValoresUnicos": 30,
+        "muestraValores": "Etapa 0, Gestión Turnos, Soporte al cliente, Otros (café, llamadas, etc), Turnos ... (+25 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Nov-Dic",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "3m, Primera Etapa, Medición demanda, Registro detalle de OAs\nRegisto de Diag cap, Asistencias - capacidad operativa ... (+5 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Ene-Mar",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "3m, Segunda Etapa, Base de datos de clientes, Registro detalle de clientes\nGestión del historial de atencón y diag, Registro de clientes nuevos ... (+8 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Abr-Jun",
+        "cantidadValoresUnicos": 11,
+        "muestraValores": "3m, Tercera Etapa, CRM activo, Gestión de información y actividades\nSeguimiento de cartera de clientes, Elaboración de reportes semanales* ... (+6 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_OATC.json",
+    "totalFilas": 5874,
+    "columnasCount": 12,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Hr registro 1",
+        "cantidadValoresUnicos": 926,
+        "muestraValores": "12:36 PM, 1:20 PM, 2:54 PM, 4:17 PM, 4:18 PM ... (+921 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "# 2",
+        "cantidadValoresUnicos": 103,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+98 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Tipo OATC 7",
+        "cantidadValoresUnicos": 49,
+        "muestraValores": "Tratamientos Capilares, Cosmiatria, Colorimetria, Corte y diseño, Alisados y laceados ... (+44 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Fecha 3",
+        "cantidadValoresUnicos": 255,
+        "muestraValores": "19/11/2025, 20/11/2025, 21/11/2025, 22/11/2025, 23/11/2025 ... (+250 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cliente 4",
+        "cantidadValoresUnicos": 1491,
+        "muestraValores": "ROCIO, cliente 1, CLIENTE 1, CLIENTE 2, ANALI ... (+1486 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Tipo cliente 5",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "Cliente, Turno, Cita, Asesoría, TurnoCaballero ... (+5 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Agente 6",
+        "cantidadValoresUnicos": 26,
+        "muestraValores": "Jeferson Denis Ayala Salvatierra, Nilda Rosales Minaya, Aydee Huamani Isasi, Abigail Silverio Quispe, Eualali Chipana Buitron ... (+21 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Hora Resol",
+        "cantidadValoresUnicos": 3651,
+        "muestraValores": "9:55 AM, 11:21 AM, 12:47 PM, 3:17 PM, 2:54 PM ... (+3646 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Observación",
+        "cantidadValoresUnicos": 150,
+        "muestraValores": "el motivo fue: SE DEMORO EN BAJAR, ESTANDO DE REFRIGERIO, el motivo fue: ERROR, el motivo fue: ES CLIENTA DE JUDITH, Y LE DIJO AL ESTILISTA QUE NO TENIA TIEMPO, el motivo fue: YA NO LE DIO TIEMPO DE ATENDERSE, el motivo fue: La cliente canceló su cita por fuerza mayor ... (+145 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "T- inicio Espera",
+        "cantidadValoresUnicos": 29,
+        "muestraValores": "18:10:07, 13:53:15, 14:00:54, 14:09:44, 11:09:27 ... (+24 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "T- termino Espera",
+        "cantidadValoresUnicos": 25,
+        "muestraValores": "13:57:59, 14:09:55, 14:17:31, 11:31:18, 12:32:16 ... (+20 más)"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Tiempo Espera",
+        "cantidadValoresUnicos": 21,
+        "muestraValores": "0:04, 0:09, 0:07, 00:21:51, 0:24 ... (+16 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Portafolio.json",
+    "totalFilas": 31,
+    "columnasCount": 5,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "14/11/2025"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "ID Registro",
+        "cantidadValoresUnicos": 31,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+26 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Categoría",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Estilismo, Cosmetología, Cosmiatría"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Subcategoría",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "Corte, peinado y diseño, Tratamientos capilares, Colorimetría, Botox - alizados, Maquillaje ... (+4 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 31,
+        "muestraValores": "Corte, Peinado, Trenzas, Planchado, Cepillado ... (+26 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "gloss_unificado_Registro_Citas.json",
+    "totalFilas": 2,
+    "columnasCount": 7,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "13/12/2025 2:18 PM, 17/6/2026 12:13 PM"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha Cita",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "12/12/2025, 15/6/2026"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Hora Cita",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "6:00 PM, 1:00 PM"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "KAREN, evelyn"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Tipo Cliente",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Cita"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "AYDEE, NILDA"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Tipo Atención/Servicio",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Tratamientos Capilares, Manos y pies"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Agentes.json",
+    "totalFilas": 16,
+    "columnasCount": 17,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "14/11/25, 10/02/26, 11/02/26"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Ficha",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+11 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Colaboradores",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "Jahaira Reyes Castro, Marcela Villanueva Zamora, Rosalinda Garcia Hdalgo, Belen Jimenez Troncos, Carlos Jimi Flores Coca ... (+11 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Relación Laboral",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Agente dependiente, Administracion, Dependiente"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Salón",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "G Luxury"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "HR entrada",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "10:30 am, 9:00 am, 10:00 am, 9:30 am, 11:00 am ... (+2 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "HR salida",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "8:00 pm, 9:30 pm, 9:00 pm, 8:00 PM, 9:30 AM"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Día Descanso",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "domingo, lunes, miercoles, martes"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Cumpleaños",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "DNI",
+        "cantidadValoresUnicos": 15,
+        "muestraValores": "47383517, 48343991, 76769739, 62735173, 42133448 ... (+10 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Activo"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Especialidad",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "Estilismo, Cosmiatría, Jefe Operativo, Administracion"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Valor.especialidad",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "0, 1, 2, 3"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Nickname",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "JAHAIRA, MARCELA, ROSA, BELEN, CARLOS ... (+11 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "3008722556, 902584840, 888888888, 929060335"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Genero",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "PIN",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "3576, 3314, 3465, 4925, 9764 ... (+11 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Alertas.json",
+    "totalFilas": 26,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID",
+        "cantidadValoresUnicos": 26,
+        "muestraValores": "ALT-1782920373752, ALT-1782920730738, ALT-1782921312728, ALT-1782921365107, ALT-1782921405335 ... (+21 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": " Fecha/Hora",
+        "cantidadValoresUnicos": 26,
+        "muestraValores": "1/07/2026 10:39:34, 1/07/2026 10:45:31, 1/07/2026 10:55:13, 1/07/2026 10:56:05, 1/07/2026 10:56:45 ... (+21 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": " Trabajador",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "CARLOS, GLADIS, ROSA, EXLEY, BELEN ... (+2 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": " Mensaje",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "Ya llegué, Estoy disponible, Me voy a comer, Acabó mi día, Regresé de comer ... (+2 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": " Estado",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Resuelta"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Hora_resuelta",
+        "cantidadValoresUnicos": 26,
+        "muestraValores": "1/07/2026 10:41:11, 1/07/2026 10:46:01, 1/07/2026 11:03:51, 1/07/2026 11:07:20, 1/07/2026 11:07:57 ... (+21 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Asistencia.json",
+    "totalFilas": 1858,
+    "columnasCount": 9,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Registro 0",
+        "cantidadValoresUnicos": 174,
+        "muestraValores": "9/02/2026, 10/02/2026, 11/2/2026, 12/02/2026, 13/02/2026 ... (+169 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Dependiente 1",
+        "cantidadValoresUnicos": 33,
+        "muestraValores": "Rosalinda Garcia Hdalgo, Yadira Vasquez Perez, Gladis Laiza Bazan, Jahayra Reyes Castro, Edith Marisol Villanueva Carbajal ... (+28 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Entrada 2",
+        "cantidadValoresUnicos": 248,
+        "muestraValores": "9:14 AM, 9:28 AM, 10:07 AM, 10:27 AM, 10:28 AM ... (+243 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ref I 3",
+        "cantidadValoresUnicos": 193,
+        "muestraValores": "2:56 PM, 1:46 PM, 3:25 PM, 1:27 PM, 1:32 PM ... (+188 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Ref T 4",
+        "cantidadValoresUnicos": 209,
+        "muestraValores": "3:20 PM, 2:16 PM, 4:29 PM, 2:17 PM, 2:41 PM ... (+204 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Salida 5",
+        "cantidadValoresUnicos": 205,
+        "muestraValores": "8:02 PM, 9:00 PM, 9:16 PM, 8:46 PM, 8:08 PM ... (+200 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cantidad Turnos 11",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "3, 1, 2, 8, 5 ... (+5 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Cantidad Clientes 12",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "0, 1, 3, 4, 6 ... (+3 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Cantidad de atenciones X",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Ausente, Disponible, Trabajando"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Borrador.json",
+    "totalFilas": 22,
+    "columnasCount": 21,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Registro 0",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "2/8/2026"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Dependiente 1",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "EXLEY, DANNA, PAPUCHO, CARLOS, LUZ ... (+5 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Entrada 2",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "9:13 AM, 9:14 AM, 9:39 AM, 9:41 AM, 9:57 AM ... (+3 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ref I 3",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "2:42 PM, 1:53 PM, 2:51 PM"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Ref T 4",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "3:42 PM, 2:57 PM, 3:38 PM"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Salida 5",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cantidad Turnos 6",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "5, 0, 3, 2, 1"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Cantidad Clientes 7",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "0, 1, 2"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Estado 8",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Trabajando, Disponible"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Estado Valor Num 9",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "1, 0"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Tipo Agente 10",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Cosmiatría, Administracion, Estilismo"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Especialidad Valor 11",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "0, 3, 1"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Ult Act 12",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "3:52 PM, 9:13 AM, 9:14 AM, 4:29 PM, 3:47 PM ... (+3 más)"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Hora 13",
+        "cantidadValoresUnicos": 21,
+        "muestraValores": "9:42 AM, 10:25 AM, 11:01 AM, 11:22 AM, 11:48 AM ... (+16 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "ID OATC 14",
+        "cantidadValoresUnicos": 22,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+17 más)"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Tipo OATC 15",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "Cosmiatria, Corte y diseño, Colorimetria, Tratamientos Capilares, Cosmetología"
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "Fecha OATC 15",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "2/8/2026"
+      },
+      {
+        "columnaIndex": 17,
+        "nombreEncabezado": "Nombre Cliente OATC 17",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "POR ASIGNAR, CLIENTE, MARIA JOSE, MARY CRUZ, SS"
+      },
+      {
+        "columnaIndex": 18,
+        "nombreEncabezado": "Tipo Cliente OATC 18",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Turno, Cliente, Cita"
+      },
+      {
+        "columnaIndex": 19,
+        "nombreEncabezado": "Nombre Agente OATC 19",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "LUZ, CARLOS, MARIBEL, JAHAIRA, EXLEY ... (+3 más)"
+      },
+      {
+        "columnaIndex": 20,
+        "nombreEncabezado": "Hora 20",
+        "cantidadValoresUnicos": 15,
+        "muestraValores": "11:38 AM, 10:25 AM, 1:38 PM, 1:47 PM, Cancelado a las: 11:54 AM ... (+10 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Clientes.json",
+    "totalFilas": 268,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha de registro",
+        "cantidadValoresUnicos": 33,
+        "muestraValores": "09/02/2026, 10/02/2026, 11/02/2026, 12/02/2026, 13/02/2026 ... (+28 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 197,
+        "muestraValores": "royser, ASTRIA, KAREN, DIANA, EDITH ... (+192 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Apellido",
+        "cantidadValoresUnicos": 217,
+        "muestraValores": "laiza, VILLAVICIENCIO, RIVERA, MENDOZA, BARRIOS ... (+212 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "DNI",
+        "cantidadValoresUnicos": 20,
+        "muestraValores": "40768099, 70201802, 70394737, 9508674, 7518144 ... (+15 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cumpleaños",
+        "cantidadValoresUnicos": 24,
+        "muestraValores": "2026-10-28, 1995-01-14, 1999-06-07, 1970-04-19, 1974-01-07 ... (+19 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 245,
+        "muestraValores": "960533563, 943886442, 56983535338, 959110305, 982335067 ... (+240 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Correo",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "royser_lb@hotmail.com"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Última visita",
+        "cantidadValoresUnicos": 33,
+        "muestraValores": "09/02/2026, 10/02/2026, 11/02/2026, 12/02/2026, 13/02/2026 ... (+28 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Diagnosticos.json",
+    "totalFilas": 5,
+    "columnasCount": 15,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha de registro",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Apellido",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Correo",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Ficha Codigo",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Última visita",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "(Sin Título Col 8)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Diagnóstico",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "D. Capilar, D Cuero Cabello, D Densidad cabello, D forma cabello"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "(Sin Título Col 10)",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "D. Color, D proceso quim, D estado fibra cap, Tono base, Tono medios-largos"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Expectativa Cliente",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "E. Capilar, E Cuero, E Densidad, E forma"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "(Sin Título Col 12)",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "E. Color, E tono base, E medios-largos"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "(Sin Título Col 13)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Prox Visita",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Hoja_1.json",
+    "totalFilas": 31,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "(Sin Título Col 0)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "(Sin Título Col 1)",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "(Sin Título Col 2)",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "Objetivos, Funciones, Actividades, Responsabilidades, Evaluaciones e Indicadores de desempeño ... (+3 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "(Sin Título Col 3)",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "3.1, 3.2, 3.3, 4.1, 4.2 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "(Sin Título Col 4)",
+        "cantidadValoresUnicos": 17,
+        "muestraValores": "Etapa 0, Gestión Turnos, Soporte al cliente, Otros (café, llamadas, etc), Turnos ... (+12 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Nov-Dic",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "3m, Primera Etapa, Medición demanda, Registro detalle de OAs\nRegisto de Diag cap, Asistencias - capacidad operativa ... (+5 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Ene-Mar",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "3m, Segunda Etapa, Base de datos de clientes, Registro detalle de clientes\nGestión del historial de atencón y diag, Registro de clientes nuevos ... (+4 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Abr-Jun",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "3m, Tercera Etapa, CRM activo, Gestión de información y actividades\nSeguimiento de cartera de clientes, Elaboración de reportes semanales* ... (+1 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_OATC.json",
+    "totalFilas": 5498,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Hr registro 1",
+        "cantidadValoresUnicos": 766,
+        "muestraValores": "11:40 AM, 11:42 AM, 11:44 AM, 11:59 AM, 12:03 PM ... (+761 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "# 2",
+        "cantidadValoresUnicos": 181,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+176 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Tipo OATC 7",
+        "cantidadValoresUnicos": 50,
+        "muestraValores": "Barbería, Corte y diseño, Tratamientos Capilares, Cosmetología, Cosmiatria ... (+45 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Fecha 3",
+        "cantidadValoresUnicos": 172,
+        "muestraValores": "9/02/2026, 10/02/2026, 11/2/2026, 12/02/2026, 13/02/2026 ... (+167 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cliente 4",
+        "cantidadValoresUnicos": 681,
+        "muestraValores": "cliente 1, ASTRIA VILLAVICENCIO, POR ASIGNAR, Jorge, Pilar Vicente ... (+676 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Tipo cliente 5",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "Turno, Cliente, Cita, Asesoría, Correccion ... (+4 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Agente 6",
+        "cantidadValoresUnicos": 40,
+        "muestraValores": "Rosalinda Garcia Hdalgo, Maykol Daza Donato, Magali Laiza Bazan, Maribel Villanueva Carbajal, Belen Jimenez Troncos ... (+35 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "DNI Cliente autom",
+        "cantidadValoresUnicos": 850,
+        "muestraValores": "11:41 AM, 12:38 PM, 12:01 PM, Cancelado a las: 6:30 PM, 2:15 PM ... (+845 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Portafolio.json",
+    "totalFilas": 31,
+    "columnasCount": 5,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "14/11/2025"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "ID Registro",
+        "cantidadValoresUnicos": 31,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+26 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Categoría",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Estilismo, Cosmetología, Cosmiatría"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Subcategoría",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "Corte, peinado y diseño, Tratamientos capilares, Colorimetría, Botox - alizados, Maquillaje ... (+4 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 31,
+        "muestraValores": "Corte, Peinado, Trenzas, Planchado, Cepillado ... (+26 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Registro_Citas.json",
+    "totalFilas": 71,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 68,
+        "muestraValores": "9/2/2026 12:14 PM, 9/2/2026 6:46 PM, 12/2/2026 6:51 PM, 12/2/2026 7:42 PM, 19/2/2026 9:00 PM ... (+63 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha Cita",
+        "cantidadValoresUnicos": 55,
+        "muestraValores": "10/2/2026, 13/2/2026, 14/2/2026, 20/2/2026, 6/3/2026 ... (+50 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Hora Cita",
+        "cantidadValoresUnicos": 30,
+        "muestraValores": "9:00, 10:00, 14:30, 8:45, 10:30 ... (+25 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 66,
+        "muestraValores": "GLORIA SANCHEZ, ISABEL, LUCERO B, KETTY PEÑA, CLIENTA DE BELEN ... (+61 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Tipo Cliente",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Cita"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 21,
+        "muestraValores": "Carlos Jimi Flores Coca, EXLEY, Yadira Vasquez Perez, Jahaira Reyes Castro, EN TURNO ... (+16 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Tipo Atención/Servicio",
+        "cantidadValoresUnicos": 23,
+        "muestraValores": "Corte y diseño, Cosmiatria, Peinados y cepillados, Cosmetología, Cosmetología softgel ... (+18 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "ESTADO",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "COMPLETADA"
+      }
+    ]
+  },
+  {
+    "archivo": "luxury_unificado_Servicios_Catalogo.json",
+    "totalFilas": 127,
+    "columnasCount": 7,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "#ID",
+        "cantidadValoresUnicos": 125,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+120 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Descripción",
+        "cantidadValoresUnicos": 127,
+        "muestraValores": "Alisado, Baño de Keratina, botox capilar, Laceado cabello corto, Laceado cabello largo ... (+122 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Precio Venta Unitario Aproximado",
+        "cantidadValoresUnicos": 34,
+        "muestraValores": "S/.100,00, S/.150,00, S/.120,00, S/.190,00, S/.450,00 ... (+29 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Categoría",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "Estilismo, Cosmiatría, -, Promoción"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Subscategoría",
+        "cantidadValoresUnicos": 12,
+        "muestraValores": "Alisados, laceados, botox, Colorimetría, Corte y diseño, Peinados y cepillados, Barbería ... (+7 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Procedimiento",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "se aplica botox"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Especialistas",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "PAMELA, LUZ, CARLOS, ROSA, JAHAIRA"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Agentes.json",
+    "totalFilas": 79,
+    "columnasCount": 17,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 23,
+        "muestraValores": "01/01/22, 28/11/25, 29/11/25, 09/12/25, 16/12/25 ... (+18 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Ficha",
+        "cantidadValoresUnicos": 79,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+74 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Colaboradores",
+        "cantidadValoresUnicos": 78,
+        "muestraValores": "Vidal Gonzales, Vilma Chuquilin, Koko Vascones, Ángel Romero, Eduard Gonzales ... (+73 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Relación Laboral",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "Agente dependiente, Agente administrativo, Refuerzo dependiente, Administracion, Agente libre ... (+2 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Salón",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "RD, G Luxury, Gloss"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "HR entrada",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "-, 11:00 am, 9:00 am, 10:00 am, 9:30 am ... (+8 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "HR salida",
+        "cantidadValoresUnicos": 18,
+        "muestraValores": "-, 8:30 pm, 8:00 pm, 9:00 pm, 7:30 pm ... (+13 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Día Descanso",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "domingo, jueves, lunes, martes, miercoles ... (+3 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Cumpeaños",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "13/02/2005"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "DNI",
+        "cantidadValoresUnicos": 20,
+        "muestraValores": "74074559, 74074560, 74163972, 70949545, 10642953 ... (+15 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Activo, Inactivo"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Especialidad",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "Jefe Operativo, Estilismo, Cosmiatría, Volante, Administracion"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Valor.especialidad",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "0, 1, 3, 5"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Nickname",
+        "cantidadValoresUnicos": 78,
+        "muestraValores": "Vidal Gonzales, Vilma Chuquilin, Koko Vascones, Ángel Romero, Eduard Gonzales ... (+73 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 22,
+        "muestraValores": "952803788, 995885775, 936788173, 951140654, 941309212 ... (+17 más)"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Genero",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Masculino"
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "PIN",
+        "cantidadValoresUnicos": 76,
+        "muestraValores": "4321, 9801, 5310, 9242, 2280 ... (+71 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Catalogo_productos.json",
+    "totalFilas": 1084,
+    "columnasCount": 13,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "SKU 1",
+        "cantidadValoresUnicos": 1083,
+        "muestraValores": "P00001, P00002, P00003, P00004, P00005 ... (+1078 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "TIPO 2",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "PRODUCTO"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "UNIDAD 3",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Unidad(Bien), Caja"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "STOCK 4",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "20"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "DESCRIPCION 5",
+        "cantidadValoresUnicos": 1076,
+        "muestraValores": "Acondicionador AGI MAX x250ml, Ampolla keratina AGI MAX x7ml, Shampoo Daily Moisturizing  AMERICAN CREW x250ml, Shampoo Anti Dandruff  AMERICAN CREW x250ml, Shampoo Power Cleanser Style Remover AMERICAN CREW x250ml ... (+1071 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "DESCRIPCION_DETALLADA 6",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "|"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "MONEDA 7",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "PEN"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "TIPO AFECTACION 8",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "10"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "PRECIO UNITARIO 9",
+        "cantidadValoresUnicos": 94,
+        "muestraValores": "S/.65.00, S/.35.00, S/.75.00, S/.110.00, S/.180.00 ... (+89 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "VALOR UNITARIO 10",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "S/.0.00"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "COSTO UNITARIO 11",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "S/.0.00"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "CODIGO BARRA 12",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "CATEGORIA 13",
+        "cantidadValoresUnicos": 173,
+        "muestraValores": "AGI MAX, AMERICAN CREW, BAOR K, BAOR B, BAOR G ... (+168 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Catalogo_servicios.json",
+    "totalFilas": 128,
+    "columnasCount": 9,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "#ID",
+        "cantidadValoresUnicos": 126,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+121 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Descripción",
+        "cantidadValoresUnicos": 128,
+        "muestraValores": "Alisado, Baño de Keratina, botox capilar, Laceado cabello corto, Laceado cabello largo ... (+123 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Precio Venta Unitario Aproximado",
+        "cantidadValoresUnicos": 34,
+        "muestraValores": "S/.400.00, S/.150.00, S/.120.00, S/.190.00, S/.450.00 ... (+29 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Categoría",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "Estilismo, Cosmiatría, Otros, Promoción, Reserva"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Subcategoría",
+        "cantidadValoresUnicos": 12,
+        "muestraValores": "Alisados, laceados, botox, Colorimetría, Corte y diseño, Peinados y cepillados, Barbería ... (+7 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Costo",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Directo, Indirecto, Terceros"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "% Comisión",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "37.50%, 50.00%, 45.00%, 100.00%, 0.00% ... (+1 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Procedimiento",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Especialistas",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "KOKO VASCONES, MARLENE BUSTAMANTE"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Cat_logo_insumos.json",
+    "totalFilas": 587,
+    "columnasCount": 11,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Proveedor",
+        "cantidadValoresUnicos": 27,
+        "muestraValores": "General, LOreal, Italian Max, Baor, Revlon ... (+22 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Marca",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "Genérico, L'Oréal Professionnel, L'Oréal Serie Expert, L'Oréal Tecni.Art"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Línea",
+        "cantidadValoresUnicos": 78,
+        "muestraValores": "Pestaña, Majirel, Majicontrast, Majiblond, Absolut Repair ... (+73 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Nombre Producto",
+        "cantidadValoresUnicos": 503,
+        "muestraValores": "Pestaña 1x1, Majirel 2,1, Majirel 6,11, Majirel 8,1, Majirel 5,64 ... (+498 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Tipo",
+        "cantidadValoresUnicos": 33,
+        "muestraValores": "Pestañas, Tinte, Tratamiento, Shampoo, Crema Rizos ... (+28 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Presentacion",
+        "cantidadValoresUnicos": 32,
+        "muestraValores": "50GR, 50ML, 125ML, 250ML, 500ML ... (+27 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Unidad medida",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "GR, ML"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Costo",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "S/.10.00"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Observación",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Doc. Ingreso",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "FACTURA"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Num Documento",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "FA001-00012311"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Cat_logo_JorgeCh.json",
+    "totalFilas": 598,
+    "columnasCount": 15,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Nro.",
+        "cantidadValoresUnicos": 598,
+        "muestraValores": "2, 3, 4, 5, 6 ... (+593 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Codigo Barra",
+        "cantidadValoresUnicos": 51,
+        "muestraValores": "7.90E+17, 7.51E+17, 7.80E+17, 3.47E+17, 30157712 ... (+46 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Descripcion",
+        "cantidadValoresUnicos": 73,
+        "muestraValores": "PESTAÑA, MAJIREL, MAJICONTRAST, MAJIBLOND, THERMO ... (+68 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "(Sin Título Col 3)",
+        "cantidadValoresUnicos": 250,
+        "muestraValores": "1X1, 2,1, 6,11, 8,1, 5,64 ... (+245 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "(Sin Título Col 4)",
+        "cantidadValoresUnicos": 139,
+        "muestraValores": "50, ABSOLUT, 250, 500, 300 ... (+134 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "(Sin Título Col 5)",
+        "cantidadValoresUnicos": 81,
+        "muestraValores": "GR, ML, REPAIR, 90, 125 ... (+76 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "(Sin Título Col 6)",
+        "cantidadValoresUnicos": 37,
+        "muestraValores": "-, ML, SULFATO, 500, 250 ... (+32 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "(Sin Título Col 7)",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "SERIE, 500, 150, ML, 300 ... (+9 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "(Sin Título Col 8)",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "EXPERT, ML, 1000, GR"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "(Sin Título Col 9)",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "125, ML"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "(Sin Título Col 10)",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "ML"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Activo",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "TRUE, FALSE"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "(Sin Título Col 12)",
+        "cantidadValoresUnicos": 583,
+        "muestraValores": "PESTAÑA 1X1 50GR, MAJIREL 2,1 50GR, MAJIREL 6,11 50GR, MAJIREL 8,1 50GR, MAJIREL 5,64 50GR ... (+578 más)"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Descripcion",
+        "cantidadValoresUnicos": 583,
+        "muestraValores": "PESTAÑA 1X1 50GR, MAJIREL 2,1 50GR, MAJIREL 6,11 50GR, MAJIREL 8,1 50GR, MAJIREL 5,64 50GR ... (+578 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Activo",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "TRUE, FALSE"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Configuracion.json",
+    "totalFilas": 0,
+    "columnasCount": 5,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Medios de pago",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Categoría Servicio",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Subcategoría Servicio",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Marca Producto",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Línea Producto",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Historico_Cierres.json",
+    "totalFilas": 145,
+    "columnasCount": 13,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 145,
+        "muestraValores": "29/12/2025 23:23:15, 2/1/2026 23:56:29, 12/1/2026 21:44:19, 14/1/2026 22:01:41, 15/1/2026 22:09:23 ... (+140 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Usuario",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "crial0810@gmail.com"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Fondo",
+        "cantidadValoresUnicos": 137,
+        "muestraValores": "S/.1,240.00, S/.2,109.40, S/.3,003.70, S/.1,158.20, S/.2,526.30 ... (+132 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "VentasEf",
+        "cantidadValoresUnicos": 126,
+        "muestraValores": "S/.40.00, S/.930.00, S/.1,260.00, S/.1,065.00, S/.1,353.00 ... (+121 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "VentasOtros",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "S/.370.00, S/.0.00"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "IngresosExtra",
+        "cantidadValoresUnicos": 70,
+        "muestraValores": "S/.462.00, S/.2,860.00, S/.0.00, S/.2,542.50, S/.1,500.00 ... (+65 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Egresos",
+        "cantidadValoresUnicos": 95,
+        "muestraValores": "S/.12.00, S/.2,699.20, S/.191.50, S/.310.00, S/.1,382.60 ... (+90 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Esperado",
+        "cantidadValoresUnicos": 143,
+        "muestraValores": "S/.1,730.00, S/.3,200.20, S/.4,072.20, S/.1,913.20, S/.2,496.70 ... (+138 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Real",
+        "cantidadValoresUnicos": 74,
+        "muestraValores": "S/.1,728.00, S/.3,200.20, S/.0.00, S/.1,255.20, S/.283.30 ... (+69 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Diferencia",
+        "cantidadValoresUnicos": 76,
+        "muestraValores": "-S/.2.00, S/.0.00, -S/.4,072.20, -S/.1,913.20, -S/.2,496.70 ... (+71 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Notas",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "nota prueba GA"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "DetalleBilletes",
+        "cantidadValoresUnicos": 70,
+        "muestraValores": "{\"soles\":[{\"d\":\"200\",\"c\":\"1\"},{\"d\":\"100\",\"c\":\"11\"},{\"d\":\"50\",\"c\":\"1\"},{\"d\":\"20\",\"c\":\"11\"},{\"d\":\"10\",\"c\":\"11\"},{\"d\":\"5\",\"c\":\"2\"},{\"d\":\"2\",\"c\":\"2\"},{\"d\":\"1\",\"c\":\"2\"},{\"d\":\"0.5\",\"c\":\"2\"},{\"d\":\"0.2\",\"c\":\"2\"},{\"d\":\"0.1\",\"c\":\"2\"}],\"dolares\":[{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"0\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"01\"},{\"d\":\"2\",\"c\":\"01\"},{\"d\":\"1\",\"c\":\"1\"}]}, {\"soles\":[{\"d\":\"200\",\"c\":\"6\"},{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"1\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"1\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"0\"},{\"d\":\"0.5\",\"c\":\"0\"},{\"d\":\"0.2\",\"c\":\"0\"},{\"d\":\"0.1\",\"c\":\"2\"}],\"dolares\":[{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"0\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"0\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"0\"}]}, {\"soles\":[{\"d\":\"200\",\"c\":\"0\"},{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"0\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"0\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"0\"},{\"d\":\"0.5\",\"c\":\"0\"},{\"d\":\"0.2\",\"c\":\"0\"},{\"d\":\"0.1\",\"c\":\"0\"}],\"dolares\":[{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"0\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"0\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"0\"}]}, {\"soles\":[{\"d\":\"200\",\"c\":\"0\"},{\"d\":\"100\",\"c\":\"3\"},{\"d\":\"50\",\"c\":\"02\"},{\"d\":\"20\",\"c\":\"01\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"04\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"018\"},{\"d\":\"0.5\",\"c\":\"0\"},{\"d\":\"0.2\",\"c\":\"0\"},{\"d\":\"0.1\",\"c\":\"03\"}],\"dolares\":[{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"0\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"0\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"0\"}]}, {\"soles\":[{\"d\":\"200\",\"c\":\"0\"},{\"d\":\"100\",\"c\":\"11\"},{\"d\":\"50\",\"c\":\"2\"},{\"d\":\"20\",\"c\":\"5\"},{\"d\":\"10\",\"c\":\"2\"},{\"d\":\"5\",\"c\":\"14\"},{\"d\":\"2\",\"c\":\"17\"},{\"d\":\"1\",\"c\":\"6\"},{\"d\":\"0.5\",\"c\":\"01\"},{\"d\":\"0.2\",\"c\":\"0\"},{\"d\":\"0.1\",\"c\":\"01\"}],\"dolares\":[{\"d\":\"100\",\"c\":\"0\"},{\"d\":\"50\",\"c\":\"0\"},{\"d\":\"20\",\"c\":\"0\"},{\"d\":\"10\",\"c\":\"0\"},{\"d\":\"5\",\"c\":\"0\"},{\"d\":\"2\",\"c\":\"0\"},{\"d\":\"1\",\"c\":\"0\"}]} ... (+65 más)"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "TC",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "3.8, 3.82"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Log_del_modulo.json",
+    "totalFilas": 3,
+    "columnasCount": 1,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "se supone que aquí iría el log del módulo, qué usuarios consultan e interactúan con el módulo para poder rastrear errores, corregirlos y mejorar también el desempeño del programa",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Fecha"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Pendientes_Liquidacion.json",
+    "totalFilas": 2613,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID_Autorización",
+        "cantidadValoresUnicos": 2610,
+        "muestraValores": "AUTH-20260103-2348, AUTH-20260103-2355, AUTH-20260104-0001, AUTH-20260104-0626, AUTH-20260104-0632 ... (+2605 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha Solicitud",
+        "cantidadValoresUnicos": 191,
+        "muestraValores": "3/1/2026, 4/1/2026, 04/01/2026, 05/01/2026, 07/01/2026 ... (+186 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 35,
+        "muestraValores": "Cocó Pacheco, Eduard Gonzales, Felina Verastegui, Gladis Ramos, Jessica Huaman ... (+30 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Rango Fechas",
+        "cantidadValoresUnicos": 321,
+        "muestraValores": "2026-01-03 al 2026-01-03, 2026-01-04 al 2026-01-04, 2026-01-05 al 2026-01-05, 2026-01-06 al 2026-01-06, 2026-01-07 al 2026-01-07 ... (+316 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Monto a Pagar",
+        "cantidadValoresUnicos": 1098,
+        "muestraValores": "272.5, 252.4, 274.9, 30.00, 211.50 ... (+1093 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Estado (Pendiente/Pagado)",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Pagado"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Autorizado Por",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "crial0810@gmail.com, Nombre Cajero, Cristian Gonzales, Zendel Adriano Vilca Laiza, Tomás Ramos ... (+2 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Fecha del Pago",
+        "cantidadValoresUnicos": 210,
+        "muestraValores": "4/1/2026, 5/1/2026, 7/1/2026, 6/1/2026, 9/1/2026 ... (+205 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Recetas.json",
+    "totalFilas": 0,
+    "columnasCount": 4,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Servicio - Receta",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Insumo Requerido",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Cantidad Estándar",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Costo",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idadmin_Usuarios.json",
+    "totalFilas": 6,
+    "columnasCount": 4,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "Cristian Gonzales, Nombre Cajero, Tomás Ramos, Ariana Laiza, Zendel Adriano Vilca Laiza ... (+1 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Correo (Gmail)",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "crial0810@gmail.com, correo-cajero@gmail.com"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Rol",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "ADMIN, CAJA, CAJA1, CAJA2, CAJA3 ... (+1 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "PIN",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "3010, 2005, 1212, 2143, 4321"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_iderp_BBDD_Productos.json",
+    "totalFilas": 1089,
+    "columnasCount": 13,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "SKU",
+        "cantidadValoresUnicos": 1089,
+        "muestraValores": "P00001, P00002, P00003, P00004, P00005 ... (+1084 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Marca",
+        "cantidadValoresUnicos": 34,
+        "muestraValores": "Kerastase, Loreal, Redken, Wella, Sp ... (+29 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Línea",
+        "cantidadValoresUnicos": 135,
+        "muestraValores": "Nutritive, Premiere, Oleo Relax, Elixir Ultime, Discipline ... (+130 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 902,
+        "muestraValores": "Bain Satin, Bain Satin Riche, Lait Vital, Masquintense, Masquintense Riche ... (+897 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Presentacion",
+        "cantidadValoresUnicos": 113,
+        "muestraValores": "250ml, 200ml, 150ml, 50ml, 90ml ... (+108 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Precio",
+        "cantidadValoresUnicos": 28,
+        "muestraValores": "S/.110.00, S/.0.00, S/.6.50, S/.1.00, 233 ... (+23 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Proveedor",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "CARGA_2025, NUEVO_REGISTRO"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Stock Tienda",
+        "cantidadValoresUnicos": 37,
+        "muestraValores": "84.00, 91.00, 85.00, 80.00, 92.00 ... (+32 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Stock Principal",
+        "cantidadValoresUnicos": 29,
+        "muestraValores": "4.00, 10.00, 0.00, 18.00, 12.00 ... (+24 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Costo Unitario",
+        "cantidadValoresUnicos": 270,
+        "muestraValores": "S/.74.34, S/.99.12, S/.134.50, S/.89.68, S/.96.76 ... (+265 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Ubicación en Almacén",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "POR_DEFINIR"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Stock Mínimo",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "5.00, 1.00, 0.00, 100.00"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Precio Min",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "S/.98.00, S/.6.00, S/.1.00, S/.220.00, S/.0.00 ... (+2 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_iderp_Demanda_Expectativas.json",
+    "totalFilas": 2140,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 2140,
+        "muestraValores": "21/2/2026 8:23:09, 23/2/2026 12:35:52, 23/2/2026 12:52:49, 23/2/2026 12:56:49, 23/2/2026 13:49:24 ... (+2135 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 180,
+        "muestraValores": "Cristian Gonzales Zegarra | DNI: 74074559 | Cel: 952803788, cliente, rosa, cliente x, Cesar Diaz ... (+175 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Asesor",
+        "cantidadValoresUnicos": 25,
+        "muestraValores": "Dilma Laiza, Ariana Laiza, Margot Lavado, Vidal Gonzales, Susú Ruiz ... (+20 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Expectativas_Cosmetica",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "Sin expectativas registradas, Brillo, Volumen, Volumen, Liso, Suavidad, Color"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Expectativas_Forma",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Estado_Venta (aquí pondremos \"Interés sin compra\")",
+        "cantidadValoresUnicos": 2140,
+        "muestraValores": "Venta Referencia: BY03-00003747, Venta Referencia: BS-00003944, Venta Referencia: BS-00003945, Venta Referencia: BS-00003946, Venta Referencia: BS-00003947 ... (+2135 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_iderp_Estrucutra_de_BD.json",
+    "totalFilas": 27,
+    "columnasCount": 0,
+    "analisisColumnas": []
+  },
+  {
+    "archivo": "rd_iderp_Hoja_Temporal_CSV.json",
+    "totalFilas": 1044,
+    "columnasCount": 9,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "MARCA",
+        "cantidadValoresUnicos": 20,
+        "muestraValores": "Kerastase, Loreal, Redken, Wella, Sp ... (+15 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "LINEA",
+        "cantidadValoresUnicos": 111,
+        "muestraValores": "Nutritive, Premiere, Oleo Relax, Elixir Ultime, Discipline ... (+106 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "NOMBRE DE PRODUCTO",
+        "cantidadValoresUnicos": 865,
+        "muestraValores": "Bain Satin, Bain Satin Riche, Lait Vital, Masquintense, Masquintense Riche ... (+860 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "CONTENIDO",
+        "cantidadValoresUnicos": 106,
+        "muestraValores": "250ml, 200ml, 150ml, 50ml, 90ml ... (+101 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "COSTO",
+        "cantidadValoresUnicos": 274,
+        "muestraValores": "S/.74.34, S/.99.12, S/.134.50, S/.89.68, S/.96.76 ... (+269 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "ALMACEN",
+        "cantidadValoresUnicos": 28,
+        "muestraValores": "4.00, 10.00, 0.00, 18.00, 12.00 ... (+23 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "TIENDA",
+        "cantidadValoresUnicos": 23,
+        "muestraValores": "13.00, 11.00, 9.00, 7.00, 5.00 ... (+18 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "TOTAL",
+        "cantidadValoresUnicos": 41,
+        "muestraValores": "17.00, 21.00, 9.00, 7.00, 5.00 ... (+36 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "COSTO TOTAL",
+        "cantidadValoresUnicos": 450,
+        "muestraValores": "S/.1,263.78, S/.1,561.14, S/.892.08, S/.941.50, S/.672.50 ... (+445 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_iderp_Kardex_Movimientos.json",
+    "totalFilas": 3474,
+    "columnasCount": 10,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID_MOVIMIENTO",
+        "cantidadValoresUnicos": 2238,
+        "muestraValores": "MOV-1770220011976-0, MOV-1770220061014-0, MOV-1771680189110, MOV-1771868152130, MOV-1771869168802 ... (+2233 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "FECHA_HORA",
+        "cantidadValoresUnicos": 2238,
+        "muestraValores": "4/2/2026 10:46:52, 4/2/2026 10:47:41, 21/2/2026 8:23:09, 23/2/2026 12:35:52, 23/2/2026 12:52:49 ... (+2233 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "TIPO_MOVIMIENTO",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "INGRESO_FACTURA, TRASPASO, VENTA, ANULACION, SALIDA_LABORATORIO ... (+1 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "SKU",
+        "cantidadValoresUnicos": 555,
+        "muestraValores": "P00650, P00051, P00023, P00395, P00413 ... (+550 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "DESCRIPCION",
+        "cantidadValoresUnicos": 481,
+        "muestraValores": "Hidratante  Kids Equave, Bain Curl Manifesto, Elixir Ultime Originale Dorado (Repuesto), Shampoo Nutri Enrich, Shampoo Fusion ... (+476 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "CANTIDAD",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "24, 1, 2, 4, 3 ... (+1 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "ORIGEN",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "PROVEEDOR: 20510643306, ALMACEN_PRINCIPAL, ALMACEN_TIENDA, CLIENTE, TIENDA"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "DESTINO",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "ALMACEN_PRINCIPAL, ALMACEN_TIENDA, CLIENTE, LABORATORIO, GLOSS ... (+1 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "DOCUMENTO_REF",
+        "cantidadValoresUnicos": 2143,
+        "muestraValores": "F014-5672, TR-1770220049745, BY03-00003747, BS-00003944, BS-00003945 ... (+2138 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "COSTO_UNITARIO",
+        "cantidadValoresUnicos": 200,
+        "muestraValores": "S/.24.20, S/.0.00, S/.82.60, S/.112.10, S/.41.40 ... (+195 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_iderp_Ventas_Detalle.json",
+    "totalFilas": 3321,
+    "columnasCount": 7,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 155,
+        "muestraValores": "21/2/2026, 23/2/2026, 24/2/2026, 2/3/2026, 3/3/2026 ... (+150 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Ticket",
+        "cantidadValoresUnicos": 2140,
+        "muestraValores": "BY03-00003747, BS-00003944, BS-00003945, BS-00003946, BS-00003947 ... (+2135 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "SKU",
+        "cantidadValoresUnicos": 555,
+        "muestraValores": "P00051, P00023, P00395, P00413, P00604 ... (+550 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Producto",
+        "cantidadValoresUnicos": 480,
+        "muestraValores": "Bain Curl Manifesto, Elixir Ultime Originale Dorado (Repuesto), Shampoo Nutri Enrich, Shampoo Fusion, Shampoo Post Quimica ... (+475 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cant",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "1.00, 2.00, 4.00, 3.00, 6.00"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "P. Unit",
+        "cantidadValoresUnicos": 150,
+        "muestraValores": "S/.110.00, S/.170.00, S/.70.00, S/.165.00, S/.95.00 ... (+145 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Subtotal",
+        "cantidadValoresUnicos": 158,
+        "muestraValores": "S/.110.00, S/.170.00, S/.70.00, S/.165.00, S/.95.00 ... (+153 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_iderp_Ventas_Tickets.json",
+    "totalFilas": 2140,
+    "columnasCount": 13,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Ticket",
+        "cantidadValoresUnicos": 2140,
+        "muestraValores": "BY03-00003747, BS-00003944, BS-00003945, BS-00003946, BS-00003947 ... (+2135 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 2140,
+        "muestraValores": "21/2/2026 8:23:09, 23/2/2026 12:35:52, 23/2/2026 12:52:49, 23/2/2026 12:56:49, 23/2/2026 13:49:24 ... (+2135 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 180,
+        "muestraValores": "Cristian Gonzales Zegarra | DNI: 74074559 | Cel: 952803788, cliente, rosa, cliente x, Cesar Diaz ... (+175 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Asesor",
+        "cantidadValoresUnicos": 25,
+        "muestraValores": "Dilma Laiza, Ariana Laiza, Margot Lavado, Vidal Gonzales, Susú Ruiz ... (+20 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Subtotal",
+        "cantidadValoresUnicos": 252,
+        "muestraValores": "S/.110.00, S/.170.00, S/.455.00, S/.190.00, S/.65.00 ... (+247 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Total",
+        "cantidadValoresUnicos": 252,
+        "muestraValores": "S/.110.00, S/.170.00, S/.455.00, S/.190.00, S/.65.00 ... (+247 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "COMPLETADO, ANULADO"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Expectativas",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "Sin expectativas registradas, Brillo, Volumen, Volumen, Liso, Suavidad, Color"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Emisor",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Ticket, Anselmo, Cristian"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Método Pago",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "EFECTIVO, TARJETA, DEPOSITO, PRESTAMO"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Tipo Doc",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Boleta, Ticket, Factura"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Nro Doc",
+        "cantidadValoresUnicos": 2140,
+        "muestraValores": "BY03-00003747, BS-00003944, BS-00003945, BS-00003946, BS-00003947 ... (+2135 más)"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Notas_Pago",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Alertas.json",
+    "totalFilas": 66,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID",
+        "cantidadValoresUnicos": 66,
+        "muestraValores": "ALT-1782864237070, ALT-1782864286715, ALT-1782864294582, ALT-1782864300296, ALT-1782864305065 ... (+61 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": " Fecha/Hora",
+        "cantidadValoresUnicos": 66,
+        "muestraValores": "30/06/2026 19:03:57, 30/06/2026 19:04:47, 30/06/2026 19:04:55, 30/06/2026 19:05:00, 30/06/2026 19:05:05 ... (+61 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": " Trabajador",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "Vidal Gonzales, Vilma Lavado, Jessica Huaman, Margot Lavado, Cocó Pacheco ... (+5 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": " Mensaje",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "Ya llegué, Me voy a comer, Regresé de comer, Acabó mi día, Estoy atendiendo ... (+8 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": " Estado",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Resuelta"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Hora_resuelta",
+        "cantidadValoresUnicos": 66,
+        "muestraValores": "30/06/2026 19:04:41, 30/06/2026 19:04:54, 30/06/2026 19:04:59, 30/06/2026 19:05:04, 30/06/2026 19:05:09 ... (+61 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Asistencia.json",
+    "totalFilas": 4683,
+    "columnasCount": 9,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Registro 0",
+        "cantidadValoresUnicos": 260,
+        "muestraValores": "12/11/2025, 13/11/2025, 14/11/2025, 15/11/2025, 16/11/2025 ... (+255 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Dependiente 1",
+        "cantidadValoresUnicos": 51,
+        "muestraValores": "Cocó Pacheco, Koko Vascones, Maribel Forroñan, Jessica Huaman, Vidal Gonzales ... (+46 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Entrada 2",
+        "cantidadValoresUnicos": 508,
+        "muestraValores": "9:09 AM, 9:30 AM, 9:47 AM, 10:11 AM, 10:21 AM ... (+503 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ref I 3",
+        "cantidadValoresUnicos": 256,
+        "muestraValores": "2:38 PM, 3:27 PM, 2:47 PM, 3:02 PM, 1:01 PM ... (+251 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Ref T 4",
+        "cantidadValoresUnicos": 272,
+        "muestraValores": "3:32 PM, 3:39 PM, 3:33 PM, 3:18 PM, 1:45 PM ... (+267 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Salida 5",
+        "cantidadValoresUnicos": 343,
+        "muestraValores": "9:01 PM, 8:13 PM, 8:51 PM, 9:26 PM, 9:29 PM ... (+338 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cantidad Atenciones por Turnos",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "1, 2, 0, 4, 3 ... (+4 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Cantidad Atenciones a Clientes 12",
+        "cantidadValoresUnicos": 11,
+        "muestraValores": "1, 2, 0, 4, 3 ... (+6 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Cantidad de atenciones X",
+        "cantidadValoresUnicos": 11,
+        "muestraValores": "2, 4, 1, 0, 6 ... (+6 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Borrador.json",
+    "totalFilas": 23,
+    "columnasCount": 26,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Registro",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "2/8/2026"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Dependiente",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "Dante Hip, Zendel Adriano Vilca Laiza, Ariana Laiza, Cocó Pacheco, Xiomara ... (+9 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Entrada",
+        "cantidadValoresUnicos": 12,
+        "muestraValores": "8:57 AM, 9:14 AM, 9:18 AM, 9:31 AM, 9:46 AM ... (+7 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ref I",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "2:03 PM, 12:46 PM, 1:35 PM, 1:11 PM"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Ref T",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "1:25 PM, 2:17 PM, 2:12 PM"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Salida",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cantidad Turnos",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "0, 3, 2, 1"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Cantidad Clientes",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "0, 1, 2"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "En refrigerio, Disponible, Trabajando"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Estado Valor Num",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "2, 0, 1"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Tipo Agente",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Administracion, Estilismo, Cosmiatría"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Especialidad Valor",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "0, 1"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Ult Act",
+        "cantidadValoresUnicos": 12,
+        "muestraValores": "8:57 AM, 9:14 AM, 9:18 AM, 4:13 PM, 3:44 PM ... (+7 más)"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Hora",
+        "cantidadValoresUnicos": 20,
+        "muestraValores": "10:17 AM, 11:30 AM, 12:01 PM, 12:04 PM, 12:05 PM ... (+15 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "ID OATC",
+        "cantidadValoresUnicos": 23,
+        "muestraValores": "1, 2, cita 04:00, 3, 4 ... (+18 más)"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Tipo OATC",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "Peinados y cepillados, Corte y diseño, Colorimetria, Alisados, laceados, botox, Cosmiatria"
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "Fecha OATC",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "2/08/2026"
+      },
+      {
+        "columnaIndex": 17,
+        "nombreEncabezado": "Nombre Cliente OATC",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "POR ASIGNAR, Eliana, elvia, eliana"
+      },
+      {
+        "columnaIndex": 18,
+        "nombreEncabezado": "Tipo Cliente OATC",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Turno, Cita, Cliente"
+      },
+      {
+        "columnaIndex": 19,
+        "nombreEncabezado": "Nombre Agente OATC",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "Cocó Pacheco, Koko Vascones, Vilma Chuquilin, Susú Ruiz, Felina Verastegui ... (+4 más)"
+      },
+      {
+        "columnaIndex": 20,
+        "nombreEncabezado": "Hora Resol.",
+        "cantidadValoresUnicos": 15,
+        "muestraValores": "10:39 AM, 11:49 AM, 12:37 PM, 12:26 PM, 1:12 PM ... (+10 más)"
+      },
+      {
+        "columnaIndex": 21,
+        "nombreEncabezado": "Motivo",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Motivo: programará cita"
+      },
+      {
+        "columnaIndex": 22,
+        "nombreEncabezado": "Inicio de espera",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 23,
+        "nombreEncabezado": "(Sin Título Col 23)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 24,
+        "nombreEncabezado": "Estado OATC",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 25,
+        "nombreEncabezado": "Tiempo espera calculado",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Clientes.json",
+    "totalFilas": 107,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha de registro",
+        "cantidadValoresUnicos": 33,
+        "muestraValores": "25/11/2025, 24/12/2025, 30/12/2025, 02/01/2026, 02/02/2026 ... (+28 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nombre",
+        "cantidadValoresUnicos": 93,
+        "muestraValores": "Doris, Cristian, Rocio, juan, Angely ... (+88 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Apellido",
+        "cantidadValoresUnicos": 55,
+        "muestraValores": "Condezo, Gonzales Zegarra, Melendez, lavado huamani, Guerrerro ... (+50 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "DNI",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "74074559, 74163972, 40745918, 12345678, 7194725 ... (+5 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cumpleaños",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "1993-10-30, 2002-09-20, 1972-07-08, 1998-08-26, 1978-08-11 ... (+3 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 99,
+        "muestraValores": "952803788, 936788173, 956605636, 999180475, 977185673 ... (+94 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Correo",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "crial0810@gmail.com, juanfreddylavado@gmail.com, mayale.26.08.98@gmail.com, cclljert@gmail.com"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Última visita",
+        "cantidadValoresUnicos": 33,
+        "muestraValores": "25/11/2025, 24/12/2025, 30/12/2025, 02/01/2026, 02/02/2026 ... (+28 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Diagn_sticos.json",
+    "totalFilas": 0,
+    "columnasCount": 14,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "FechaRegistro",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nombres y apellidos",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Cumpleaños",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Atendido por",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Servicio",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Cuero Cabelludo",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Densidad",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Forma",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Tono de Base",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Porcentaje Canas",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Observaciones",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Recomendaciones",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "URL de Foto Diagnóstico",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Hoja_1.json",
+    "totalFilas": 34,
+    "columnasCount": 8,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "(Sin Título Col 0)",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "V1.8"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "(Sin Título Col 1)",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "1, 2, 3, 4, 5 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "(Sin Título Col 2)",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "Objetivos, Funciones, Actividades, Responsabilidades, Evaluaciones e Indicadores de desempeño ... (+9 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "(Sin Título Col 3)",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "3.1, 3.2, 3.3, 4.1, 4.2 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "(Sin Título Col 4)",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "Etapa 0, Gestión Turnos, Soporte al cliente, Otros (café, llamadas, etc), Turnos ... (+9 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Nov-Dic",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "3m, Primera Etapa, Medición demanda, Registro detalle de OAs\nRegisto de Diag cap, Asistencias - capacidad operativa ... (+5 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Ene-Mar",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "3m, Segunda Etapa, Base de datos de clientes, Registro detalle de clientes\nGestión del historial de atencón y diag, Registro de clientes nuevos ... (+5 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Abr-Jun",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "3m, Tercera Etapa, CRM activo, Gestión de información y actividades\nSeguimiento de cartera de clientes, Elaboración de reportes semanales* ... (+4 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Hoja_12.json",
+    "totalFilas": 28,
+    "columnasCount": 9,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Hr registro",
+        "cantidadValoresUnicos": 27,
+        "muestraValores": "10:52 AM, 11:18 AM, 2:18 PM, 2:52 PM, 3:17 PM ... (+22 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "# OATC",
+        "cantidadValoresUnicos": 27,
+        "muestraValores": "5, 13, 32, cita 17:00, 40 ... (+22 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Tipo OATC",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "Corte y diseño, Colorimetria, Peinados y cepillados, Tratamientos Capilares"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Fecha registro",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "1/03/2026, 2/03/2026, 4/3/2026, 5/03/2026, 6/03/2026 ... (+1 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cliente nombre",
+        "cantidadValoresUnicos": 25,
+        "muestraValores": "laura, keyla, maria belen, mariela, Adriana ... (+20 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Tipo cliente",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Turno, Cliente, Cita"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Cocó Pacheco"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Hora Resolución",
+        "cantidadValoresUnicos": 21,
+        "muestraValores": "11:18 AM, 1:24 PM, 3:13 PM, 5:02 PM, 3:47 PM ... (+16 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Motivo",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "es el id 6"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_OATC.json",
+    "totalFilas": 9999,
+    "columnasCount": 9,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Hr registro",
+        "cantidadValoresUnicos": 806,
+        "muestraValores": "9:53 AM, 10:21 AM, 10:25 AM, 11:51 AM, 12:08 PM ... (+801 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "# OATC",
+        "cantidadValoresUnicos": 188,
+        "muestraValores": "1, 2, cita 13:25, 3, 4 ... (+183 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Tipo OATC",
+        "cantidadValoresUnicos": 20,
+        "muestraValores": "Colorimetria, Corte y diseño, Alisados, laceados, botox, Promocion, Otro ... (+15 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Fecha registro",
+        "cantidadValoresUnicos": 182,
+        "muestraValores": "12/11/2025, 13/11/2025, 14/11/2025, 15/11/2025, 16/11/2025 ... (+177 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Cliente nombre",
+        "cantidadValoresUnicos": 2441,
+        "muestraValores": "cliente desconocida, ojiojmno, Jose Emilio Gonzales Zegarra | 74074560, maria, Nombre A Apellido B ... (+2436 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Tipo cliente",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "Cliente, Turno, Asesoría, Correccion, turnoNino ... (+4 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 41,
+        "muestraValores": "Cocó Pacheco, Vidal Gonzales, Koko Vascones, Maribel Forroñan, Gladis Ramos ... (+36 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Hora Resolución",
+        "cantidadValoresUnicos": 1237,
+        "muestraValores": "10:15 AM, Cancelado a las: 18/11/2025 10:49 AM, Cancelado a las: 18/11/2025 11:00 AM, 12:08 PM, 1:02 PM ... (+1232 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Motivo",
+        "cantidadValoresUnicos": 469,
+        "muestraValores": "el motivo fue: Indicó que buscará dinero, el motivo fue: Corrección de servicio, el motivo fue: Costo del servicio, el motivo fue: Costo de servicio: Aplicación de tinte S/60 (\"muy caro\"), el motivo fue: Costo de servicio \"muy caro\" ... (+464 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_Registro_Citas.json",
+    "totalFilas": 72,
+    "columnasCount": 7,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 71,
+        "muestraValores": "18/11/2025 9:00 AM, 19/11/2025 1:06 PM, 20/11/2025 7:45 PM, 25/11/2025 8:55 PM, 26/11/2025 8:07 PM ... (+66 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha Cita",
+        "cantidadValoresUnicos": 42,
+        "muestraValores": "19/11/2025, 21/11/2025, 29/11/2025, 28/11/2025, 4/12/2025 ... (+37 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Hora Cita",
+        "cantidadValoresUnicos": 23,
+        "muestraValores": "9:00, 18:00, 16:00, 12:30, 13:00 ... (+18 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 70,
+        "muestraValores": "Marlene, Laidy Padilla, Alejandra Martinez, Lucila Pinto Cieza, ROSARIO CUADROS ... (+65 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Tipo Cliente",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Cita"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 15,
+        "muestraValores": "Margot Lavado, Koko Vascones, Cocó Pacheco, DISPONIBLE, Eduard Gonzales ... (+10 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Tipo Atención/Servicio",
+        "cantidadValoresUnicos": 16,
+        "muestraValores": "Cosmiatria, Corte y diseño, Colorimetria, Peinado, PEINADO Y MAQUILLAJE ... (+11 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idoperaciones_TDs.json",
+    "totalFilas": 479,
+    "columnasCount": 19,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "(Sin Título Col 0)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "(Sin Título Col 1)",
+        "cantidadValoresUnicos": 18,
+        "muestraValores": "COUNTA de Tipo cliente, Tipo cliente, Asesoría, Cita, Cliente ... (+13 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "(Sin Título Col 2)",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "Fecha registro, 21/03/2026, 4, 1, 65 ... (+9 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "(Sin Título Col 3)",
+        "cantidadValoresUnicos": 12,
+        "muestraValores": "Suma total, 4, 1, 65, 33 ... (+7 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "(Sin Título Col 4)",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "16/11/2025, 1, 7, 17, 5 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "(Sin Título Col 5)",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "COUNTA de Tipo cliente, Tipo cliente, Asesoría, Cliente, Turno ... (+8 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "(Sin Título Col 6)",
+        "cantidadValoresUnicos": 11,
+        "muestraValores": "Fecha registro, 14/03/2026, 6, 37, 43 ... (+6 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "(Sin Título Col 7)",
+        "cantidadValoresUnicos": 11,
+        "muestraValores": "Suma total, 6, 37, 43, 1 ... (+6 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "(Sin Título Col 8)",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "20/11/2025, 1, 10, 16, 6 ... (+1 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "(Sin Título Col 9)",
+        "cantidadValoresUnicos": 15,
+        "muestraValores": "COUNTA de Tipo cliente, Tipo cliente, Asesoría, Cita, Cliente ... (+10 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "(Sin Título Col 10)",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "Fecha registro, 7/03/2026, 2, 13, 43 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "(Sin Título Col 11)",
+        "cantidadValoresUnicos": 6,
+        "muestraValores": "Suma total, 2, 13, 43, 41 ... (+1 más)"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "(Sin Título Col 12)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "(Sin Título Col 13)",
+        "cantidadValoresUnicos": 479,
+        "muestraValores": "Hr registro, 9:56 AM, 9:54 AM, 9:53 AM, 9:49 AM ... (+474 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "(Sin Título Col 14)",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "COUNTA de Tipo cliente, 1, 2, 5, 3 ... (+3 más)"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "(Sin Título Col 15)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "(Sin Título Col 16)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 17,
+        "nombreEncabezado": "(Sin Título Col 17)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 18,
+        "nombreEncabezado": "Distribución de las atenciones por hora",
+        "cantidadValoresUnicos": 29,
+        "muestraValores": "9-10 am, 10-11am, 11-12pm, 12-1pm, 1-2pm ... (+24 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Config_Sistema.json",
+    "totalFilas": 7,
+    "columnasCount": 4,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "RUCs",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "EIRL, VG, Anselmo, Cristian, Jose Emilio ... (+2 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Correlativo Boleta",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "BX03-00006777, BY03-00005169, BS-00005401, 0003-015039, 0003-015006 ... (+2 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Correlativo Factura",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "BX03-00004170, BY03-00004130, FS01-00000106, -, TKF01-00001"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Ticket",
+        "cantidadValoresUnicos": 7,
+        "muestraValores": "TKTCE1-00000, TKTCVG1-00000, TKTV01-00123, TKTCG1-00000, TKTEG1-00001 ... (+2 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Control_Facturas_Compra.json",
+    "totalFilas": 13,
+    "columnasCount": 17,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "FAC-20260122-1441, FAC-20260123-0937, FAC-20260123-0939, FAC-20260123-1629, FAC-20260126-1056 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha_Registro",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "22/01/2026 14:41:40, 23/01/2026 9:37:51, 23/01/2026 9:39:36, 23/01/2026 16:29:04, 26/01/2026 10:56:26 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Emisor",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "L'OREAL PERU, DISTRIBUCIONES ROALROMER, ALFAPARF PERU, REVLON BEAUTYGE ANDINA S.A."
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "RUC",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "20416414018, 20605502700, 20509553034, 20510643306"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Serie",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "F005, F001, F014"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Correlativo",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "13924, 14051, 14052, 12417, 110099 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "F_Emision",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "22/01/2026, 23/01/2026, 27/01/2026, 26/01/2026, 29/01/2026 ... (+3 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "F_Vencimiento",
+        "cantidadValoresUnicos": 11,
+        "muestraValores": "8/03/2026, 9/03/2026, 22/01/2026, 27/04/2026, 13/03/2026 ... (+6 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Base_Imponible",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "6192, 13382,18, 5131,26, 406,78, 9322,12 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "IGV",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "1114,56, 2408,79, 923,63, 73,22, 1677,98 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "ISC_Otros",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "0"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Total",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "7306,56, 15790,97, 6054,89, 480, 11000,1 ... (+8 más)"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Pendiente de pago, Pagado"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Observacion",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Sin observaciones, Nos falta 20 unidades del N°6.23-Evolution \nCódigo del producto: PF025590, CREDITO 55 DIAS DE PAGO"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Laboratorio",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Ventas",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "Total",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_CpC_Agentes.json",
+    "totalFilas": 35,
+    "columnasCount": 12,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID_Ticket",
+        "cantidadValoresUnicos": 35,
+        "muestraValores": "AD-20260519-1053, AD-20260521-2046, AD-20260522-1549, AD-20260523-1603, AD-20260602-2033 ... (+30 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha_Venta",
+        "cantidadValoresUnicos": 35,
+        "muestraValores": "19/05/2026 10:53:07, 21/05/2026 20:46:00, 22/05/2026 15:49:18, 23/05/2026 16:03:31, 2/06/2026 20:33:56 ... (+30 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 5,
+        "muestraValores": "Koko Vascones, Felina Verastegui, Dante Hip, Cocó Pacheco, Kevin Rojas Firma"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "RUC/DNI",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "-"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Documento",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "RECIBO ADELANTO"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Celular Cliente",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "-"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Monto_Total",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "200, 50, 25, 100, 300 ... (+5 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Monto_Pagado",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "0"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Saldo_Pendiente",
+        "cantidadValoresUnicos": 10,
+        "muestraValores": "200, 50, 25, 100, 300 ... (+5 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Fecha_Vencimiento",
+        "cantidadValoresUnicos": 35,
+        "muestraValores": "19/05/2026 10:53:07, 21/05/2026 20:46:00, 22/05/2026 15:49:18, 23/05/2026 16:03:31, 2/06/2026 20:33:56 ... (+30 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Estado (Vigente/Vencido/Cancelado)",
+        "cantidadValoresUnicos": 1,
+        "muestraValores": "Vigente"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Nota",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Autorizado por Tomás Ramos. Descontar en próxima liquidación., Autorizado por Kevin Rojas Firma. Descontar en próxima liquidación., Autorizado por Zendel Adriano Vilca Laiza. Descontar en próxima liquidación."
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Cuentas_Por_Cobrar.json",
+    "totalFilas": 58,
+    "columnasCount": 12,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "ID_Ticket",
+        "cantidadValoresUnicos": 58,
+        "muestraValores": "TK001-00003, TK001-00005, TK001-00006, PC001-00001, TK001-00008 ... (+53 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Fecha_Venta",
+        "cantidadValoresUnicos": 45,
+        "muestraValores": "5/01/2026, 6/01/2026, 8/01/2026, 11/01/2026, 13/01/2026 ... (+40 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 27,
+        "muestraValores": "Brenda Gonzales, claudia, veronica, CLAUDIA, castañino ... (+22 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "RUC/DNI",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Documento",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Celular Cliente",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Monto_Total",
+        "cantidadValoresUnicos": 50,
+        "muestraValores": "80, 340, 90, 40, 415 ... (+45 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Monto_Pagado",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "0, 150"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Saldo_Pendiente",
+        "cantidadValoresUnicos": 50,
+        "muestraValores": "80, 340, 90, 40, 415 ... (+45 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Fecha_Vencimiento",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Estado (Vigente/Vencido/Cancelado)",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Vigente, Cancelado"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Nota",
+        "cantidadValoresUnicos": 26,
+        "muestraValores": "Peinado armado, Tratamiento capilar Kérastase, Manicura, Depilación, PROMO Tratamiento CELULAS MADRE ... (+21 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Movimientos_Caja.json",
+    "totalFilas": 6253,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 6147,
+        "muestraValores": "31/12/2025 0:52:23, 2/01/2026 6:59:27, 2/01/2026 20:36:40, 2/01/2026 20:36:54, 2/01/2026 20:37:12 ... (+6142 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Movimiento",
+        "cantidadValoresUnicos": 2,
+        "muestraValores": "Ingreso, Egreso"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Monto",
+        "cantidadValoresUnicos": 1385,
+        "muestraValores": "S/.3.107,10, S/.2.109,40, S/.150,50, S/.371,20, S/.292,50 ... (+1380 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Concepto",
+        "cantidadValoresUnicos": 5621,
+        "muestraValores": "FONDO INICIAL DE CAJA, LIQUIDACIÓN DIARIA A XIOMARA DEL 29/12/2025, LIQUIDACIÓN DIARIA A SALOME C DEL 31/12/2025, LIQUIDACIÓN DIARIA A JESSICA H DEL 31/12/2025, LIQUIDACIÓN DIARIA A MARIBEL F DEL 31/12/2025 ... (+5616 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Usuario",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "crial0810@gmail.com, Tomás Ramos, Kevin Rojas Firma, Zendel Adriano Vilca Laiza"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "ID_Autorización",
+        "cantidadValoresUnicos": 6053,
+        "muestraValores": "MAN-1767160342998, MAN-1767355166890, MAN-1767404200169, MAN-1767404214255, MAN-1767404232474 ... (+6048 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Registro_Proveedores.json",
+    "totalFilas": 4,
+    "columnasCount": 7,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "RUC",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "20416414018, 20605502700, 20509553034, 20510643306"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nombre Comercial",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "L'OREAL PERU, DISTRIBUCIONES ROALROMER, ALFAPARF PERU, REVLON BEAUTYGE ANDINA S.A."
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Fecha Registro",
+        "cantidadValoresUnicos": 4,
+        "muestraValores": "22/01/2026 14:40:08, 23/01/2026 16:26:08, 26/01/2026 10:54:12, 30/01/2026 10:15:36"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Contacto",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Celular",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Email",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Dirección",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Registro_ventas_caja.json",
+    "totalFilas": 9999,
+    "columnasCount": 19,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha",
+        "cantidadValoresUnicos": 142,
+        "muestraValores": "23/10/2025, 31/12/2025, 2/01/2026, 3/01/2026, 4/01/2026 ... (+137 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Ticket_ID",
+        "cantidadValoresUnicos": 5967,
+        "muestraValores": "TKT-177, TKT-1767192954162, TKT-1767391556461, TKT-1767397321395, TKT-1767398155237 ... (+5962 más)"
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "ID_OATC",
+        "cantidadValoresUnicos": 476,
+        "muestraValores": "1, 3, 4, 5, 2 ... (+471 más)"
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 1710,
+        "muestraValores": "POR ASIGNAR, Saomi, Flavio, Milagros, Adilia ... (+1705 más)"
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Agente",
+        "cantidadValoresUnicos": 39,
+        "muestraValores": "Vilma Chuquilin, Koko Vascones, Jessica Huaman, Rocio Melendez, Cocó Pacheco ... (+34 más)"
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "Servicio_Original",
+        "cantidadValoresUnicos": 14,
+        "muestraValores": "Reserva, Corte y diseño, Cosmiatria, Cosmetología, Colorimetría ... (+9 más)"
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "Servicio_Final",
+        "cantidadValoresUnicos": 585,
+        "muestraValores": "RESERVA - CITA, Corte cabello corto, Depilación, Pedicure, Facial simple ... (+580 más)"
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "Servicio_SubCategoria",
+        "cantidadValoresUnicos": 19,
+        "muestraValores": "Reserva, Corte y diseño, Cosmiatria, Cosmetología, Colorimetría ... (+14 más)"
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "Servicio_Categoria",
+        "cantidadValoresUnicos": 13,
+        "muestraValores": "Estilismo, Cosmiatría, PRODUCTO, Otros, Promo ... (+8 más)"
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "Monto_Efectivo",
+        "cantidadValoresUnicos": 120,
+        "muestraValores": "S/.0,00, S/.60,00, S/.250,00, S/.50,00, S/.70,00 ... (+115 más)"
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "Monto Tarjeta",
+        "cantidadValoresUnicos": 218,
+        "muestraValores": "S/.200,00, S/.0,00, S/.50,00, S/.215,00, S/.145,00 ... (+213 más)"
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "Monto_Deposito",
+        "cantidadValoresUnicos": 32,
+        "muestraValores": "S/.0,00, S/.60,00, S/.150,00, S/.30,00, S/.35,00 ... (+27 más)"
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "Monto_Final",
+        "cantidadValoresUnicos": 109,
+        "muestraValores": "S/.200,00, S/.40,00, S/.20,00, S/.50,00, S/.35,00 ... (+104 más)"
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Comisión",
+        "cantidadValoresUnicos": 127,
+        "muestraValores": "S/.0,00, S/.15,00, S/.10,00, S/.25,00, S/.12,50 ... (+122 más)"
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "Estado",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "Cobrado, -, Stand-by"
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "RUC",
+        "cantidadValoresUnicos": 9,
+        "muestraValores": "VG, Anselmo, EIRL, Jose Emilio, Ticket ... (+4 más)"
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "Boleta",
+        "cantidadValoresUnicos": 4883,
+        "muestraValores": "BR03-00003821, BS-00003925, BX03-00002930, BX03-00002931, BX03-00002932 ... (+4878 más)"
+      },
+      {
+        "columnaIndex": 17,
+        "nombreEncabezado": "MES",
+        "cantidadValoresUnicos": 8,
+        "muestraValores": "octubre, diciembre, enero, febrero, x ... (+3 más)"
+      },
+      {
+        "columnaIndex": 18,
+        "nombreEncabezado": "AÑO",
+        "cantidadValoresUnicos": 3,
+        "muestraValores": "2025, 2026, x"
+      }
+    ]
+  },
+  {
+    "archivo": "rd_idventas_Tabla_din_mica_2.json",
+    "totalFilas": 32,
+    "columnasCount": 2,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "SUM de Monto_Final",
+        "cantidadValoresUnicos": 32,
+        "muestraValores": "Agente, Ariana, Ariana Laiza, Cocó Pacheco, Cristian Gonzales ... (+27 más)"
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "MES",
+        "cantidadValoresUnicos": 19,
+        "muestraValores": "abril, S/.1.195,00, S/.1.110,00, S/.120,00, S/.6.730,50 ... (+14 más)"
+      }
+    ]
+  },
+  {
+    "archivo": "simulacion_Asistencia_Simulacion.json",
+    "totalFilas": 0,
+    "columnasCount": 6,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "Fecha/Hora",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "Nickname",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "Sede",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "Tipo Alerta",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "Validación NFC",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "ID Marca Supabase",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  },
+  {
+    "archivo": "simulacion_Borrador_Simulacion.json",
+    "totalFilas": 0,
+    "columnasCount": 19,
+    "analisisColumnas": [
+      {
+        "columnaIndex": 0,
+        "nombreEncabezado": "(Sin Título Col 0)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 1,
+        "nombreEncabezado": "(Sin Título Col 1)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 2,
+        "nombreEncabezado": "(Sin Título Col 2)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 3,
+        "nombreEncabezado": "(Sin Título Col 3)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 4,
+        "nombreEncabezado": "(Sin Título Col 4)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 5,
+        "nombreEncabezado": "(Sin Título Col 5)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 6,
+        "nombreEncabezado": "(Sin Título Col 6)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 7,
+        "nombreEncabezado": "(Sin Título Col 7)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 8,
+        "nombreEncabezado": "(Sin Título Col 8)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 9,
+        "nombreEncabezado": "(Sin Título Col 9)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 10,
+        "nombreEncabezado": "(Sin Título Col 10)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 11,
+        "nombreEncabezado": "(Sin Título Col 11)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 12,
+        "nombreEncabezado": "(Sin Título Col 12)",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 13,
+        "nombreEncabezado": "Hora",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 14,
+        "nombreEncabezado": "ID Turno",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 15,
+        "nombreEncabezado": "Servicio",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 16,
+        "nombreEncabezado": "Cliente",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 17,
+        "nombreEncabezado": "Nickname Trabajador",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      },
+      {
+        "columnaIndex": 18,
+        "nombreEncabezado": "Estado/Resolución",
+        "cantidadValoresUnicos": 0,
+        "muestraValores": ""
+      }
+    ]
+  }
+]

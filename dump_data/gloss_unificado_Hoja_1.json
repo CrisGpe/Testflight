@@ -1,0 +1,583 @@
+[
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Nov-Dic",
+    "Ene-Mar",
+    "Abr-Jun"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "3m",
+    "3m",
+    "3m"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "Etapa 0",
+    "Primera Etapa",
+    "Segunda Etapa",
+    "Tercera Etapa"
+  ],
+  [
+    "",
+    "1",
+    "Objetivos",
+    "",
+    "",
+    "Medición demanda",
+    "Base de datos de clientes",
+    "CRM activo"
+  ],
+  [
+    "",
+    "2",
+    "Funciones",
+    "",
+    "",
+    "Registro detalle de OAs\nRegisto de Diag cap",
+    "Registro detalle de clientes\nGestión del historial de atencón y diag",
+    "Gestión de información y actividades\nSeguimiento de cartera de clientes "
+  ],
+  [
+    "",
+    "3",
+    "Actividades",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Registar Entrada",
+    "Refrigerio",
+    "Registrar salida"
+  ],
+  [
+    "",
+    "",
+    "",
+    "3.1",
+    "Gestión Turnos",
+    "Asistencias - capacidad operativa",
+    "Registro de clientes nuevos",
+    "Elaboración de reportes semanales*",
+    "",
+    "",
+    "psicólogo",
+    "Pasale la voz",
+    "salio del salon"
+  ],
+  [
+    "",
+    "",
+    "",
+    "3.2",
+    "Soporte al cliente",
+    "Conteo OAs - demanda real",
+    "Elaboración de reportes semanales"
+  ],
+  [
+    "",
+    "",
+    "",
+    "3.3",
+    "Otros (café, llamadas, etc)",
+    "Registro de diagnósticos (apertura del historial del cliente)",
+    "",
+    "",
+    "",
+    "motivo",
+    "alerta para salidas de agentes dentro de su hora de trabajo"
+  ],
+  [
+    "",
+    "4",
+    "Responsabilidades",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "tipo turno corte caballero"
+  ],
+  [
+    "",
+    "",
+    "",
+    "4.1",
+    "Turnos"
+  ],
+  [
+    "",
+    "",
+    "",
+    "4.2",
+    "Clientes BD",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "botón para pasar a otro salón "
+  ],
+  [
+    "",
+    "",
+    "",
+    "4.3",
+    "Reportes"
+  ],
+  [
+    "",
+    "5",
+    "Evaluaciones e Indicadores de desempeño"
+  ],
+  [
+    "",
+    "",
+    "",
+    "5.1",
+    "Cumplimiento de activiades y funciones",
+    "5.1",
+    "Cumplimiento de activiades y funciones"
+  ],
+  [
+    "",
+    "",
+    "",
+    "5.2",
+    "Compromiso con el equipo",
+    "5.2",
+    "Evaluación 360"
+  ],
+  [
+    "",
+    "6",
+    "Herramientas de soporte y apoyo"
+  ],
+  [
+    "",
+    "",
+    "",
+    "6.1",
+    "Sistema de registro // Hojas de cálculo automatizadas-personalizadas",
+    "",
+    "6.1",
+    "CRM",
+    "",
+    "métricas adicionales",
+    "",
+    "",
+    "Consideraciones"
+  ],
+  [
+    "",
+    "7",
+    "Guías y canales de contacto"
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.1",
+    "Guía rápida adjunta a la herramienta o pdf (Sistema John)",
+    "",
+    "",
+    "",
+    "",
+    "admin",
+    "",
+    "",
+    "es importante saber quien debe o no ser avisado -> \"pásale la voz\""
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.2",
+    "Guía visual del proceso de las actividades y funciones (flujogramas-documentos)",
+    "",
+    "",
+    "",
+    "",
+    "vacaciones",
+    "",
+    "",
+    "es importante contabilizar las veces que asiste al psicólogo -> \"psicólogo\""
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.3",
+    "MOF y MAPRO",
+    "",
+    "",
+    "",
+    "",
+    "tiempo de espera para el cliente",
+    "",
+    "",
+    "es importante saber si salió y por qué si no se está retirando de la jornada"
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.4",
+    "Canales de contacto",
+    "",
+    "",
+    "",
+    "",
+    "mejorar el filtro de tabla de turnos"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "tiempo aproximado por tipo de OATC"
+  ],
+  [],
+  [],
+  [],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Esquemas",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Turnos"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Cliente",
+    "",
+    "",
+    "",
+    "",
+    "Asesoría"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Agente 1",
+    "Fecha 1",
+    "Fecha 2",
+    "Fecha 3",
+    "",
+    "Turno Corte Caballero"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Agente 2",
+    "Fecha 1",
+    "Fecha 2",
+    "Fecha 3"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Agente 3",
+    "Fecha 1",
+    "Fecha 2",
+    "Fecha 3"
+  ],
+  [],
+  [
+    "",
+    "",
+    "",
+    "",
+    "CAMBIOS"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "NOMBRES DE PILA EN MAYUSC"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "REVISAR EL BOTON DE RESOLVER : SI TIENE CITAS TIENE QUE ESTAR DISP+",
+    "",
+    "",
+    "",
+    "SOLUCION"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "REVISAR EL BOTON DE REINICIAR",
+    "",
+    "",
+    "",
+    "checklist de deberes"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "REVISAR EL BOTON DE REFRIGERIO (OATC PENDIENTES)",
+    "",
+    "",
+    "",
+    "",
+    "RRSS",
+    "marcar lo que sí se cumple (reels, posts, etc)"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "REVISAR EL DISPLAY DE LA HORA DE LA CITA",
+    "",
+    "",
+    "",
+    "",
+    "PRODUCCION"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "FILTRO QUE MUESTRE A QUE HORA ASISTIO HOY"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "LAS CITAS SE MUESTRAN CON FONDO DIFERENTE"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "TURNO NINO Y TURNO CABALLERO SE PONGA EN ESTADO DE LA TABLA DETURNOS Y DISPONIBILIDADES"
+  ],
+  [
+    "",
+    "",
+    "Calendario",
+    "",
+    "DIAS DE GRABACION"
+  ],
+  [
+    "",
+    "",
+    "Calendario",
+    "",
+    "TALLERES Y CAPACITACIONEs"
+  ],
+  [
+    "",
+    "",
+    "Calendario",
+    "",
+    "VACACIONES",
+    "",
+    "",
+    "",
+    "BOTON QUE MUESTRE EL HORARIO DE LA GENTE"
+  ],
+  [
+    "",
+    "",
+    "Calendario",
+    "",
+    "LICENCIAS"
+  ],
+  [
+    "",
+    "",
+    "Calendario",
+    "",
+    "SUSPENSION",
+    "",
+    "",
+    "",
+    "BOTON QUE EDITE LA CATEGORIA DE ATC SOLO PARA CLIENTES"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Y QUE MUESTRE LA LISTA DE CLIENTES CARGADOS"
+  ],
+  [
+    "",
+    "",
+    "Dashboard"
+  ],
+  [
+    "",
+    "",
+    "de consulta para editar movimientos de agentes",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "PINTAR LOS ESTILISTAS / COSMIATRAS"
+  ],
+  [],
+  [
+    "",
+    "",
+    "REVISAR",
+    "",
+    "el turno tipo turnocaballero sube un turno y no debería además no debería actualizar su ult act",
+    "",
+    "",
+    "",
+    "EL FILTRO DE CITAS REGISTRADAS DEBE DE MOSTRAR FECHA DE LA CITA"
+  ],
+  [],
+  [],
+  [],
+  [],
+  [
+    "",
+    "",
+    "",
+    "",
+    "12:17 AM",
+    "cita 7:00 PM",
+    "Corte",
+    "2/12/2025",
+    "Guliana Campos",
+    "Cita",
+    "JUDITH"
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    "",
+    "",
+    "Modificaciones"
+  ],
+  [
+    "",
+    "",
+    "las citas se muestran en la agenda de hoy"
+  ],
+  [
+    "",
+    "",
+    "la leyenda es que un cuadrito verde renderice las citas cargadas ese día"
+  ],
+  [
+    "",
+    "",
+    "la renderizacion debe de mostrar la fecha, el cliente (y datos del cliente numero por lo menos), agente y criterio"
+  ],
+  [
+    "",
+    "",
+    "cumpleaños de erick 25 julio"
+  ],
+  [
+    "",
+    "",
+    "registrar las vacaciones en agenda de hoy como si fuera un evento"
+  ],
+  [
+    "",
+    "",
+    "registro de clientes cartera cruce con la operatividad, conteo de campañas tratamientos capilares",
+    "",
+    "",
+    "",
+    "la campaña tiene un periodo de dos meses"
+  ],
+  [
+    "",
+    "",
+    "historial del cliente",
+    "",
+    "",
+    "",
+    "esto se debe de cruzar con la caja"
+  ],
+  [],
+  [
+    "",
+    "",
+    "revisar el tipo turno niño"
+  ],
+  [
+    "",
+    "",
+    "revisar el locker spinner cuando se resuelve"
+  ]
+]

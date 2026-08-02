@@ -33,13 +33,12 @@ interface Atención {
 }
 
 export function App() {
-  const [agente, setAgente] = useState<Trabajador | null>({
-    id: 'demo-1',
-    nickname: 'juan.perez',
-    nombre: 'Juan Pérez',
-    especialidad: 'Estilismo',
-    sede: 'RD'
-  });
+  const [agente, setAgente] = useState<Trabajador | null>(null);
+  const [listaTrabajadores, setListaTrabajadores] = useState<Trabajador[]>([]);
+  const [sedeSeleccionada, setSedeSeleccionada] = useState<string>('RD');
+  const [nicknameInput, setNicknameInput] = useState<string>('');
+  const [pinInput, setPinInput] = useState<string>('');
+  const [cargandoLogin, setCargandoLogin] = useState<boolean>(false);
 
   const [alertaSeleccionada, setAlertaSeleccionada] = useState<string | null>(null);
   const [modalNfcVisible, setModalNfcVisible] = useState<boolean>(false);
@@ -47,6 +46,25 @@ export function App() {
   const [procesando, setProcesando] = useState<boolean>(false);
   const [mensajeToast, setMensajeToast] = useState<{ texto: string; tipo: 'success' | 'info' | 'error' } | null>(null);
   const [nfcSoportado, setNfcSoportado] = useState<boolean>(false);
+
+  // Cargar lista de trabajadores reales de Supabase según la Sede seleccionada
+  useEffect(() => {
+    async function cargarAgentesSede() {
+      const { data, error } = await supabase
+        .from('trabajadores')
+        .select('id, nickname, nombre, especialidad, sede')
+        .eq('sede', sedeSeleccionada)
+        .eq('activo', true)
+        .order('nickname', { ascending: true });
+
+      if (!error && data) {
+        setListaTrabajadores(data);
+        if (data.length > 0) setNicknameInput(data[0].nickname);
+      }
+    }
+    cargarAgentesSede();
+  }, [sedeSeleccionada]);
+
 
   // Estado del Filtro de Historial
   const [rangoDias, setRangoDias] = useState<number>(30);
@@ -193,23 +211,147 @@ export function App() {
   }, []);
 
 
+  const ejecutarLogin = async () => {
+    if (!nicknameInput || !pinInput) {
+      mostrarToast('⚠️ Ingresa tu nickname y tu PIN de 4 dígitos.', 'error');
+      return;
+    }
+
+    setCargandoLogin(true);
+    const { data, error } = await supabase
+      .from('trabajadores')
+      .select('id, nickname, nombre, especialidad, sede, pin_hash, activo')
+      .eq('nickname', nicknameInput.toUpperCase())
+      .single();
+
+    setCargandoLogin(false);
+
+    if (error || !data) {
+      mostrarToast('❌ Nickname o PIN incorrecto.', 'error');
+      return;
+    }
+
+    if (!data.activo) {
+      mostrarToast('⛔ Tu usuario se encuentra Inactivo.', 'error');
+      return;
+    }
+
+    if (data.pin_hash && data.pin_hash !== pinInput.trim()) {
+      mostrarToast('❌ PIN secreto de 4 dígitos incorrecto.', 'error');
+      return;
+    }
+
+    setAgente({
+      id: data.id,
+      nickname: data.nickname,
+      nombre: data.nombre,
+      especialidad: data.especialidad,
+      sede: data.sede
+    });
+
+    mostrarToast(`👋 Bienvenid@ ${data.nombre}`, 'success');
+  };
+
+  const cerrarSesion = () => {
+    setAgente(null);
+    setPinInput('');
+    mostrarToast('🔒 Sesión cerrada correctamente.', 'info');
+  };
+
   return (
     <div className="max-w-md mx-auto min-h-screen flex flex-col bg-slate-950 text-slate-100 pb-12 shadow-2xl relative">
-      {/* Header Superior */}
-      <header className="bg-slate-900/90 border-b border-slate-800 sticky top-0 z-40 px-4 py-3 backdrop-blur-md flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-black text-sm text-white shadow-lg">
-            {agente?.nombre.charAt(0)}
-          </div>
-          <div>
-            <h2 className="text-xs font-black text-white">{agente?.nombre}</h2>
-            <p className="text-[10px] text-indigo-400 font-medium">@{agente?.nickname} • Sede {agente?.sede}</p>
+      {/* VISTA DE LOGIN CUANDO NO HAY SESIÓN ACTIVA */}
+      {!agente ? (
+        <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950">
+          <div className="bg-slate-950 border border-slate-800 p-6 rounded-3xl shadow-2xl w-full max-w-sm backdrop-blur-md space-y-5">
+            <div className="text-center space-y-1">
+              <span className="text-4xl inline-block animate-bounce">🔑</span>
+              <h2 className="text-xl font-black text-white tracking-tight">Control de Acceso</h2>
+              <p className="text-xs text-slate-400">Identifícate con tus credenciales de Supabase Cloud</p>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <label className="block text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mb-1">Sede Operativa</label>
+                <select 
+                  value={sedeSeleccionada} 
+                  onChange={(e) => setSedeSeleccionada(e.target.value)}
+                  className="w-full border border-slate-800 rounded-xl px-3 py-2.5 bg-slate-900 text-sm font-semibold text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+                >
+                  <option value="RD">Sede RD</option>
+                  <option value="Luxury">Sede Luxury</option>
+                  <option value="Gloss">Sede Gloss</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mb-1">Nickname / Colaborador</label>
+                <select 
+                  value={nicknameInput} 
+                  onChange={(e) => setNicknameInput(e.target.value)}
+                  className="w-full border border-slate-800 rounded-xl px-3 py-2.5 bg-slate-900 text-sm font-semibold text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all"
+                >
+                  {listaTrabajadores.length === 0 ? (
+                    <option value="" disabled>Cargando agentes de Supabase...</option>
+                  ) : (
+                    listaTrabajadores.map((t) => (
+                      <option key={t.id} value={t.nickname}>
+                        {t.nickname} - {t.nombre}
+                      </option>
+                    ))
+                  )}
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-[10px] font-extrabold uppercase tracking-wider text-slate-400 mb-1">Código PIN (4 Dígitos)</label>
+                <input 
+                  type="password" 
+                  inputMode="numeric" 
+                  maxLength={4}
+                  value={pinInput}
+                  onChange={(e) => setPinInput(e.target.value)}
+                  placeholder="••••" 
+                  className="w-full border border-slate-800 rounded-xl px-3 py-2.5 text-center bg-slate-900 text-white font-mono text-lg tracking-widest focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-all" 
+                />
+              </div>
+
+              <button 
+                onClick={ejecutarLogin}
+                disabled={cargandoLogin}
+                className="w-full bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-800 text-white font-bold text-sm py-3 rounded-xl shadow-lg shadow-indigo-600/20 transition-all active:scale-95 flex items-center justify-center gap-2 h-[46px]"
+              >
+                {cargandoLogin ? 'Verificando...' : 'Iniciar Sesión'}
+              </button>
+            </div>
           </div>
         </div>
-        <span className="text-[10px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full font-bold flex items-center gap-1">
-          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Supabase Active
-        </span>
-      </header>
+      ) : (
+        <>
+          {/* Header Superior con Botón de Cerrar Sesión */}
+          <header className="bg-slate-900/90 border-b border-slate-800 sticky top-0 z-40 px-4 py-3 backdrop-blur-md flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-black text-sm text-white shadow-lg">
+                {agente.nombre.charAt(0)}
+              </div>
+              <div>
+                <h2 className="text-xs font-black text-white">{agente.nombre}</h2>
+                <p className="text-[10px] text-indigo-400 font-medium">@{agente.nickname} • Sede {agente.sede}</p>
+              </div>
+            </div>
+            
+            <button 
+              onClick={cerrarSesion}
+              title="Cerrar Sesión"
+              className="bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/20 p-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95"
+            >
+              <LogOut className="w-4 h-4" />
+              <span className="hidden sm:inline">Salir</span>
+            </button>
+          </header>
+        </>
+      )}
+
 
       {/* Toast Notification */}
       {mensajeToast && (
@@ -383,3 +525,7 @@ export function App() {
     </div>
   );
 }
+
+
+
+

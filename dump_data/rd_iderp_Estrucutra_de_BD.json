@@ -1,0 +1,248 @@
+[
+  [],
+  [
+    "",
+    "Kardex_Movimientos",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Ventas_Detalle"
+  ],
+  [
+    "",
+    "Columna",
+    "Nombre Encabezado",
+    "Tipo de Dato",
+    "Descripción / Origen",
+    "",
+    "",
+    "",
+    "",
+    "Columna",
+    "Nombre Encabezado",
+    "Tipo de Dato",
+    "Descripción"
+  ],
+  [
+    "",
+    "A",
+    "ID_MOVIMIENTO",
+    "Texto",
+    "Generado (ej: MOV-1001) o Timestamp",
+    "",
+    "",
+    "",
+    "",
+    "A",
+    "Fecha"
+  ],
+  [
+    "",
+    "B",
+    "FECHA_HORA",
+    "Fecha",
+    "new Date() del servidor",
+    "",
+    "",
+    "",
+    "",
+    "B",
+    "ID_TICKET",
+    "Texto",
+    "Vincula este producto con la hoja Ventas_Tickets"
+  ],
+  [
+    "",
+    "C",
+    "TIPO_MOVIMIENTO",
+    "Texto",
+    "VENTA, INGRESO_FACTURA, TRASPASO, AJUSTE",
+    "",
+    "",
+    "",
+    "",
+    "C",
+    "SKU",
+    "Texto",
+    "Identificador del producto"
+  ],
+  [
+    "",
+    "D",
+    "SKU",
+    "Texto/Núm",
+    "El ID único del producto",
+    "",
+    "",
+    "",
+    "",
+    "D",
+    "Producto"
+  ],
+  [
+    "",
+    "E",
+    "DESCRIPCION",
+    "Texto",
+    "Nombre del producto para lectura rápida",
+    "",
+    "",
+    "",
+    "",
+    "E",
+    "CANTIDAD",
+    "Número",
+    "Unidades vendidas"
+  ],
+  [
+    "",
+    "F",
+    "CANTIDAD",
+    "Número",
+    "Positivo siempre (el script decide si suma o resta)",
+    "",
+    "",
+    "",
+    "",
+    "F",
+    "PRECIO_VENTA",
+    "Moneda",
+    "Precio cobrado (por si cambia en el tiempo)"
+  ],
+  [
+    "",
+    "G",
+    "ORIGEN",
+    "Texto",
+    "ALMACEN_PRINCIPAL, PROVEEDOR X, ALMACEN_TIENDA",
+    "",
+    "",
+    "",
+    "",
+    "G",
+    "SUBTOTAL",
+    "Moneda",
+    "Cantidad * Precio_Venta"
+  ],
+  [
+    "",
+    "H",
+    "DESTINO",
+    "Texto",
+    "ALMACEN_TIENDA, CLIENTE, MERMA"
+  ],
+  [
+    "",
+    "I",
+    "DOCUMENTO_REF",
+    "Texto",
+    "Nro de Factura o ID de Ticket"
+  ],
+  [
+    "",
+    "J",
+    "COSTO_UNITARIO",
+    "Moneda",
+    "El costo al momento del movimiento"
+  ],
+  [],
+  [
+    "",
+    "Ventas_Tickets",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Demanda_Expectativas"
+  ],
+  [
+    "",
+    "Columna",
+    "Nombre Encabezado",
+    "Tipo de Dato",
+    "Descripción"
+  ],
+  [
+    "",
+    "A",
+    "ID_TICKET",
+    "Texto",
+    "Identificador único (ej: TK-2024-001)"
+  ],
+  [
+    "",
+    "B",
+    "FECHA_HORA",
+    "Fecha",
+    "Momento exacto de la venta"
+  ],
+  [
+    "",
+    "C",
+    "CLIENTE",
+    "Texto",
+    "Nombre del cliente registrado"
+  ],
+  [
+    "",
+    "D",
+    "ASESOR",
+    "Texto",
+    "Estilista/Asesor que realizó la venta"
+  ],
+  [
+    "",
+    "E",
+    "SUBTOTAL",
+    "Moneda",
+    "Suma de productos sin impuestos/descuentos"
+  ],
+  [
+    "",
+    "F",
+    "TOTAL",
+    "Moneda",
+    "Monto final a cobrar"
+  ],
+  [
+    "",
+    "G",
+    "ESTADO",
+    "Texto",
+    "PENDIENTE_COBRO, PAGADO, ANULADO"
+  ],
+  [
+    "",
+    "H",
+    "EXPECTATIVAS",
+    "Texto",
+    "Ficha resumen de necesidades (Cosméticas/Forma)"
+  ],
+  [
+    "",
+    "I",
+    "Emisor"
+  ],
+  [
+    "",
+    "J",
+    "Método Pago"
+  ],
+  [
+    "",
+    "K",
+    "Tipo Doc"
+  ],
+  [
+    "",
+    "L",
+    "Nro Doc"
+  ]
+]

@@ -1,0 +1,730 @@
+[
+  [
+    "Fecha Registro",
+    "Fecha Cita",
+    "Hora Cita",
+    "Cliente",
+    "Tipo Cliente",
+    "Agente",
+    "Tipo Atención/Servicio"
+  ],
+  [
+    "18/11/2025 9:00 AM",
+    "19/11/2025",
+    "9:00",
+    "Marlene",
+    "Cita",
+    "Margot Lavado",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "19/11/2025 1:06 PM",
+    "21/11/2025",
+    "18:00",
+    "Laidy Padilla",
+    "Cita",
+    "",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "20/11/2025 7:45 PM",
+    "21/11/2025",
+    "16:00",
+    "Alejandra Martinez",
+    "Cita",
+    "Koko Vascones",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "25/11/2025 8:55 PM",
+    "29/11/2025",
+    "12:30",
+    "Lucila Pinto Cieza",
+    "Cita",
+    "Cocó Pacheco",
+    "Peinado",
+    "COMPLETADA"
+  ],
+  [
+    "26/11/2025 8:07 PM",
+    "29/11/2025",
+    "13:00",
+    "ROSARIO CUADROS",
+    "Cita",
+    "Cocó Pacheco",
+    "PEINADO Y MAQUILLAJE",
+    "COMPLETADA"
+  ],
+  [
+    "27/11/2025 10:30 AM",
+    "29/11/2025",
+    "9:00",
+    "MARIA GRACIA",
+    "Cita",
+    "DISPONIBLE",
+    "CORTE + HIDRATACION",
+    "COMPLETADA"
+  ],
+  [
+    "27/11/2025 3:03 PM",
+    "28/11/2025",
+    "7:30",
+    "maria gracia",
+    "Cita",
+    "",
+    "Tratamientos Capilares corte",
+    "COMPLETADA"
+  ],
+  [
+    "28/11/2025 8:02 PM",
+    "29/11/2025",
+    "9:00",
+    "Miriam",
+    "Cita",
+    "Eduard Gonzales",
+    "Alisados y laceados",
+    "COMPLETADA"
+  ],
+  [
+    "28/11/2025 8:51 PM",
+    "29/11/2025",
+    "8:00",
+    "magaly",
+    "Cita",
+    "Susú Ruiz",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "2/12/2025 10:50 AM",
+    "4/12/2025",
+    "12:30",
+    "evelyn",
+    "Cita",
+    "Susú Ruiz",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "2/12/2025 10:51 AM",
+    "4/12/2025",
+    "5:30",
+    "evelyn",
+    "Cita",
+    "Susú Ruiz",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "4/12/2025 5:18 PM",
+    "6/12/2025",
+    "9:00",
+    "mejia cardenas",
+    "Cita",
+    "Vidal Gonzales",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "5/12/2025 2:57 PM",
+    "6/12/2025",
+    "9:00",
+    "karina",
+    "Cita",
+    "Vidal Gonzales",
+    "maquillaje y peinado",
+    "COMPLETADA"
+  ],
+  [
+    "5/12/2025 3:15 PM",
+    "6/12/2025",
+    "11:00",
+    "Diana carolina morote paco",
+    "Cita",
+    "Cocó Pacheco",
+    "maquillaje y peinado",
+    "COMPLETADA"
+  ],
+  [
+    "5/12/2025 3:16 PM",
+    "6/12/2025",
+    "11:00",
+    "diana",
+    "Cita",
+    "Cocó Pacheco",
+    "peinado y maquillaje",
+    "COMPLETADA"
+  ],
+  [
+    "5/12/2025 6:14 PM",
+    "8/12/2025",
+    "1:30",
+    "juli y gabriela",
+    "Cita",
+    "Cocó Pacheco",
+    "maquillaje y peinado",
+    "COMPLETADA"
+  ],
+  [
+    "7/12/2025 7:42 PM",
+    "8/12/2025",
+    "12:00",
+    "Nicol de Campos",
+    "Cita",
+    "Salomina Ccompi",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "9/12/2025 5:24 PM",
+    "13/12/2025",
+    "9:00",
+    "LIZHET VELA",
+    "Cita",
+    "Cocó Pacheco ",
+    "PEINADO / 981175280",
+    "COMPLETADA"
+  ],
+  [
+    "10/12/2025 8:14 PM",
+    "11/12/2025",
+    "10:30",
+    "Mireya Orellana",
+    "Cita",
+    "",
+    "Corte y diseño cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "12/12/2025 9:05 PM",
+    "13/12/2025",
+    "8:30",
+    "flor de maria",
+    "Cita",
+    "Vidal Gonzales",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "16/12/2025 12:13 PM",
+    "19/12/2025",
+    "16:00",
+    "Lidia diaz",
+    "Cita",
+    "Marlene Bustamante",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "17/12/2025 10:47 AM",
+    "20/12/2025",
+    "9:30",
+    "Claudia",
+    "Cita",
+    "Salomina Ccompi",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "18/12/2025 5:11 PM",
+    "19/12/2025",
+    "14:00",
+    "MARIA DEL PILAR CEDE CEDA",
+    "Cita",
+    "Vidal Gonzales",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "19/12/2025 10:54 AM",
+    "20/12/2025",
+    "10:00",
+    "Yasmis Paz",
+    "Cita",
+    "Felina Verastegui",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "19/12/2025 7:01 PM",
+    "20/12/2025",
+    "11:00",
+    "Keli",
+    "Cita",
+    "",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "20/12/2025 11:52 AM",
+    "21/12/2025",
+    "1:00",
+    "Milagros Olivos",
+    "Cita",
+    "Cocó Pacheco",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "20/12/2025 6:39 PM",
+    "21/12/2025",
+    "12:30",
+    "claudia/ 977203546",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "20/12/2025 7:46 PM",
+    "22/12/2025",
+    "16:00",
+    "ramirez",
+    "Cita",
+    "Eduard Gonzales",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "21/12/2025 6:05 PM",
+    "22/12/2025",
+    "8:00",
+    "Abigail",
+    "Cita",
+    "Cocó Pacheco",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "26/12/2025 11:55 AM",
+    "27/12/2025",
+    "13:00",
+    "lorena",
+    "Cita",
+    "Cocó Pacheco",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "27/12/2025 5:24 PM",
+    "28/12/2025",
+    "9:00",
+    "clienta",
+    "Cita",
+    "Cocó Pacheco",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "2/1/2026 5:21 PM",
+    "3/1/2026",
+    "9:00",
+    "Rosa/ 953822314",
+    "Cita",
+    "Susú Ruiz",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "8/1/2026 5:20 PM",
+    "9/1/2026",
+    "15:30",
+    "Huadalupe",
+    "Cita",
+    "Koko Vascones",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "9/1/2026 1:06 PM",
+    "10/1/2026",
+    "11:30",
+    "virgina mendoza",
+    "Cita",
+    "Vidal Gonzales",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "15/1/2026 8:01 PM",
+    "16/1/2026",
+    "7:00",
+    "Carla Salas/ 941464884",
+    "Cita",
+    "Maribel Forroñan",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "19/1/2026 2:20 PM",
+    "22/1/2026",
+    "12:00",
+    "guadalupe",
+    "Cita",
+    "Eduard Gonzales",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "19/1/2026 3:04 PM",
+    "23/1/2026",
+    "11:00",
+    "Katy",
+    "Cita",
+    "Cocó Pacheco",
+    "Alisados, laceados, botox",
+    "COMPLETADA"
+  ],
+  [
+    "26/1/2026 12:20 PM",
+    "27/1/2026",
+    "11:00",
+    "Nelly Flores",
+    "Cita",
+    "Koko Vascones",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "5/2/2026 1:27 PM",
+    "7/2/2026",
+    "9:00",
+    "Carolina hurtado",
+    "Cita",
+    "Cocó Pacheco",
+    "Peinados y cepillados",
+    "COMPLETADA"
+  ],
+  [
+    "12/2/2026 10:51 AM",
+    "14/2/2026",
+    "10:30",
+    "Diana  Duran |  | 987480036",
+    "Cita",
+    "",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "14/2/2026 6:33 PM",
+    "15/2/2026",
+    "9:00",
+    "susana / 962716627",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "14/2/2026 6:34 PM",
+    "15/2/2026",
+    "9:00",
+    "yolanda ",
+    "Cita",
+    "Koko Vascones",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "14/2/2026 8:48 PM",
+    "15/2/2026",
+    "11:30",
+    "Iriz 980638151",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "18/2/2026 7:01 PM",
+    "19/2/2026",
+    "15:00",
+    "irene/ 992958943",
+    "Cita",
+    "Susú Ruiz",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "21/2/2026 3:16 PM",
+    "22/2/2026",
+    "10:00",
+    "hanna",
+    "Cita",
+    "Salomina Ccompi",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "24/2/2026 10:00 PM",
+    "25/2/2026",
+    "8:30",
+    "Tatiana",
+    "Cita",
+    "Jessica Huaman",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "25/2/2026 5:02 PM",
+    "7/3/2026",
+    "9:00",
+    "Monica chamaya",
+    "Cita",
+    "Cocó Pacheco",
+    "Peinados y cepillados",
+    "COMPLETADA"
+  ],
+  [
+    "27/2/2026 3:03 PM",
+    "28/2/2026",
+    "10:00",
+    "Paula Rodriguez",
+    "Cita",
+    "Cocó Pacheco",
+    "Peinados y cepillados",
+    "COMPLETADA"
+  ],
+  [
+    "27/2/2026 7:34 PM",
+    "28/2/2026",
+    "10:30",
+    "daniela",
+    "Cita",
+    "Margot Lavado",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "4/3/2026 3:15 PM",
+    "7/3/2026",
+    "11:00",
+    "angie mesia",
+    "Cita",
+    "Walter Carpio",
+    "Alisados, laceados, botox",
+    "COMPLETADA"
+  ],
+  [
+    "6/3/2026 8:20 PM",
+    "7/3/2026",
+    "11:00",
+    "Patricia",
+    "Cita",
+    "Eduard Gonzales",
+    "Tratamientos Capilares",
+    "COMPLETADA"
+  ],
+  [
+    "6/3/2026 8:20 PM",
+    "7/3/2026",
+    "11:00",
+    "Patricia",
+    "Cita",
+    "Maribel Forroñan",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "9/3/2026 11:00 AM",
+    "11/3/2026",
+    "11:00",
+    "camila",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "12/3/2026 5:38 PM",
+    "13/3/2026",
+    "10:00",
+    "Adriana valeria rodriguez",
+    "Cita",
+    "Vidal Gonzales",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "13/3/2026 8:55 PM",
+    "14/3/2026",
+    "7:30",
+    "Mayra ojeda | 73385490 | 932285969",
+    "Cita",
+    "Vilma Chuquilin",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "16/3/2026 2:06 PM",
+    "19/3/2026",
+    "9:00",
+    "KATERINE MONTESUMA",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "17/3/2026 12:47 PM",
+    "18/3/2026",
+    "10:30",
+    "VANESA VERA",
+    "Cita",
+    "",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "18/3/2026 8:45 PM",
+    "20/3/2026",
+    "8:00",
+    "jimena  llerena  ponze |  | 944234155",
+    "Cita",
+    "Jessica Huaman",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "19/3/2026 3:38 PM",
+    "21/3/2026",
+    "9:45",
+    "Siula   Davidocih |  | 987929536",
+    "Cita",
+    "Cocó Pacheco",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "19/3/2026 5:58 PM",
+    "20/3/2026",
+    "10:00",
+    "carla  barba  |  | 922693136",
+    "Cita",
+    "Margot Lavado",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "21/3/2026 6:56 PM",
+    "28/3/2026",
+    "20:00",
+    "claudia lopez | 40455541 | 999389331",
+    "Cita",
+    "Cocó Pacheco",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "25/3/2026 3:48 PM",
+    "28/3/2026",
+    "11:00",
+    "KATHERINE",
+    "Cita",
+    "Eduard Gonzales",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "27/3/2026 9:28 AM",
+    "28/3/2026",
+    "9:00",
+    "IRIS",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "27/3/2026 7:51 PM",
+    "28/3/2026",
+    "15:00",
+    "malu tuñoque ojeda | 47532296 | 969000261",
+    "Cita",
+    "Nancy Siccha",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "27/3/2026 10:00 PM",
+    "28/3/2026",
+    "9:00",
+    "Raul Acosta",
+    "Cita",
+    "Vidal Gonzales",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "28/3/2026 11:00 AM",
+    "29/3/2026",
+    "16:00",
+    "LOUREN PEÑA/997201312",
+    "Cita",
+    "",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "28/3/2026 11:01 AM",
+    "29/3/2026",
+    "16:00",
+    "ANA SACCACO/977201312",
+    "Cita",
+    "",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "28/3/2026 11:41 AM",
+    "29/3/2026",
+    "16:00",
+    "JAQUELINE BECERRIL",
+    "Cita",
+    "",
+    "Tratamientos Capilares",
+    "COMPLETADA"
+  ],
+  [
+    "30/3/2026 12:31 PM",
+    "31/3/2026",
+    "11:00",
+    "Virginia Mendoza",
+    "Cita",
+    "Vidal Gonzales",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "30/3/2026 3:01 PM",
+    "31/3/2026",
+    "11:00",
+    "gisell",
+    "Cita",
+    "Walter Carpio",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "2/4/2026 5:58 PM",
+    "4/4/2026",
+    "9:00",
+    "INDIRA",
+    "Cita",
+    "Cocó Pacheco",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "1/8/2026 7:08 PM",
+    "6/8/2026",
+    "16:00",
+    "Elizabeth Vergaray / 956588011 ",
+    "Cita",
+    "Cocó Pacheco",
+    "Cosmetología"
+  ]
+]

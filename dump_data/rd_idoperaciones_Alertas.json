@@ -1,0 +1,538 @@
+[
+  [
+    "ID",
+    " Fecha/Hora",
+    " Trabajador",
+    " Mensaje",
+    " Estado",
+    "Hora_resuelta"
+  ],
+  [
+    "ALT-1782864237070",
+    "30/06/2026 19:03:57",
+    "Vidal Gonzales",
+    "Ya llegué",
+    "Resuelta",
+    "30/06/2026 19:04:41"
+  ],
+  [
+    "ALT-1782864286715",
+    "30/06/2026 19:04:47",
+    "Vidal Gonzales",
+    "Me voy a comer",
+    "Resuelta",
+    "30/06/2026 19:04:54"
+  ],
+  [
+    "ALT-1782864294582",
+    "30/06/2026 19:04:55",
+    "Vidal Gonzales",
+    "Regresé de comer",
+    "Resuelta",
+    "30/06/2026 19:04:59"
+  ],
+  [
+    "ALT-1782864300296",
+    "30/06/2026 19:05:00",
+    "Vidal Gonzales",
+    "Acabó mi día",
+    "Resuelta",
+    "30/06/2026 19:05:04"
+  ],
+  [
+    "ALT-1782864305065",
+    "30/06/2026 19:05:05",
+    "Vidal Gonzales",
+    "Estoy atendiendo",
+    "Resuelta",
+    "30/06/2026 19:05:09"
+  ],
+  [
+    "ALT-1782864311143",
+    "30/06/2026 19:05:11",
+    "Vidal Gonzales",
+    "Estoy disponible",
+    "Resuelta",
+    "30/06/2026 19:05:22"
+  ],
+  [
+    "ALT-1782864330575",
+    "30/06/2026 19:05:31",
+    "Vidal Gonzales",
+    "2' café(s), por favor",
+    "Resuelta",
+    "30/06/2026 19:05:38"
+  ],
+  [
+    "ALT-1782864573428",
+    "30/06/2026 19:09:33",
+    "Vilma Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "30/06/2026 19:09:51"
+  ],
+  [
+    "ALT-1782864813697",
+    "30/06/2026 19:13:34",
+    "Vidal Gonzales",
+    "Ya llegué",
+    "Resuelta",
+    "30/06/2026 19:16:49"
+  ],
+  [
+    "ALT-1782864970172",
+    "30/06/2026 19:16:10",
+    "Jessica Huaman",
+    "Estoy atendiendo",
+    "Resuelta",
+    "30/06/2026 19:16:53"
+  ],
+  [
+    "ALT-1782916754748",
+    "1/07/2026 9:39:15",
+    "Margot Lavado",
+    "Ya llegué",
+    "Resuelta",
+    "1/07/2026 9:40:31"
+  ],
+  [
+    "ALT-1782916804267",
+    "1/07/2026 9:40:04",
+    "Margot Lavado",
+    "1' café(s), por favor",
+    "Resuelta",
+    "1/07/2026 9:41:00"
+  ],
+  [
+    "ALT-1782917715960",
+    "1/07/2026 9:55:16",
+    "Vidal Gonzales",
+    "Estoy atendiendo",
+    "Resuelta",
+    "1/07/2026 10:17:16"
+  ],
+  [
+    "ALT-1782918256517",
+    "1/07/2026 10:04:17",
+    "Cocó Pacheco",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 10:17:45"
+  ],
+  [
+    "ALT-1782918850183",
+    "1/07/2026 10:14:10",
+    "Vidal Gonzales",
+    "Ya llegué",
+    "Resuelta",
+    "1/07/2026 10:19:56"
+  ],
+  [
+    "ALT-1782919118831",
+    "1/07/2026 10:18:39",
+    "Cocó Pacheco",
+    "Estoy atendiendo",
+    "Resuelta",
+    "1/07/2026 10:18:46"
+  ],
+  [
+    "ALT-1782920871654",
+    "1/07/2026 10:47:52",
+    "Koko Vascones",
+    "Estoy atendiendo",
+    "Resuelta",
+    "1/07/2026 10:48:14"
+  ],
+  [
+    "ALT-1782922221837",
+    "1/07/2026 11:10:22",
+    "Margot Lavado",
+    "Estoy atendiendo",
+    "Resuelta",
+    "1/07/2026 11:20:33"
+  ],
+  [
+    "ALT-1782926375815",
+    "1/07/2026 12:19:36",
+    "Margot Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 12:24:02"
+  ],
+  [
+    "ALT-1782929611511",
+    "1/07/2026 13:13:32",
+    "Koko Vascones",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 13:15:23"
+  ],
+  [
+    "ALT-1782929625554",
+    "1/07/2026 13:13:46",
+    "Koko Vascones",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 13:15:34"
+  ],
+  [
+    "ALT-1782929680073",
+    "1/07/2026 13:14:40",
+    "Margot Lavado",
+    "Estoy atendiendo",
+    "Resuelta",
+    "1/07/2026 13:15:30"
+  ],
+  [
+    "ALT-1782929881739",
+    "1/07/2026 13:18:02",
+    "Cocó Pacheco",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 13:40:07"
+  ],
+  [
+    "ALT-1782930011016",
+    "1/07/2026 13:20:11",
+    "Koko Vascones",
+    "Me voy a comer",
+    "Resuelta",
+    "1/07/2026 13:40:13"
+  ],
+  [
+    "ALT-1782931339813",
+    "1/07/2026 13:42:20",
+    "Koko Vascones",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 13:54:41"
+  ],
+  [
+    "ALT-1782937228334",
+    "1/07/2026 15:20:28",
+    "Margot Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "1/07/2026 15:21:01"
+  ],
+  [
+    "ALT-1782937244797",
+    "1/07/2026 15:20:45",
+    "Margot Lavado",
+    "Me voy a comer",
+    "Resuelta",
+    "1/07/2026 15:20:56"
+  ],
+  [
+    "ALT-1782940434032",
+    "1/07/2026 16:13:54",
+    "Margot Lavado",
+    "Regresé de comer",
+    "Resuelta",
+    "1/07/2026 16:14:03"
+  ],
+  [
+    "ALT-1782953239565",
+    "1/07/2026 19:47:20",
+    "Margot Lavado",
+    "Acabó mi día",
+    "Resuelta",
+    "1/07/2026 19:47:53"
+  ],
+  [
+    "ALT-1783000468591",
+    "2/07/2026 8:54:29",
+    "Cocó Pacheco",
+    "Ya llegué",
+    "Resuelta",
+    "2/07/2026 13:15:52"
+  ],
+  [
+    "ALT-1783000591407",
+    "2/07/2026 8:56:31",
+    "Koko Vascones",
+    "Ya llegué",
+    "Resuelta",
+    "2/07/2026 13:15:44"
+  ],
+  [
+    "ALT-1783023488247",
+    "2/07/2026 15:18:08",
+    "Koko Vascones",
+    "Estoy disponible",
+    "Resuelta",
+    "2/07/2026 15:38:07"
+  ],
+  [
+    "ALT-1783032267793",
+    "2/07/2026 17:44:28",
+    "Koko Vascones",
+    "12' café(s), por favor",
+    "Resuelta",
+    "2/07/2026 17:47:11"
+  ],
+  [
+    "ALT-1783032286158",
+    "2/07/2026 17:44:46",
+    "Koko Vascones",
+    "2' café(s), por favor",
+    "Resuelta",
+    "2/07/2026 17:47:15"
+  ],
+  [
+    "ALT-1783032298833",
+    "2/07/2026 17:44:59",
+    "Koko Vascones",
+    "2' café(s), por favor",
+    "Resuelta",
+    "2/07/2026 17:46:05"
+  ],
+  [
+    "ALT-1783087300095",
+    "3/07/2026 9:01:40",
+    "Cocó Pacheco",
+    "Estoy disponible",
+    "Resuelta",
+    "3/07/2026 9:24:33"
+  ],
+  [
+    "ALT-1783088220632",
+    "3/07/2026 9:17:01",
+    "Koko Vascones",
+    "Ya llegué",
+    "Resuelta",
+    "3/07/2026 9:24:32"
+  ],
+  [
+    "ALT-1783097455763",
+    "3/07/2026 11:50:56",
+    "Cocó Pacheco",
+    "Estoy disponible",
+    "Resuelta",
+    "3/07/2026 11:51:07"
+  ],
+  [
+    "ALT-1783104212134",
+    "3/07/2026 13:43:32",
+    "Margot Lavado",
+    "1' café(s), por favor",
+    "Resuelta",
+    "3/07/2026 13:44:03"
+  ],
+  [
+    "ALT-1783107874482",
+    "3/07/2026 14:44:34",
+    "Margot Lavado",
+    "Me voy a comer",
+    "Resuelta",
+    "3/07/2026 14:54:29"
+  ],
+  [
+    "ALT-1783111126777",
+    "3/07/2026 15:38:47",
+    "Margot Lavado",
+    "Regresé de comer",
+    "Resuelta",
+    "3/07/2026 15:38:59"
+  ],
+  [
+    "ALT-1783111138621",
+    "3/07/2026 15:38:59",
+    "Margot Lavado",
+    "Regresé de comer",
+    "Resuelta",
+    "3/07/2026 15:39:29"
+  ],
+  [
+    "ALT-1783111148688",
+    "3/07/2026 15:39:09",
+    "Margot Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "3/07/2026 15:39:25"
+  ],
+  [
+    "ALT-1783111174519",
+    "3/07/2026 15:39:35",
+    "Margot Lavado",
+    "1' café(s), por favor",
+    "Resuelta",
+    "3/07/2026 15:39:52"
+  ],
+  [
+    "ALT-1783111428295",
+    "3/07/2026 15:43:48",
+    "Jessica Huaman",
+    "Estoy disponible",
+    "Resuelta",
+    "3/07/2026 15:43:59"
+  ],
+  [
+    "ALT-1783121648929",
+    "3/07/2026 18:34:09",
+    "Jessica Huaman",
+    "Estoy disponible",
+    "Resuelta",
+    "3/07/2026 18:58:21"
+  ],
+  [
+    "ALT-1783127023481",
+    "3/07/2026 20:03:43",
+    "Jessica Huaman",
+    "Estoy disponible",
+    "Resuelta",
+    "3/07/2026 20:12:54"
+  ],
+  [
+    "ALT-1783178667522",
+    "4/07/2026 10:24:28",
+    "Margot Lavado",
+    "Estoy atendiendo",
+    "Resuelta",
+    "4/07/2026 10:32:24"
+  ],
+  [
+    "ALT-1783182641566",
+    "4/07/2026 11:30:42",
+    "Jessica Huaman",
+    "1' café(s), por favor",
+    "Resuelta",
+    "4/07/2026 14:57:24"
+  ],
+  [
+    "ALT-1783182646379",
+    "4/07/2026 11:30:46",
+    "Jessica Huaman",
+    "Estoy atendiendo",
+    "Resuelta",
+    "4/07/2026 14:57:30"
+  ],
+  [
+    "ALT-1783279831960",
+    "5/07/2026 14:30:32",
+    "Margot Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "5/07/2026 14:44:07"
+  ],
+  [
+    "ALT-1783298465505",
+    "5/07/2026 19:41:06",
+    "Margot Lavado",
+    "Acabó mi día",
+    "Resuelta",
+    "5/07/2026 19:55:20"
+  ],
+  [
+    "ALT-1783363421537",
+    "6/07/2026 13:43:42",
+    "Margot Lavado",
+    "Me voy a comer",
+    "Resuelta",
+    "6/07/2026 14:25:55"
+  ],
+  [
+    "ALT-1783537910932",
+    "8/07/2026 14:11:51",
+    "Margot Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "8/07/2026 14:12:51"
+  ],
+  [
+    "ALT-1783866363157",
+    "12/07/2026 9:26:03",
+    "Zendel Adriano Vilca Laiza",
+    "Ya llegué",
+    "Resuelta",
+    "12/07/2026 9:26:17"
+  ],
+  [
+    "ALT-1783882536988",
+    "12/07/2026 13:55:37",
+    "Margot Lavado",
+    "Estoy disponible",
+    "Resuelta",
+    "12/07/2026 14:05:30"
+  ],
+  [
+    "ALT-1784161710060",
+    "15/07/2026 19:28:30",
+    "Margot Lavado",
+    "Estoy atendiendo",
+    "Resuelta",
+    "15/07/2026 19:30:42"
+  ],
+  [
+    "ALT-1784559066189",
+    "20/07/2026 9:51:06",
+    "Margot Lavado",
+    "Bar: 1 Café(s)",
+    "Resuelta",
+    "20/07/2026 9:53:15"
+  ],
+  [
+    "ALT-1784559183632",
+    "20/07/2026 9:53:03",
+    "Margot Lavado",
+    "Bar: 1 Infusión(es) de Manzanilla",
+    "Resuelta",
+    "20/07/2026 9:53:26"
+  ],
+  [
+    "ALT-1784567813187",
+    "20/07/2026 12:16:53",
+    "Kevin Rojas Firma",
+    "Ya llegué",
+    "Resuelta",
+    "20/07/2026 12:17:26"
+  ],
+  [
+    "ALT-1784568009840",
+    "20/07/2026 12:20:09",
+    "Kevin Rojas Firma",
+    "Voy a comer",
+    "Resuelta",
+    "20/07/2026 12:20:32"
+  ],
+  [
+    "ALT-1784584437209",
+    "20/07/2026 16:53:57",
+    "Cocó Pacheco",
+    "Regresé de comer",
+    "Resuelta",
+    "20/07/2026 17:07:17"
+  ],
+  [
+    "ALT-1784592350165",
+    "20/07/2026 19:05:50",
+    "Margot Lavado",
+    "Acabó mi día",
+    "Resuelta",
+    "20/07/2026 19:07:46"
+  ],
+  [
+    "ALT-1784654248180",
+    "21/07/2026 12:17:28",
+    "Walter Carpio",
+    "Ya llegué",
+    "Resuelta",
+    "21/07/2026 12:17:44"
+  ],
+  [
+    "ALT-1784673533719",
+    "21/07/2026 17:38:53",
+    "Tomás Ramos",
+    "Bar: 10 Café(s)",
+    "Resuelta",
+    "21/07/2026 17:39:40"
+  ],
+  [
+    "ALT-1784765901245",
+    "22/07/2026 19:18:21",
+    "Margot Lavado",
+    "Acabó mi día",
+    "Resuelta",
+    "22/07/2026 19:19:26"
+  ]
+]

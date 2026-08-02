@@ -1,0 +1,43 @@
+[
+  [
+    "Nombre",
+    "Correo (Gmail)",
+    "Rol",
+    "PIN"
+  ],
+  [
+    "Cristian Gonzales",
+    "crial0810@gmail.com",
+    "ADMIN",
+    "3010"
+  ],
+  [
+    "Nombre Cajero",
+    "correo-cajero@gmail.com",
+    "CAJA"
+  ],
+  [
+    "Tomás Ramos",
+    "",
+    "CAJA1",
+    "2005"
+  ],
+  [
+    "Ariana Laiza",
+    "",
+    "CAJA2",
+    "1212"
+  ],
+  [
+    "Zendel Adriano Vilca Laiza",
+    "",
+    "CAJA3",
+    "2143"
+  ],
+  [
+    "Kevin Rojas Firma",
+    "",
+    "CAJA4",
+    "4321"
+  ]
+]

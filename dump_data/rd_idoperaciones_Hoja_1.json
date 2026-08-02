@@ -1,0 +1,252 @@
+[
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Nov-Dic",
+    "Ene-Mar",
+    "Abr-Jun"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "3m",
+    "3m",
+    "3m"
+  ],
+  [
+    "",
+    "",
+    "",
+    "",
+    "Etapa 0",
+    "Primera Etapa",
+    "Segunda Etapa",
+    "Tercera Etapa"
+  ],
+  [
+    "",
+    "1",
+    "Objetivos",
+    "",
+    "",
+    "Medición demanda",
+    "Base de datos de clientes",
+    "CRM activo"
+  ],
+  [
+    "",
+    "2",
+    "Funciones",
+    "",
+    "",
+    "Registro detalle de OAs\nRegisto de Diag cap",
+    "Registro detalle de clientes\nGestión del historial de atencón y diag",
+    "Gestión de información y actividades\nSeguimiento de cartera de clientes "
+  ],
+  [
+    "",
+    "3",
+    "Actividades"
+  ],
+  [
+    "",
+    "",
+    "",
+    "3.1",
+    "Gestión Turnos",
+    "Asistencias - capacidad operativa",
+    "Registro de clientes nuevos",
+    "Elaboración de reportes semanales*"
+  ],
+  [
+    "",
+    "",
+    "",
+    "3.2",
+    "Soporte al cliente",
+    "Conteo OAs - demanda real",
+    "Elaboración de reportes semanales"
+  ],
+  [
+    "",
+    "",
+    "",
+    "3.3",
+    "Otros (café, llamadas, etc)",
+    "Registro de diagnósticos (apertura del historial del cliente)"
+  ],
+  [
+    "",
+    "4",
+    "Responsabilidades"
+  ],
+  [
+    "",
+    "",
+    "",
+    "4.1",
+    "Turnos"
+  ],
+  [
+    "",
+    "",
+    "",
+    "4.2",
+    "Clientes BD"
+  ],
+  [
+    "",
+    "",
+    "",
+    "4.3",
+    "Reportes"
+  ],
+  [
+    "",
+    "5",
+    "Evaluaciones e Indicadores de desempeño"
+  ],
+  [
+    "",
+    "",
+    "",
+    "5.1",
+    "Cumplimiento de activiades y funciones",
+    "5.1",
+    "Cumplimiento de activiades y funciones"
+  ],
+  [
+    "",
+    "",
+    "",
+    "5.2",
+    "Compromiso con el equipo",
+    "5.2",
+    "Evaluación 360"
+  ],
+  [
+    "",
+    "6",
+    "Herramientas de soporte y apoyo"
+  ],
+  [
+    "",
+    "",
+    "",
+    "6.1",
+    "Sistema de registro // Hojas de cálculo automatizadas-personalizadas",
+    "",
+    "6.1",
+    "CRM"
+  ],
+  [
+    "",
+    "7",
+    "Guías y canales de contacto"
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.1",
+    "Guía rápida adjunta a la herramienta o pdf (Sistema John)"
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.2",
+    "Guía visual del proceso de las actividades y funciones (flujogramas-documentos)"
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.3",
+    "MOF y MAPRO"
+  ],
+  [
+    "",
+    "",
+    "",
+    "7.4",
+    "Canales de contacto"
+  ],
+  [],
+  [],
+  [],
+  [
+    "",
+    "",
+    "si mostramos un contador de clientes y turnos en el dash y guardamos el numero al final del día"
+  ],
+  [
+    "",
+    "",
+    "cómo contarlos?"
+  ],
+  [
+    "",
+    "",
+    "nombres unicos de clientes",
+    "",
+    "",
+    "filtro del tipo (truno/cliente)"
+  ],
+  [],
+  [],
+  [
+    "V1.8",
+    "",
+    "El refrigerio no evalúa si tiene otras OATC pendientes",
+    "",
+    "",
+    "",
+    "V2.0",
+    "Reconfiguración del contador de clientes",
+    "",
+    "",
+    "",
+    "",
+    "V3.0",
+    "Gestioin de BD",
+    "OATC-ASISTENCIAS x MES ](HOJA) AÑO (LIBRO) SALON (CARPETA)"
+  ],
+  [
+    "",
+    "",
+    "Se considera la cita como una OATC pendiente",
+    "",
+    "",
+    "",
+    "",
+    "Reconfiguración de la escritura del estado vs el tiempo (prioridad de turno)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Integración del cálculo automático de pago por servicio a agente"
+  ],
+  [
+    "",
+    "",
+    "El botón eliminar debería de ...",
+    "",
+    "",
+    "",
+    "",
+    "Reconfiguración del botón \"resolver\" vs renderizar 1 botón por fenómeno atípico"
+  ],
+  [
+    "",
+    "",
+    "revisar la carga de citas: consultar si desea cargar las citas, generar un botón para cargar las citas"
+  ]
+]

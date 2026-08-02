@@ -1,0 +1,705 @@
+[
+  [
+    "Fecha Registro",
+    "Fecha Cita",
+    "Hora Cita",
+    "Cliente",
+    "Tipo Cliente",
+    "Agente",
+    "Tipo Atención/Servicio",
+    "ESTADO"
+  ],
+  [
+    "9/2/2026 12:14 PM",
+    "10/2/2026",
+    "9:00",
+    "GLORIA SANCHEZ ",
+    "Cita",
+    "Carlos Jimi Flores Coca",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "9/2/2026 6:46 PM",
+    "10/2/2026",
+    "10:00",
+    "ISABEL ",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "12/2/2026 6:51 PM",
+    "13/2/2026",
+    "14:30",
+    "LUCERO B",
+    "Cita",
+    "Yadira Vasquez Perez",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "12/2/2026 7:42 PM",
+    "14/2/2026",
+    "8:45",
+    "KETTY PEÑA ",
+    "Cita",
+    "Jahaira Reyes Castro",
+    "Peinados y cepillados",
+    "COMPLETADA"
+  ],
+  [
+    "19/2/2026 9:00 PM",
+    "20/2/2026",
+    "10:30",
+    "CLIENTA DE BELEN ",
+    "Cita",
+    "",
+    "",
+    "COMPLETADA"
+  ],
+  [
+    "5/3/2026 2:23 PM",
+    "6/3/2026",
+    "19:30",
+    "LEYDI JUAREZ",
+    "Cita",
+    "EN TURNO ",
+    "Corte y diseño",
+    "COMPLETADA"
+  ],
+  [
+    "7/3/2026 1:16 PM",
+    "8/3/2026",
+    "9:00",
+    "DEUSA",
+    "Cita",
+    "MARIBEL",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "13/3/2026 3:32 PM",
+    "14/3/2026",
+    "10:00",
+    "JORGE SANTANDER ",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "13/3/2026 8:40 PM",
+    "14/3/2026",
+    "16:00",
+    "CACERES ",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "21/3/2026 8:55 PM",
+    "22/3/2026",
+    "9:00",
+    "PAOLA ",
+    "Cita",
+    "GLADIS",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "21/3/2026 8:55 PM",
+    "22/3/2026",
+    "10:00",
+    "CLIENTA DE GLADIS ",
+    "Cita",
+    "GLADIS",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "22/3/2026 5:33 PM",
+    "25/3/2026",
+    "11:00",
+    "ABIGAIL  CASTRO  |  | 981599733",
+    "Cita",
+    "EN TURNO ",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "27/3/2026 8:25 PM",
+    "3/4/2026",
+    "16:00",
+    "Jeany . |  | 919704299",
+    "Cita",
+    "EXLEY",
+    "Cosmetología softgel",
+    "COMPLETADA"
+  ],
+  [
+    "29/3/2026 5:00 PM",
+    "2/4/2026",
+    "9:09",
+    "kiara",
+    "Cita",
+    " gladis martibel ",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "4/4/2026 5:32 PM",
+    "6/4/2026",
+    "10:00",
+    "PAOLA  CASANOVA  |  | 990046524",
+    "Cita",
+    "GLADIS",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "6/4/2026 4:03 PM",
+    "11/4/2026",
+    "12:00",
+    "NELY",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "10/4/2026 12:46 PM",
+    "18/4/2026",
+    "12:00",
+    "MIRTA",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "11/4/2026 8:44 PM",
+    "12/4/2026",
+    "2:07",
+    "silvia bendezu  940 169 460",
+    "Cita",
+    "ROSA",
+    "COLOR",
+    "COMPLETADA"
+  ],
+  [
+    "15/4/2026 7:28 PM",
+    "16/4/2026",
+    "10:00",
+    "nicohol gutierrez ",
+    "Cita",
+    "turno",
+    "Peinados y maquillaje",
+    "COMPLETADA"
+  ],
+  [
+    "15/4/2026 7:29 PM",
+    "16/4/2026",
+    "10:00",
+    "sandra santa cruz",
+    "Cita",
+    "turno",
+    "Peinados y maquillaje",
+    "COMPLETADA"
+  ],
+  [
+    "15/4/2026 7:31 PM",
+    "16/4/2026",
+    "10:00",
+    "moraima custodio",
+    "Cita",
+    "turno",
+    "Peinados y maquillaje",
+    "COMPLETADA"
+  ],
+  [
+    "17/4/2026 10:05 AM",
+    "18/4/2026",
+    "9:30",
+    "sofia mishell",
+    "Cita",
+    "turno",
+    "Colorimetria y cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "17/4/2026 1:36 PM",
+    "20/4/2026",
+    "10:00",
+    "valeria angulo huapaya",
+    "Cita",
+    "CARLOS",
+    "Corte y colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "17/4/2026 3:49 PM",
+    "18/4/2026",
+    "15:00",
+    "kathy huallanca",
+    "Cita",
+    "LUZ",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "19/4/2026 3:58 PM",
+    "21/4/2026",
+    "10:00",
+    "diana",
+    "Cita",
+    "GLADIS",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "25/4/2026 7:12 PM",
+    "26/4/2026",
+    "14:00",
+    "maria ",
+    "Cita",
+    "YADIRA",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "25/4/2026 8:17 PM",
+    "26/4/2026",
+    "15:30",
+    "alexa grandez",
+    "Cita",
+    "LUZ",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "26/4/2026 3:39 PM",
+    "29/4/2026",
+    "18:30",
+    "mria pia zegarra",
+    "Cita",
+    "MARCELA",
+    "Tratamientos Capilares",
+    "COMPLETADA"
+  ],
+  [
+    "27/4/2026 7:35 PM",
+    "28/4/2026",
+    "16:00",
+    "Jorgue Santander",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "2/5/2026 3:13 PM",
+    "6/5/2026",
+    "9:00",
+    "erika tiktok",
+    "Cita",
+    "ROSA",
+    "botox promo",
+    "COMPLETADA"
+  ],
+  [
+    "6/5/2026 9:15 AM",
+    "7/5/2026",
+    "16:00",
+    "mary",
+    "Cita",
+    "BELEN",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "6/5/2026 3:11 PM",
+    "8/5/2026",
+    "18:30",
+    "LUCIA",
+    "Cita",
+    "MARIBEL",
+    "",
+    "COMPLETADA"
+  ],
+  [
+    "9/5/2026 12:04 PM",
+    "10/5/2026",
+    "10:00",
+    "ANA CECLIA",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "9/5/2026 12:05 PM",
+    "12/5/2026",
+    "18:30",
+    "ZEUSA",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "9/5/2026 12:06 PM",
+    "13/5/2026",
+    "15:00",
+    "NICOLE GAMARRA",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "13/5/2026 4:34 PM",
+    "14/5/2026",
+    "9:00",
+    "OLIANA RODRIGUEZ ",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "22/5/2026 8:43 PM",
+    "23/5/2026",
+    "10:30",
+    "shan avila // 977200415",
+    "Cita",
+    "MARIBEL",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "22/5/2026 9:53 PM",
+    "23/5/2026",
+    "21:30",
+    "JESSICA ",
+    "Cita",
+    "LUZ",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "24/5/2026 3:48 PM",
+    "25/5/2026",
+    "15:00",
+    "FANNY ",
+    "Cita",
+    "YADIRA",
+    "Cosmiatria ",
+    "COMPLETADA"
+  ],
+  [
+    "26/5/2026 10:35 AM",
+    "27/5/2026",
+    "5:11",
+    "color",
+    "Cita",
+    "CARLOS",
+    "Colorimetria",
+    "COMPLETADA"
+  ],
+  [
+    "28/5/2026 9:24 PM",
+    "30/5/2026",
+    "10:00",
+    "liz pacheco // 934 182 554",
+    "Cita",
+    "carlos",
+    " botox",
+    "COMPLETADA"
+  ],
+  [
+    "8/6/2026 5:03 PM",
+    "9/6/2026",
+    "7:30",
+    "maryeli",
+    "Cita",
+    "GLADIS",
+    "depilacion",
+    "COMPLETADA"
+  ],
+  [
+    "8/6/2026 5:05 PM",
+    "9/6/2026",
+    "14:00",
+    "susanne campos",
+    "Cita",
+    "turno",
+    "manicura en gel",
+    "COMPLETADA"
+  ],
+  [
+    "9/6/2026 3:00 PM",
+    "10/6/2026",
+    "10:30",
+    "PAOLA HUAMAN",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "9/6/2026 3:01 PM",
+    "11/6/2026",
+    "9:30",
+    "FIORELA",
+    "Cita",
+    "MARIBEL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "9/6/2026 7:28 PM",
+    "10/6/2026",
+    "17:30",
+    "CINTIA",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "13/6/2026 4:50 PM",
+    "20/6/2026",
+    "15:00",
+    "CARMEN MILLA // ",
+    "Cita",
+    "YADIRA",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "13/6/2026 7:40 PM",
+    "14/6/2026",
+    "15:00",
+    "DEYSI",
+    "Cita",
+    "MARISOL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "13/6/2026 7:40 PM",
+    "15/6/2026",
+    "11:00",
+    "CLIENTA",
+    "Cita",
+    "MARISOL",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "20/6/2026 3:10 PM",
+    "21/6/2026",
+    "9:00",
+    "NICOLE GAMARRA",
+    "Cita",
+    "MARIBEL",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "20/6/2026 3:11 PM",
+    "22/6/2026",
+    "18:30",
+    "MAYRA PEDIATRA",
+    "Cita",
+    "MARIBEL",
+    "Cosmetología",
+    "COMPLETADA"
+  ],
+  [
+    "26/6/2026 2:11 PM",
+    "28/6/2026",
+    "11:00",
+    "valeria",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria",
+    "COMPLETADA"
+  ],
+  [
+    "30/6/2026 4:51 PM",
+    "1/7/2026",
+    "4:05",
+    "clienta",
+    "Cita",
+    "BELEN",
+    "mechas",
+    "COMPLETADA"
+  ],
+  [
+    "1/7/2026 6:18 PM",
+    "2/7/2026",
+    "9:01",
+    "sorsales rios 978988488",
+    "Cita",
+    "LUZ",
+    "manicura y pedicura",
+    "COMPLETADA"
+  ],
+  [
+    "5/7/2026 5:33 PM",
+    "6/7/2026",
+    "12:00",
+    "CLIENTA DE BELEN",
+    "Cita",
+    "BELEN",
+    "Peinados y cepillados"
+  ],
+  [
+    "5/7/2026 5:35 PM",
+    "6/7/2026",
+    "13:00",
+    "CLIENTA DE BELEN",
+    "Cita",
+    "JAHAIRA",
+    "MAQUILLAJE"
+  ],
+  [
+    "7/7/2026 11:20 AM",
+    "8/7/2026",
+    "13:30",
+    "victoria ",
+    "Cita",
+    "turno",
+    "Alisados, laceados, botox"
+  ],
+  [
+    "10/7/2026 10:15 AM",
+    "12/7/2026",
+    "10:00",
+    "shirley muñoz 94275528",
+    "Cita",
+    "EXLEY",
+    "manicura y pedicua"
+  ],
+  [
+    "10/7/2026 8:13 PM",
+    "17/7/2026",
+    "16:00",
+    "dayan",
+    "Cita",
+    "GLADIS",
+    "Cosmiatria"
+  ],
+  [
+    "10/7/2026 8:13 PM",
+    "17/7/2026",
+    "15:00",
+    "dayan",
+    "Cita",
+    "CARLOS",
+    "Corte y diseño"
+  ],
+  [
+    "10/7/2026 8:17 PM",
+    "21/7/2026",
+    "11:00",
+    "Ada Kikukawa",
+    "Cita",
+    "turno",
+    "Colorimetria"
+  ],
+  [
+    "11/7/2026 11:35 AM",
+    "12/7/2026",
+    "14:00",
+    "rayza rojas",
+    "Cita",
+    "ROSA",
+    "Corte y diseño"
+  ],
+  [
+    "17/7/2026 2:01 PM",
+    "18/7/2026",
+    "8:01",
+    "MARY",
+    "Cita",
+    "GLADIS",
+    "PESTAÑAS CABELLO"
+  ],
+  [
+    "18/7/2026 3:51 PM",
+    "20/7/2026",
+    "2:00",
+    "JORGE SANTANDER",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria"
+  ],
+  [
+    "18/7/2026 4:06 PM",
+    "19/7/2026",
+    "8:00",
+    "PAMELA  DIAS  |  | 995094635",
+    "Cita",
+    "GLADIS Y OCO",
+    "Peinados y cepillados"
+  ],
+  [
+    "18/7/2026 7:13 PM",
+    "19/7/2026",
+    "9:00",
+    "MARIELA",
+    "Cita",
+    "EXLEY",
+    "Cosmiatria"
+  ],
+  [
+    "19/7/2026 3:53 PM",
+    "23/7/2026",
+    "16:00",
+    "Katerine Apaza",
+    "Cita",
+    "TURNO",
+    "Colorimetria"
+  ],
+  [
+    "20/7/2026 7:48 PM",
+    "21/7/2026",
+    "17:00",
+    "LUCI CHAVEZ",
+    "Cita",
+    "JAHAIRA",
+    "Promocion"
+  ],
+  [
+    "26/7/2026 1:29 PM",
+    "27/7/2026",
+    "4:00",
+    "cynthia mosqueira",
+    "Cita",
+    "EXLEY & belen",
+    "Colorimetria &cosmetologia"
+  ],
+  [
+    "26/7/2026 5:57 PM",
+    "28/7/2026",
+    "12:00",
+    "DINA RODRIGUEZ",
+    "Cita",
+    "LUZ",
+    "Cosmiatria"
+  ],
+  [
+    "2/8/2026 9:35 AM",
+    "3/8/2026",
+    "19:00",
+    "CLIENTA MARY",
+    "Cita",
+    "GLADIS",
+    "Cosmiatria"
+  ]
+]
