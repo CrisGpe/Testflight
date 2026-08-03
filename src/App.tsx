@@ -11,7 +11,18 @@ import {
   Coffee, 
   LogOut, 
   RotateCcw,
-  Zap
+  Zap,
+  Bell,
+  Wine,
+  History,
+  User,
+  ShieldAlert,
+  Users,
+  PlayCircle,
+  Wrench,
+  Package,
+  Sparkles,
+  Send
 } from 'lucide-react';
 
 interface Trabajador {
@@ -30,6 +41,7 @@ interface Atención {
   hora_atencion: string;
   resolucion: string;
   origen: string;
+  nickname_trabajador?: string;
 }
 
 export function App() {
@@ -39,6 +51,26 @@ export function App() {
   const [nicknameInput, setNicknameInput] = useState<string>('');
   const [pinInput, setPinInput] = useState<string>('');
   const [cargandoLogin, setCargandoLogin] = useState<boolean>(false);
+
+  // Estados de Navegación UX/UI (Portados de GAS)
+  const [pestanaActiva, setPestanaActiva] = useState<'Alertas' | 'Bar' | 'Historial' | 'Perfil'>('Alertas');
+  const [subToggleTrabajador, setSubToggleTrabajador] = useState<'Alertas' | 'Bar'>('Alertas');
+  const [subToggleJefe, setSubToggleJefe] = useState<'Mando' | 'Botonera' | 'Bar'>('Mando');
+  const [subTabMandoJefe, setSubTabMandoJefe] = useState<'Cola' | 'EnCurso'>('Cola');
+
+  // Estado del Pedido del Bar
+  const [pedidoBar, setPedidoBar] = useState({
+    cafe: 0,
+    infusion: 0,
+    tipoInfusion: 'Manzanilla',
+    agua: 0,
+    bebidaDia: 0
+  });
+
+  // Datos en tiempo real de Mando de Jefe Operativo
+  const [colaSede, setColaSede] = useState<Trabajador[]>([]);
+  const [atencionesEnCurso, setAtencionesEnCurso] = useState<Atención[]>([]);
+
 
   const [alertaSeleccionada, setAlertaSeleccionada] = useState<string | null>(null);
   const [modalNfcVisible, setModalNfcVisible] = useState<boolean>(false);
@@ -340,15 +372,437 @@ export function App() {
               </div>
             </div>
             
-            <button 
-              onClick={cerrarSesion}
-              title="Cerrar Sesión"
-              className="bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/20 p-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95"
-            >
-              <LogOut className="w-4 h-4" />
-              <span className="hidden sm:inline">Salir</span>
-            </button>
+            <div className="flex items-center gap-2">
+              <span className="text-[9px] bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2 py-0.5 rounded-full font-bold">
+                {agente.especialidad}
+              </span>
+              <button 
+                onClick={cerrarSesion}
+                title="Cerrar Sesión"
+                className="bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/20 p-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all active:scale-95"
+              >
+                <LogOut className="w-4 h-4" />
+                <span className="hidden sm:inline">Salir</span>
+              </button>
+            </div>
           </header>
+
+          {/* Contenido Principal con cambio de pestañas */}
+          <main className="p-4 space-y-6 flex-1 pb-24">
+            
+            {/* SUB-TOGGLES POR ROL (Alertas / Bar / Mando) */}
+            {pestanaActiva === 'Alertas' && (
+              <div className="space-y-4">
+                {/* Toggle para Jefe Operativo */}
+                {agente.especialidad === 'Jefe Operativo' && (
+                  <div className="bg-slate-900 p-1.5 rounded-2xl flex items-center gap-1 border border-slate-800 shadow-inner">
+                    <button 
+                      onClick={() => setSubToggleJefe('Mando')} 
+                      className={`flex-1 py-2 rounded-xl text-xs font-black tracking-wide transition-all flex items-center justify-center gap-1.5 ${
+                        subToggleJefe === 'Mando' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+                      }`}
+                    >
+                      <ShieldAlert className="w-3.5 h-3.5" /> Mando Táctico
+                    </button>
+                    <button 
+                      onClick={() => setSubToggleJefe('Botonera')} 
+                      className={`flex-1 py-2 rounded-xl text-xs font-black tracking-wide transition-all flex items-center justify-center gap-1.5 ${
+                        subToggleJefe === 'Botonera' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+                      }`}
+                    >
+                      <Bell className="w-3.5 h-3.5" /> Botonera
+                    </button>
+                  </div>
+                )}
+
+                {/* Toggle para Trabajador Regular (Estilismo / Cosmiatría) */}
+                {['Estilismo', 'Cosmiatría'].includes(agente.especialidad) && (
+                  <div className="bg-slate-900 p-1.5 rounded-2xl flex items-center gap-1 border border-slate-800 shadow-inner">
+                    <button 
+                      onClick={() => setSubToggleTrabajador('Alertas')} 
+                      className={`flex-1 py-2 rounded-xl text-xs font-black tracking-wide transition-all flex items-center justify-center gap-1.5 ${
+                        subToggleTrabajador === 'Alertas' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+                      }`}
+                    >
+                      <Bell className="w-3.5 h-3.5" /> Alertas Inmediatas
+                    </button>
+                    <button 
+                      onClick={() => setSubToggleTrabajador('Bar')} 
+                      className={`flex-1 py-2 rounded-xl text-xs font-black tracking-wide transition-all flex items-center justify-center gap-1.5 ${
+                        subToggleTrabajador === 'Bar' ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-slate-200'
+                      }`}
+                    >
+                      <Wine className="w-3.5 h-3.5" /> Pedido Bar
+                    </button>
+                  </div>
+                )}
+
+                {/* VISTA MANDO TÁCTICO DE JEFE OPERATIVO */}
+                {agente.especialidad === 'Jefe Operativo' && subToggleJefe === 'Mando' && (
+                  <div className="space-y-4 animate-fadeIn">
+                    <div className="text-center space-y-0.5">
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20 inline-block mb-1">
+                        Mando Operativo Activo
+                      </span>
+                      <h3 className="text-sm font-black text-white">🚨 Gobernanza Inmediata</h3>
+                      <p className="text-xs text-slate-400">Emite un token de alerta directa a la recepción.</p>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                      <button 
+                        onClick={() => procesarMarcajeExitoso('Soporte Técnico', 'MANDO-JEFE')}
+                        className="bg-amber-950/40 hover:bg-amber-900/50 p-4 rounded-2xl border border-amber-500/30 flex flex-col items-center justify-center gap-2 transition-all active:scale-95 shadow-lg min-h-[100px]"
+                      >
+                        <Wrench className="w-7 h-7 text-amber-400" />
+                        <span className="text-xs font-black text-amber-200 uppercase tracking-wide">Soporte</span>
+                      </button>
+
+                      <button 
+                        onClick={() => procesarMarcajeExitoso('Cliente Listo', 'MANDO-JEFE')}
+                        className="bg-emerald-950/40 hover:bg-emerald-900/50 p-4 rounded-2xl border border-emerald-500/30 flex flex-col items-center justify-center gap-2 transition-all active:scale-95 shadow-lg min-h-[100px]"
+                      >
+                        <CheckCircle2 className="w-7 h-7 text-emerald-400" />
+                        <span className="text-xs font-black text-emerald-200 uppercase tracking-wide">Cliente Listo</span>
+                      </button>
+
+                      <button 
+                        onClick={() => procesarMarcajeExitoso('Supervisor Urgente', 'MANDO-JEFE')}
+                        className="bg-rose-950/40 hover:bg-rose-900/50 p-4 rounded-2xl border border-rose-500/30 flex flex-col items-center justify-center gap-2 transition-all active:scale-95 shadow-lg min-h-[100px]"
+                      >
+                        <AlertTriangle className="w-7 h-7 text-rose-400" />
+                        <span className="text-xs font-black text-rose-200 uppercase tracking-wide">Urgencia</span>
+                      </button>
+
+                      <button 
+                        onClick={() => procesarMarcajeExitoso('Abastecimiento', 'MANDO-JEFE')}
+                        className="bg-indigo-950/40 hover:bg-indigo-900/50 p-4 rounded-2xl border border-indigo-500/30 flex flex-col items-center justify-center gap-2 transition-all active:scale-95 shadow-lg min-h-[100px]"
+                      >
+                        <Package className="w-7 h-7 text-indigo-400" />
+                        <span className="text-xs font-black text-indigo-200 uppercase tracking-wide">Insumos</span>
+                      </button>
+                    </div>
+
+                    {/* MANDO: TABS DE COLA Y ATENCIONES */}
+                    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-xl">
+                      <div className="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+                        <div className="flex gap-4">
+                          <button 
+                            onClick={() => setSubTabMandoJefe('Cola')} 
+                            className={`text-xs font-black uppercase tracking-wider flex items-center gap-1.5 pb-2 -mb-[9px] border-b-2 transition-all ${
+                              subTabMandoJefe === 'Cola' ? 'text-indigo-400 border-indigo-500' : 'text-slate-400 border-transparent hover:text-slate-200'
+                            }`}
+                          >
+                            <Users className="w-4 h-4" /> Cola Sede
+                          </button>
+                          <button 
+                            onClick={() => setSubTabMandoJefe('EnCurso')} 
+                            className={`text-xs font-black uppercase tracking-wider flex items-center gap-1.5 pb-2 -mb-[9px] border-b-2 transition-all ${
+                              subTabMandoJefe === 'EnCurso' ? 'text-indigo-400 border-indigo-500' : 'text-slate-400 border-transparent hover:text-slate-200'
+                            }`}
+                          >
+                            <Zap className="w-4 h-4" /> En Curso
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Contenido: COLA GLOBAL */}
+                      {subTabMandoJefe === 'Cola' && (
+                        <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+                          {listaTrabajadores.length === 0 ? (
+                            <div className="text-xs text-center text-slate-500 py-4 font-medium italic">No hay agentes disponibles en cola.</div>
+                          ) : (
+                            listaTrabajadores.slice(0, 8).map((t, idx) => (
+                              <div key={t.id} className="flex items-center gap-2 p-2 bg-slate-950 rounded-xl border border-slate-800">
+                                <div className="w-5 h-5 rounded-full bg-slate-800 flex items-center justify-center font-black text-[10px] text-slate-400">{idx + 1}</div>
+                                <span className="font-bold text-xs text-slate-200 truncate flex-1">{t.nombre}</span>
+                                <span className="text-[9px] font-black px-1.5 py-0.5 rounded uppercase tracking-wider bg-slate-900 text-indigo-400 border border-slate-800">{t.especialidad}</span>
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      )}
+
+                      {/* Contenido: ATENCIONES EN CURSO */}
+                      {subTabMandoJefe === 'EnCurso' && (
+                        <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+                          {atenciones.length === 0 ? (
+                            <div className="text-xs text-center text-slate-500 py-4 font-medium italic">No hay atenciones activas en la sede actualmente.</div>
+                          ) : (
+                            atenciones.slice(0, 5).map((item) => (
+                              <div key={item.id} className="flex flex-col gap-1 p-2.5 bg-indigo-950/20 rounded-xl border border-indigo-900/40">
+                                <div className="flex justify-between items-center">
+                                  <span className="font-bold text-xs text-indigo-300 truncate">{item.cliente_nombre}</span>
+                                  <span className="text-[9px] font-black px-1.5 py-0.5 rounded bg-indigo-900/40 text-indigo-300 border border-indigo-800 uppercase">{item.tipo_servicio}</span>
+                                </div>
+                                <div className="flex items-center gap-1.5 text-[10px] text-slate-400">
+                                  <span>👤 @{item.nickname_trabajador}</span>
+                                  <span>•</span>
+                                  <span className="font-mono">🕒 {item.hora_atencion || '12:00'}</span>
+                                </div>
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* VISTA TRABAJADOR REGULAR / BOTONERA */}
+                {((['Estilismo', 'Cosmiatría'].includes(agente.especialidad) && subToggleTrabajador === 'Alertas') || (agente.especialidad === 'Jefe Operativo' && subToggleJefe === 'Botonera')) && (
+                  <section className="space-y-3 animate-fadeIn">
+                    <div className="text-center space-y-0.5">
+                      <h3 className="text-xs font-black uppercase tracking-wider text-indigo-400 flex items-center justify-center gap-1.5">
+                        <Wifi className="w-4 h-4 text-indigo-400 animate-pulse" /> Panel de Marcaje Presencial NFC
+                      </h3>
+                      <p className="text-[11px] text-slate-400">Presiona tu opción y luego aproxima el teléfono al Tag NFC.</p>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                      <button 
+                        onClick={() => iniciarFlujoBotonNfc('Ya llegué')}
+                        className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
+                      >
+                        <UserCheck className="w-7 h-7 text-emerald-400 group-hover:scale-110 transition-transform" />
+                        <span className="text-xs font-bold text-slate-200">Ya llegué</span>
+                      </button>
+
+                      <button 
+                        onClick={() => iniciarFlujoBotonNfc('Voy a comer')}
+                        className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
+                      >
+                        <Coffee className="w-7 h-7 text-amber-400 group-hover:scale-110 transition-transform" />
+                        <span className="text-xs font-bold text-slate-200">Voy a comer</span>
+                      </button>
+
+                      <button 
+                        onClick={() => iniciarFlujoBotonNfc('Regresé de comer')}
+                        className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
+                      >
+                        <RotateCcw className="w-7 h-7 text-sky-400 group-hover:scale-110 transition-transform" />
+                        <span className="text-xs font-bold text-slate-200">Regresé de comer</span>
+                      </button>
+
+                      <button 
+                        onClick={() => iniciarFlujoBotonNfc('Acabó mi día')}
+                        className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
+                      >
+                        <LogOut className="w-7 h-7 text-rose-400 group-hover:scale-110 transition-transform" />
+                        <span className="text-xs font-bold text-slate-200">Acabó mi día</span>
+                      </button>
+                    </div>
+                  </section>
+                )}
+
+                {/* VISTA BAR TRABAJADOR */}
+                {['Estilismo', 'Cosmiatría'].includes(agente.especialidad) && subToggleTrabajador === 'Bar' && (
+                  <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 space-y-4 shadow-xl animate-fadeIn">
+                    <div className="text-center border-b border-slate-800 pb-2">
+                      <h3 className="text-xs font-black uppercase tracking-wider text-indigo-400 flex items-center justify-center gap-1">🍹 Sección Bar</h3>
+                      <p className="text-[10px] text-slate-400">Agrega las cantidades deseadas y envía el pedido completo al Bar.</p>
+                    </div>
+
+                    <div className="space-y-3">
+                      {/* Ítem Café */}
+                      <div className="flex items-center justify-between bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span className="text-xs font-bold text-slate-200 flex items-center gap-2">☕ Café</span>
+                        <div className="flex items-center gap-3">
+                          <button onClick={() => setPedidoBar(p => ({ ...p, cafe: Math.max(0, p.cafe - 1) }))} className="w-7 h-7 bg-slate-800 rounded-lg font-bold text-slate-300 active:scale-95">-</button>
+                          <span className="text-xs font-mono font-black text-white w-4 text-center">{pedidoBar.cafe}</span>
+                          <button onClick={() => setPedidoBar(p => ({ ...p, cafe: p.cafe + 1 }))} className="w-7 h-7 bg-slate-800 rounded-lg font-bold text-slate-300 active:scale-95">+</button>
+                        </div>
+                      </div>
+
+                      {/* Ítem Infusión */}
+                      <div className="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-bold text-slate-200 flex items-center gap-2">🍵 Infusión</span>
+                          <div className="flex items-center gap-3">
+                            <button onClick={() => setPedidoBar(p => ({ ...p, infusion: Math.max(0, p.infusion - 1) }))} className="w-7 h-7 bg-slate-800 rounded-lg font-bold text-slate-300 active:scale-95">-</button>
+                            <span className="text-xs font-mono font-black text-white w-4 text-center">{pedidoBar.infusion}</span>
+                            <button onClick={() => setPedidoBar(p => ({ ...p, infusion: p.infusion + 1 }))} className="w-7 h-7 bg-slate-800 rounded-lg font-bold text-slate-300 active:scale-95">+</button>
+                          </div>
+                        </div>
+
+                        {pedidoBar.infusion > 0 && (
+                          <div className="pt-2 border-t border-slate-800 space-y-1">
+                            <label className="block text-[9px] font-extrabold uppercase text-slate-400">Variedad de Infusión:</label>
+                            <select 
+                              value={pedidoBar.tipoInfusion}
+                              onChange={(e) => setPedidoBar(p => ({ ...p, tipoInfusion: e.target.value }))}
+                              className="w-full bg-slate-900 text-xs font-medium text-slate-200 rounded-lg p-2 border border-slate-800"
+                            >
+                              <option value="Manzanilla">🌼 Manzanilla</option>
+                              <option value="Té">🍃 Té</option>
+                              <option value="Anís">🌱 Anís</option>
+                            </select>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Ítem Agua */}
+                      <div className="flex items-center justify-between bg-slate-950 p-3 rounded-xl border border-slate-800">
+                        <span className="text-xs font-bold text-slate-200 flex items-center gap-2">💧 Agua</span>
+                        <div className="flex items-center gap-3">
+                          <button onClick={() => setPedidoBar(p => ({ ...p, agua: Math.max(0, p.agua - 1) }))} className="w-7 h-7 bg-slate-800 rounded-lg font-bold text-slate-300 active:scale-95">-</button>
+                          <span className="text-xs font-mono font-black text-white w-4 text-center">{pedidoBar.agua}</span>
+                          <button onClick={() => setPedidoBar(p => ({ ...p, agua: p.agua + 1 }))} className="w-7 h-7 bg-slate-800 rounded-lg font-bold text-slate-300 active:scale-95">+</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    {(pedidoBar.cafe > 0 || pedidoBar.infusion > 0 || pedidoBar.agua > 0) && (
+                      <button 
+                        onClick={() => {
+                          const resumen = `Pedido Bar: ${pedidoBar.cafe ? `Café: ${pedidoBar.cafe} ` : ''}${pedidoBar.infusion ? `Infusión (${pedidoBar.tipoInfusion}): ${pedidoBar.infusion} ` : ''}${pedidoBar.agua ? `Agua: ${pedidoBar.agua}` : ''}`;
+                          procesarMarcajeExitoso(resumen, 'PEDIDO-BAR');
+                          setPedidoBar({ cafe: 0, infusion: 0, tipoInfusion: 'Manzanilla', agua: 0, bebidaDia: 0 });
+                        }}
+                        className="w-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white font-black text-xs uppercase tracking-wider py-3 rounded-xl shadow-lg active:scale-95 flex items-center justify-center gap-2"
+                      >
+                        <Send className="w-4 h-4" /> Enviar Pedido al Bar
+                      </button>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* PESTAÑA HISTORIAL */}
+            {pestanaActiva === 'Historial' && (
+              <section className="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-4 space-y-3 shadow-xl animate-fadeIn">
+                <div className="flex items-center justify-between border-b border-slate-800 pb-2">
+                  <div>
+                    <h3 className="text-xs font-black text-white flex items-center gap-1.5">
+                      <Calendar className="w-4 h-4 text-indigo-400" /> Mi Historial de Atenciones
+                    </h3>
+                    <p className="text-[10px] text-slate-400">Consultas con índice PostgreSQL en milisegundos</p>
+                  </div>
+                  {tiempoQueryMs !== null && (
+                    <span className="text-[9px] font-mono font-black bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2 py-0.5 rounded-md">
+                      ⚡ {tiempoQueryMs} ms
+                    </span>
+                  )}
+                </div>
+
+                <div className="flex gap-1.5 bg-slate-950 p-1 rounded-xl border border-slate-800">
+                  {[7, 15, 30, 90].map((dias) => (
+                    <button
+                      key={dias}
+                      onClick={() => setRangoDias(dias)}
+                      className={`flex-1 py-1 rounded-lg text-[10px] font-black transition-all ${
+                        rangoDias === dias
+                          ? 'bg-indigo-600 text-white shadow-md'
+                          : 'text-slate-400 hover:text-slate-200'
+                      }`}
+                    >
+                      {dias} Días
+                    </button>
+                  ))}
+                </div>
+
+                <div className="space-y-2 max-h-80 overflow-y-auto pr-1">
+                  {cargandoHistorial ? (
+                    <div className="text-center py-6 text-xs text-indigo-400 font-bold animate-pulse">
+                      ⏳ Consultando índices en Supabase...
+                    </div>
+                  ) : atenciones.length === 0 ? (
+                    <div className="text-center py-6 text-xs text-slate-500 italic">
+                      No hay atenciones registradas en los últimos {rangoDias} días.
+                    </div>
+                  ) : (
+                    atenciones.map((item) => (
+                      <div 
+                        key={item.id} 
+                        className="p-2.5 bg-slate-950/80 rounded-xl border border-slate-800/80 flex items-center justify-between text-xs hover:border-slate-700 transition-colors"
+                      >
+                        <div>
+                          <span className="font-bold text-slate-200 block">{item.cliente_nombre}</span>
+                          <span className="text-[10px] text-slate-400 block">{item.tipo_servicio} • {item.fecha_atencion}</span>
+                        </div>
+                        <span className={`text-[9px] font-black px-2 py-0.5 rounded-md uppercase tracking-wider ${
+                          item.resolucion === 'Finalizado' ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border border-amber-500/20'
+                        }`}>
+                          {item.resolucion}
+                        </span>
+                      </div>
+                    ))
+                  )}
+                </div>
+              </section>
+            )}
+
+            {/* PESTAÑA PERFIL */}
+            {pestanaActiva === 'Perfil' && (
+              <section className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4 shadow-xl animate-fadeIn">
+                <div className="text-center space-y-2">
+                  <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-black text-2xl text-white shadow-xl">
+                    {agente.nombre.charAt(0)}
+                  </div>
+                  <h3 className="text-base font-black text-white">{agente.nombre}</h3>
+                  <p className="text-xs text-indigo-400 font-bold">@{agente.nickname}</p>
+                </div>
+
+                <div className="space-y-2 pt-2 border-t border-slate-800">
+                  <div className="flex justify-between items-center text-xs py-1.5 border-b border-slate-800/60">
+                    <span className="text-slate-400 font-medium">Sede Asignada</span>
+                    <span className="font-bold text-white bg-slate-950 px-2 py-0.5 rounded border border-slate-800">{agente.sede}</span>
+                  </div>
+                  <div className="flex justify-between items-center text-xs py-1.5 border-b border-slate-800/60">
+                    <span className="text-slate-400 font-medium">Especialidad</span>
+                    <span className="font-bold text-indigo-300 bg-indigo-950/40 px-2 py-0.5 rounded border border-indigo-900/50">{agente.especialidad}</span>
+                  </div>
+                  <div className="flex justify-between items-center text-xs py-1.5">
+                    <span className="text-slate-400 font-medium">Estado de Servidor</span>
+                    <span className="font-bold text-emerald-400 flex items-center gap-1">
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Supabase Cloud
+                    </span>
+                  </div>
+                </div>
+
+                <button 
+                  onClick={cerrarSesion}
+                  className="w-full bg-rose-600/20 hover:bg-rose-600/30 text-rose-300 font-bold text-xs py-3 rounded-xl border border-rose-500/30 active:scale-95 transition-all flex items-center justify-center gap-2"
+                >
+                  <LogOut className="w-4 h-4" /> Cerrar Sesión
+                </button>
+              </section>
+            )}
+
+          </main>
+
+          {/* BARRA DE NAVEGACIÓN INFERIOR (BOTTOM NAV) */}
+          <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 border-t border-slate-800 max-w-md mx-auto backdrop-blur-md px-6 py-2 flex items-center justify-around">
+            <button 
+              onClick={() => setPestanaActiva('Alertas')}
+              className={`flex flex-col items-center gap-1 transition-all ${
+                pestanaActiva === 'Alertas' ? 'text-indigo-400 scale-105' : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <Bell className="w-5 h-5" />
+              <span className="text-[10px] font-bold">Alertas</span>
+            </button>
+
+            <button 
+              onClick={() => setPestanaActiva('Historial')}
+              className={`flex flex-col items-center gap-1 transition-all ${
+                pestanaActiva === 'Historial' ? 'text-indigo-400 scale-105' : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <History className="w-5 h-5" />
+              <span className="text-[10px] font-bold">Historial</span>
+            </button>
+
+            <button 
+              onClick={() => setPestanaActiva('Perfil')}
+              className={`flex flex-col items-center gap-1 transition-all ${
+                pestanaActiva === 'Perfil' ? 'text-indigo-400 scale-105' : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <User className="w-5 h-5" />
+              <span className="text-[10px] font-bold">Perfil</span>
+            </button>
+          </nav>
         </>
       )}
 
