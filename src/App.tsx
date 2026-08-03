@@ -22,7 +22,9 @@ import {
   Wrench,
   Package,
   Sparkles,
-  Send
+  Send,
+  Search,
+  UserSearch
 } from 'lucide-react';
 
 interface Trabajador {
@@ -44,6 +46,16 @@ interface Atención {
   nickname_trabajador?: string;
 }
 
+interface Cliente {
+  id: string;
+  nombre: string;
+  apellido?: string;
+  dni?: string;
+  celular?: string;
+  fecha_registro?: string;
+  ultima_visita?: string;
+}
+
 export function App() {
   const [agente, setAgente] = useState<Trabajador | null>(null);
   const [listaTrabajadores, setListaTrabajadores] = useState<Trabajador[]>([]);
@@ -53,10 +65,15 @@ export function App() {
   const [cargandoLogin, setCargandoLogin] = useState<boolean>(false);
 
   // Estados de Navegación UX/UI (Portados de GAS)
-  const [pestanaActiva, setPestanaActiva] = useState<'Alertas' | 'Bar' | 'Historial' | 'Perfil'>('Alertas');
+  const [pestanaActiva, setPestanaActiva] = useState<'Alertas' | 'Bar' | 'Historial' | 'Clientes' | 'Perfil'>('Alertas');
   const [subToggleTrabajador, setSubToggleTrabajador] = useState<'Alertas' | 'Bar'>('Alertas');
   const [subToggleJefe, setSubToggleJefe] = useState<'Mando' | 'Botonera' | 'Bar'>('Mando');
   const [subTabMandoJefe, setSubTabMandoJefe] = useState<'Cola' | 'EnCurso'>('Cola');
+
+  // Estados de Búsqueda Global de Clientes (Fase A)
+  const [busquedaClienteInput, setBusquedaClienteInput] = useState<string>('');
+  const [listaClientes, setListaClientes] = useState<Cliente[]>([]);
+  const [cargandoClientes, setCargandoClientes] = useState<boolean>(false);
 
   // Estado del Pedido del Bar
   const [pedidoBar, setPedidoBar] = useState({
@@ -130,6 +147,38 @@ export function App() {
     setMensajeToast({ texto, tipo });
     setTimeout(() => setMensajeToast(null), 4000);
   };
+
+  // Búsqueda Global de Clientes en Tiempo Real (Fase A)
+  const buscarClientesEnTiempoReal = async (query: string) => {
+    if (!query || query.trim().length < 2) {
+      setListaClientes([]);
+      return;
+    }
+
+    setCargandoClientes(true);
+    const q = `%${query.trim()}%`;
+
+    const { data, error } = await supabase
+      .from('clientes')
+      .select('*')
+      .or(`nombre.ilike.${q},apellido.ilike.${q},dni.ilike.${q},celular.ilike.${q}`)
+      .limit(30);
+
+    setCargandoClientes(false);
+
+    if (!error && data) {
+      setListaClientes(data);
+    }
+  };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (busquedaClienteInput) {
+        buscarClientesEnTiempoReal(busquedaClienteInput);
+      }
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [busquedaClienteInput]);
 
   // Cargar Historial con Supabase Indexado (<15ms)
   const cargarHistorialOptimizado = async (dias: number) => {
@@ -732,6 +781,62 @@ export function App() {
               </section>
             )}
 
+            {/* PESTAÑA BUSCADOR GLOBAL DE CLIENTES (FASE A) */}
+            {pestanaActiva === 'Clientes' && (
+              <section className="bg-slate-900 border border-slate-800 rounded-2xl p-4 space-y-4 shadow-xl animate-fadeIn">
+                <div className="text-center space-y-1 border-b border-slate-800 pb-3">
+                  <h3 className="text-xs font-black uppercase tracking-wider text-indigo-400 flex items-center justify-center gap-1.5">
+                    <UserSearch className="w-4 h-4 text-indigo-400" /> Buscador Global de Clientes
+                  </h3>
+                  <p className="text-[10px] text-slate-400">Consulta directa sobre la base general con búsqueda instantánea</p>
+                </div>
+
+                <div className="relative">
+                  <Search className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                  <input
+                    type="text"
+                    value={busquedaClienteInput}
+                    onChange={(e) => setBusquedaClienteInput(e.target.value)}
+                    placeholder="DNI, Nombre, Apellido o Celular..."
+                    className="w-full bg-slate-950 text-slate-100 text-xs rounded-xl pl-9 pr-3 py-2.5 border border-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 font-medium transition-all"
+                  />
+                </div>
+
+                <div className="space-y-2 max-h-80 overflow-y-auto pr-1">
+                  {cargandoClientes ? (
+                    <div className="text-center py-6 text-xs text-indigo-400 font-bold animate-pulse">
+                      🔍 Buscando en Supabase Cloud...
+                    </div>
+                  ) : !busquedaClienteInput ? (
+                    <div className="text-center py-8 text-xs text-slate-500 italic">
+                      Escribe un DNI, Nombre o Teléfono para buscar...
+                    </div>
+                  ) : listaClientes.length === 0 ? (
+                    <div className="text-center py-8 text-xs text-slate-500 italic">
+                      No se encontraron clientes coincidentes.
+                    </div>
+                  ) : (
+                    listaClientes.map((c) => (
+                      <div key={c.id} className="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+                        <div className="flex justify-between items-center">
+                          <span className="font-bold text-xs text-slate-100">{c.nombre} {c.apellido || ''}</span>
+                          {c.dni && (
+                            <span className="text-[9px] font-mono font-black bg-indigo-950 text-indigo-400 border border-indigo-900 px-1.5 py-0.5 rounded">
+                              DNI: {c.dni}
+                            </span>
+                          )}
+                        </div>
+                        <div className="flex justify-between items-center text-[10px] text-slate-400">
+                          <span>📱 {c.celular || 'S/Celular'}</span>
+                          <span>🕒 Reg: {c.fecha_registro || 'N/A'}</span>
+                        </div>
+                      </div>
+                    ))
+                  )}
+                </div>
+              </section>
+            )}
+
             {/* PESTAÑA PERFIL */}
             {pestanaActiva === 'Perfil' && (
               <section className="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4 shadow-xl animate-fadeIn">
@@ -772,7 +877,7 @@ export function App() {
           </main>
 
           {/* BARRA DE NAVEGACIÓN INFERIOR (BOTTOM NAV) */}
-          <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 border-t border-slate-800 max-w-md mx-auto backdrop-blur-md px-6 py-2 flex items-center justify-around">
+          <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 border-t border-slate-800 max-w-md mx-auto backdrop-blur-md px-4 py-2 flex items-center justify-around">
             <button 
               onClick={() => setPestanaActiva('Alertas')}
               className={`flex flex-col items-center gap-1 transition-all ${
@@ -781,6 +886,16 @@ export function App() {
             >
               <Bell className="w-5 h-5" />
               <span className="text-[10px] font-bold">Alertas</span>
+            </button>
+
+            <button 
+              onClick={() => setPestanaActiva('Clientes')}
+              className={`flex flex-col items-center gap-1 transition-all ${
+                pestanaActiva === 'Clientes' ? 'text-indigo-400 scale-105' : 'text-slate-400 hover:text-slate-200'
+              }`}
+            >
+              <UserSearch className="w-5 h-5" />
+              <span className="text-[10px] font-bold">Clientes</span>
             </button>
 
             <button 

@@ -75,26 +75,43 @@ CREATE TABLE IF NOT EXISTS public.atenciones (
     updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
+CREATE TABLE IF NOT EXISTS public.clientes (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    nombre VARCHAR(100) NOT NULL,
+    apellido VARCHAR(100),
+    dni VARCHAR(20),
+    celular VARCHAR(30),
+    fecha_registro DATE,
+    ultima_visita DATE,
+    created_at TIMESTAMPTZ DEFAULT NOW(),
+    updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
 -- 5. ÍNDICES B-TREE PARA CONSULTAS ULTRA-RÁPIDAS (<15ms)
 CREATE INDEX IF NOT EXISTS idx_trabajadores_nickname ON public.trabajadores(nickname);
 CREATE INDEX IF NOT EXISTS idx_asistencia_trabajador_fecha ON public.marcas_asistencia (trabajador_id, timestamp DESC);
 CREATE INDEX IF NOT EXISTS idx_asistencia_nickname_fecha ON public.marcas_asistencia (nickname, timestamp DESC);
 CREATE INDEX IF NOT EXISTS idx_atenciones_nickname_fecha ON public.atenciones (nickname_trabajador, fecha_atencion DESC);
 CREATE INDEX IF NOT EXISTS idx_atenciones_sede_fecha ON public.atenciones (sede, fecha_atencion DESC);
+CREATE INDEX IF NOT EXISTS idx_clientes_busqueda ON public.clientes (nombre, apellido, dni, celular);
 
 -- 6. POLÍTICAS RLS E INSERCIÓN PÚBLICA
 ALTER TABLE public.trabajadores ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.marcas_asistencia ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.atenciones ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.clientes ENABLE ROW LEVEL SECURITY;
 
 DROP POLICY IF EXISTS "Permitir todo trabajadores" ON public.trabajadores;
 DROP POLICY IF EXISTS "Permitir todo marcas_asistencia" ON public.marcas_asistencia;
 DROP POLICY IF EXISTS "Permitir todo atenciones" ON public.atenciones;
+DROP POLICY IF EXISTS "Permitir todo clientes" ON public.clientes;
 
 CREATE POLICY "Permitir todo trabajadores" ON public.trabajadores FOR ALL USING (true) WITH CHECK (true);
 CREATE POLICY "Permitir todo marcas_asistencia" ON public.marcas_asistencia FOR ALL USING (true) WITH CHECK (true);
 CREATE POLICY "Permitir todo atenciones" ON public.atenciones FOR ALL USING (true) WITH CHECK (true);
+CREATE POLICY "Permitir todo clientes" ON public.clientes FOR ALL USING (true) WITH CHECK (true);
 
 GRANT ALL ON TABLE public.trabajadores TO anon, authenticated, service_role, postgres;
 GRANT ALL ON TABLE public.marcas_asistencia TO anon, authenticated, service_role, postgres;
 GRANT ALL ON TABLE public.atenciones TO anon, authenticated, service_role, postgres;
+GRANT ALL ON TABLE public.clientes TO anon, authenticated, service_role, postgres;
