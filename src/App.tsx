@@ -112,7 +112,7 @@ export function App() {
     const { data, error } = await supabase
       .from('atenciones')
       .select('*')
-      .eq('nickname_trabajador', agente.nickname)
+      .ilike('nickname_trabajador', agente.nickname)
       .gte('fecha_atencion', fechaISO)
       .order('fecha_atencion', { ascending: false });
 
