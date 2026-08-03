@@ -806,7 +806,6 @@ export function App() {
         </>
       )}
 
-
       {/* Toast Notification */}
       {mensajeToast && (
         <div className={`fixed top-14 left-1/2 -translate-x-1/2 z-50 max-w-xs w-full px-4 py-2.5 rounded-xl shadow-2xl text-xs font-bold border transition-all flex items-center gap-2 ${
@@ -819,117 +818,6 @@ export function App() {
           <span>{mensajeToast.texto}</span>
         </div>
       )}
-
-      {/* Contenido Principal */}
-      <main className="p-4 space-y-6 flex-1">
-        
-        {/* BLOQUE DE MARCAJE PRESCENCIAL (Flujo A) */}
-        <section className="space-y-3">
-          <div className="text-center space-y-0.5">
-            <h3 className="text-xs font-black uppercase tracking-wider text-indigo-400 flex items-center justify-center gap-1.5">
-              <Wifi className="w-4 h-4 text-indigo-400 animate-pulse" /> Panel de Marcaje Presencial NFC
-            </h3>
-            <p className="text-[11px] text-slate-400">Presiona tu opción y luego aproxima el teléfono al Tag NFC.</p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-3">
-            <button 
-              onClick={() => iniciarFlujoBotonNfc('Ya llegué')}
-              className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
-            >
-              <UserCheck className="w-7 h-7 text-emerald-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-slate-200">Ya llegué</span>
-            </button>
-
-            <button 
-              onClick={() => iniciarFlujoBotonNfc('Voy a comer')}
-              className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
-            >
-              <Coffee className="w-7 h-7 text-amber-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-slate-200">Voy a comer</span>
-            </button>
-
-            <button 
-              onClick={() => iniciarFlujoBotonNfc('Regresé de comer')}
-              className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
-            >
-              <RotateCcw className="w-7 h-7 text-sky-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-slate-200">Regresé de comer</span>
-            </button>
-
-            <button 
-              onClick={() => iniciarFlujoBotonNfc('Acabó mi día')}
-              className="bg-slate-900 hover:bg-slate-850 active:scale-95 transition-all p-4 rounded-2xl border border-slate-800 hover:border-indigo-500/50 flex flex-col items-center justify-center gap-2 group min-h-[95px] shadow-lg"
-            >
-              <LogOut className="w-7 h-7 text-rose-400 group-hover:scale-110 transition-transform" />
-              <span className="text-xs font-bold text-slate-200">Acabó mi día</span>
-            </button>
-          </div>
-        </section>
-
-        {/* BLOQUE DE HISTORIAL ALTA VELOCIDAD (<15ms) */}
-        <section className="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-4 space-y-3 shadow-xl">
-          <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-            <div>
-              <h3 className="text-xs font-black text-white flex items-center gap-1.5">
-                <Calendar className="w-4 h-4 text-indigo-400" /> Mi Historial de Atenciones
-              </h3>
-              <p className="text-[10px] text-slate-400">Consultas con índice PostgreSQL en milisegundos</p>
-            </div>
-            {tiempoQueryMs !== null && (
-              <span className="text-[9px] font-mono font-black bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2 py-0.5 rounded-md">
-                ⚡ {tiempoQueryMs} ms
-              </span>
-            )}
-          </div>
-
-          <div className="flex gap-1.5 bg-slate-950 p-1 rounded-xl border border-slate-800">
-            {[7, 15, 30, 90].map((dias) => (
-              <button
-                key={dias}
-                onClick={() => setRangoDias(dias)}
-                className={`flex-1 py-1 rounded-lg text-[10px] font-black transition-all ${
-                  rangoDias === dias
-                    ? 'bg-indigo-600 text-white shadow-md'
-                    : 'text-slate-400 hover:text-slate-200'
-                }`}
-              >
-                {dias} Días
-              </button>
-            ))}
-          </div>
-
-          <div className="space-y-2 max-h-60 overflow-y-auto pr-1">
-            {cargandoHistorial ? (
-              <div className="text-center py-6 text-xs text-indigo-400 font-bold animate-pulse">
-                ⏳ Consultando índices en Supabase...
-              </div>
-            ) : atenciones.length === 0 ? (
-              <div className="text-center py-6 text-xs text-slate-500 italic">
-                No hay atenciones registradas en los últimos {rangoDias} días.
-              </div>
-            ) : (
-              atenciones.map((item) => (
-                <div 
-                  key={item.id} 
-                  className="p-2.5 bg-slate-950/80 rounded-xl border border-slate-800/80 flex items-center justify-between text-xs hover:border-slate-700 transition-colors"
-                >
-                  <div>
-                    <span className="font-bold text-slate-200 block">{item.cliente_nombre}</span>
-                    <span className="text-[10px] text-slate-400 block">{item.tipo_servicio} • {item.fecha_atencion}</span>
-                  </div>
-                  <span className={`text-[9px] font-black px-2 py-0.5 rounded-md uppercase tracking-wider ${
-                    item.resolucion === 'Finalizado' ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border border-amber-500/20'
-                  }`}>
-                    {item.resolucion}
-                  </span>
-                </div>
-              ))
-            )}
-          </div>
-        </section>
-
-      </main>
 
       {/* MODAL VALIDACIÓN PRESENCIAL NFC (Flujo A - 30 Segundos) */}
       {modalNfcVisible && (
@@ -979,6 +867,7 @@ export function App() {
     </div>
   );
 }
+
 
 
 
